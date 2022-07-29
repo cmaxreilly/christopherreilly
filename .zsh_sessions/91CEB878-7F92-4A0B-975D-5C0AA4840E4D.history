@@ -1,0 +1,1047 @@
+ls
+cd Documents/work_and_gigs
+ls
+cd Documents/work_and_gigs/CMU_Music/jazztopia_2022
+ls
+mkdir examples
+sbash
+edali
+cd Downloads
+ls
+cd ..
+mv Downloads/** Documents/work_and_gigs/CMU_Music/jazztopia_2022/
+cd Documents/work_and_gigs/CMU_Music/jazztopia_2022/
+ls
+open -a Libreoffic to_do_list_outline.odt
+open -a Libreoffice to_do_list_outline.odt
+cd ../jazztopia_2021
+ls
+cd Bebop\ Presentation
+ls
+cd Videos
+ls
+cd ..
+cd ..
+ls
+cp Bebop\ Presentation/Videos/** ../jazztopia_2022/examples
+cd ../jazztopia_2022/examples
+ls
+rm **2.mp4
+ls
+clear
+ls
+ls
+ls
+cmatrix
+cd ~
+ls
+cmatrix
+cmatrix
+edali
+sbash
+edali
+sbash
+edali
+sbash
+edali
+ls -a
+nano bash_aliases.save
+rm bash_aliases.save
+nano .bash_aliases.save
+nano .bash_aliases.save.1
+rm .bash_aliases.save.1
+nano .bash_aliasesy
+rm .bash_aliasesy
+nano .bash_aliases
+sbash
+szsh
+editz
+sbash
+sz
+editz
+sz
+sbash
+sz
+szsh
+sz
+sbash
+cd Documents/work_and_gigs/CMU_Music/jazztopia_2022/examples
+ls
+open Clifford\ Brown\ \&\ Max\ Roach\ -\ Joy\ Spring.mp4
+cp Clifford\ Brown\ \&\ Max\ Roach\ -\ Joy\ Spring.mp4 ../examples
+cp Clifford\ Brown\ \&\ Max\ Roach\ -\ Joy\ Spring.mp4 ../presentation
+cd ..
+ls
+cd presen
+cd presentation
+ls
+open Art\ Tatum\ --\ Tiger\ Rag.mp4
+ls
+cd ../examples
+ls
+cp Charlie\ Parker-Donna\ Lee.mp4 ../presentation
+ls
+cp Charlie\ Parker\ with\ Thelonious\ Monk\ \ \ Well\ You\ Needn\'t\ \ \ 1948.mp4 ../presentation
+cd ../presentation
+ls
+open Charlie\ Parker\ with\ Thelonious\ Monk\ \ \ Well\ You\ Needn\'t\ \ \ 1948.mp4
+ls
+ls
+open Original\ Dixieland\ Jass\ Band\ -\ Livery\ Stable\ Blues\ \(1917\).mp4
+open I\'m\ Gonna\ Gitcha\ -\ Louis\ Armstrong\ \&\ His\ Hot\ Five\ \(1926\).mp4
+open Fats\ Waller\ -\ Honeysuckle\ Rose.mp4
+open Art\ Tatum\ --\ Tiger\ Rag.mp4
+open The\ Kid\ from\ Red\ Bank\ \(1994\ Remaster\).mp4
+open Duke\ Ellington\ -\ U.M.M.G.\ \(Upper\ Manhattan\ Medical\ Group\)\ Billy\ Strayhorn.mp4
+open Glenn\ Miller\ -\ In\ The\ Mood\ \[HQ\].mp4
+open Charlie\ Parker-Donna\ Lee.mp4
+open Charlie\ Parker\ with\ Thelonious\ Monk\ \ \ Well\ You\ Needn\'t\ \ \ 1948.mp4
+open Dizzy\ Gillespie\ feat.\ Charlie\ Parker\ -\ A\ Night\ In\ Tunisia.mp4
+open The\ Preacher\ -\ Horace\ Silver.mp4
+open Clifford\ Brown\ \&\ Max\ Roach\ -\ Joy\ Spring.mp4
+open Miles\ Davis\ -\ 
+open Miles\ Davis\ -\ So\ What\ \(Official\ Audio\).mp4
+open A\ Love\ Supreme,\ Pt.\ I\ â€ƒ³\ Acknowledgement.mp4
+cmatrix
+alsdpojasd f
+alksjpafsd
+alksjdpfoai
+ssa;sdkjfa
+a'ljpoa\
+awwijef\
+a\
+\
+\
+\
+awejf;a\
+\
+a\
+aj;awijf;\
+a\
+ij\
+a\
+'
+a;aj;weoif
+aoijw
+fia
+cmatrix
+alias wellyou="open Charlie\ Parker\ with\ Thelonious\ Monk\ \ \ Well\ You\ Needn\'t\ \ \ 1948.mp4"
+wellyou
+alias supreme="open A\ Love\ Supreme,\ Pt.\ I\ â€ƒ³\ Acknowledgement.mp4"
+alias sowat="open Miles\ Davis\ -\ So\ What\ \(Official\ Audio\).mp4"
+alias joy="open Clifford\ Brown\ \&\ Max\ Roach\ -\ Joy\ Spring.mp4"
+alias preach="open The\ Preacher\ -\ Horace\ Silver.mp4"
+alias tunis="open Dizzy\ Gillespie\ feat.\ Charlie\ Parker\ -\ A\ Night\ In\ Tunisia.mp4"
+alias lee="open Charlie\ Parker-Donna\ Lee.mp4"
+alias mood="open Glenn\ Miller\ -\ In\ The\ Mood\ \[HQ\].mp4"
+alias ummg="open Duke\ Ellington\ -\ U.M.M.G.\ \(Upper\ Manhattan\ Medical\ Group\)\ Billy\ Strayhorn.mp4"
+ls
+open Miles\ Davis\ -\ Boplicity.mp4
+alias bop="open Miles\ Davis\ -\ Boplicity.mp4"
+bop
+open One\ O\'Clock\ Jump\ -\ Count\ Basie.mp4
+alias jump="open One\ O\'Clock\ Jump\ -\ Count\ Basie.mp4"
+open Art\ Tatum\ --\ Tiger\ Rag.mp4
+alias tig="open Art\ Tatum\ --\ Tiger\ Rag.mp4"
+tig
+open Fats\ Waller\ -\ Honeysuckle\ Rose.mp4
+alias rose="open Fats\ Waller\ -\ Honeysuckle\ Rose.mp4"
+rose
+open I\'m\ Gonna\ Gitcha\ -\ Louis\ Armstrong\ \&\ His\ Hot\ Five\ \(1926\).mp4
+alias gitcha="open I\'m\ Gonna\ Gitcha\ -\ Louis\ Armstrong\ \&\ His\ Hot\ Five\ \(1926\).mp4"
+gitcha
+open Original\ Dixieland\ Jass\ Band\ -\ Livery\ Stable\ Blues\ \(1917\).mp4
+alias liver="open Original\ Dixieland\ Jass\ Band\ -\ Livery\ Stable\ Blues\ \(1917\).mp4"
+liver
+gitcha
+rose
+tig
+jump
+ummg
+mood
+lee
+wellyou
+tunis
+preach
+joy
+bop
+sowat
+supreme
+alias liver="open Original\ Dixieland\ Jass\ Band\ -\ Livery\ Stable\ Blues\ \(1917\).mp4" >> ~/.bash_aliases
+edali
+echo 'alias liver="open Original\ Dixieland\ Jass\ Band\ -\ Livery\ Stable\ Blues\ \(1917\).mp4"' >> ~/.bash_aliases
+liver
+gitcha
+rose
+tig
+jump
+ummg
+mood
+lee
+wellyou
+joy
+sowat
+supreme
+cmatrix
+sbash
+ebfug
+edali
+vsali
+sbash
+cd ../..
+ls
+cd Volumes
+ls
+cd T7
+ls
+ls
+sbash
+edali
+mkdir .bash_scripts
+ls
+ls -a
+cd ..
+cd T7/
+ls
+touch .bash_scripts max_copy_script.sh
+ls
+rm max_copy_script.sh
+ touch .bash_scripts/max_copy_script.sh
+code .bash_scripts/max_copy_script.sh
+pwd
+doccopy
+sbash
+doccopy
+doccopy
+cd Documents/work_and_gigs/studio/miranda
+ls
+sbash
+miranda
+brew search farplay
+sed
+sed
+cd Documents/work_and_gigs/studio/miranda
+ls
+pwd
+touch miranda.sh; nano miranda.sh
+nano miranda.sh
+/Volumes/T7/.bash_scripts/.sh ; exit;
+sbash
+doccopy
+ls
+edali
+miranda
+sbash
+miranda
+vsali
+sbash
+miranda
+ls
+cd /Volumes/T7/.bash_scripts
+ls
+for i in {1..100}; do echo 'aliah is a poopy'\
+\
+\
+\
+\
+\
+\
+\
+\
+
+for i in {1..100}; do echo'aliah is a poopy'\
+\
+\
+\
+
+for number in 1; do echo 'aliahs is a poopy'\
+\
+\
+\
+\
+\
+\
+\
+
+for number in 1; do echo 'aliahs is a poopy' done\
+done
+for i in {1..100}; do echo'aliah is a poopy'\
+done
+for i in {1..100}; do echo 'aliah is a poopy'\
+done
+for i in {1..100}; do echo 'aliah is a poopy'\
+done
+for i in {1..100}; do echo 'aliah is a pretty girl'\
+done
+for i in {1..1000000}; do echo 'aliah is a pretty girl'\
+done
+for number in {1..1000000}; echo $number
+ls
+for name in {zee brian charles caroline}: cp max_copy_script.sh $name_copy_script.sh; done; ls
+for name in {zee brian charles caroline}: cp max_copy_script.sh $name_copy_script.sh; done;
+for name in {zee brian charles caroline}: cp max_copy_script.sh $name_copy_script.sh; done
+for name in {zee brian charles caroline}: cp max_copy_script.sh $name_copy_script.sh\
+done
+for name in {'zee' 'brian' 'charles' 'caroline'}: cp max_copy_script.sh $name_copy_script.sh\
+done
+ls
+for name in {zee brian charles caroline}; do cp max_copy_script.sh $name_copy_script.sh; done
+names=(zee brian charles caroline)
+echo names
+names
+names=('zee' 'brian' 'charles' 'caroline)\
+'
+names=('zee' 'brian' 'charles' 'caroline')\
+
+echo names
+echo $names
+for name in $names; do cp max_copy_script.sh $name_copy_script.sh\
+done
+ls
+for name in $names; do cp max_copy_script.sh ./$name_copy_script.sh\
+done
+ls
+cp max_copy_script.sh zee_copy_script.sh
+ls
+rm zee_copy_script.sh
+for name in (zee charles brian caroline); do cp max_copy_script.sh $name_copy_script.sh\
+done
+ls
+cp max_copy_script.sh zee_copy_script.sh
+cp max_copy_script.sh brian_copy_script.sh
+cp max_copy_script.sh charles_copy_script.sh
+cp max_copy_script.sh caroline_copy_script.sh
+ls
+nano brian_copy_script.sh
+touch ../Brian_Documents
+nano brian_copy_script.sh
+nano caroline_copy_script.sh
+touch ../Caroline_Documents
+cd ..
+ls
+rm Brian_Documents; rm Caroline_Documents
+for name in (Brian Caroline Zee Charles); do mkdir $name_Documents; done
+ls
+conda install Beautifulsoup
+conda
+brew install conda
+cd ~
+ls
+conda
+brew install conda
+brew install anaconda
+conda
+sbash
+conda
+edali
+sbash
+conda
+conda install beautifulsoup
+conda install beautifulsoup4
+beautifulsoup
+code
+edz
+sz
+short
+bashshort
+edz
+ls
+edz
+edali
+edz
+edali
+sz
+edz
+sz
+short
+webed
+short
+ls
+clear
+run
+clear
+ls
+short
+clear
+edali
+web
+website
+edali
+mkdir Documents/the_vault/Code/website/bash_scripts; touch Documents/the_vault/Code/website/bash_scripts/website_edit.sh
+nano Documents/the_vault/Code/website/bash_scripts/website_edit.sh
+cd Documents/the_vault/Code/website/bash_scripts/website_edit.sh
+cd Documents/the_vault/Code/website/bash_scripts
+ls
+bash website_edit.sh
+cd ~
+bash ~/Documents/the_vault/Code/website/bash_scripts/website_edit.sh
+edali
+sbash
+webed
+alias poopy="nano Documents/the_vault/Code/website/bash_scripts/website_edit.sh"
+poopy
+webed
+ls
+poopy
+sbash
+webed
+ls
+poopy
+ls
+poopy
+webed
+ls
+poopy
+webed
+poopy
+webed
+pwd
+webed
+cd ..
+mkdir experiments; ls
+mkdir
+mkdir experiments
+mkdir experimental_work
+ls
+ls
+ls
+cd christopherreilly
+ls
+cd Documents/the_vault/Code/website ;ls
+mkdir experiments
+ls
+cd exper
+cd experiments
+ls
+mkdir sidebar; touch sidebar/index.html; touch sidebar/styles.css
+cd sidebar
+ls
+code index.html; code styles.css
+alias sidebar="code index.html; code styles.css; open -a safari index.html"
+sidebar
+python3
+ls
+vsali
+met
+cd ~/Documents/the_vault/metronomes\ Project
+ls
+cd ~
+sbash
+met
+ra
+finder
+python3
+git config --global user.name "cmaxreilly"
+git config --global user.email c.maxwell.reilly@gmail.com
+git config --global init.default branch main
+git config -h
+git help config
+webed
+git
+git config --list
+git help git
+racks
+webed
+ls
+cd Documents/the_vault/Code/website/bash_scripts
+ls
+nano website_edit.sh
+cd ~
+ls
+webed
+ls
+ls
+webed
+alias webnav="cd ~/Documents/the_vault/Code/website/cmaxreilly.github.io"
+webnav
+ls
+ls
+mkdir Documents/work_and_gigs/palisade_united_methodis_church
+cd Downloads ;ls
+cd ..
+mv Downloads/IMSLP12088-Smith-Rachmaninoff-The-Star-Spangled-0Banner.pdf Documents/work_and_gigs/palisade_united_methodis_church
+cd Documents/work_and_gigs/palisade_united_methodis_church ;finder
+ls
+short
+music
+ra
+finder
+transcribe
+cd Desktop
+ls
+rm Snow\ Lace\ -\ Full\ Score.pdf
+ls
+cd ~
+ls
+cd Documents/the_vault/code
+ls
+cd tone_row_maximalism
+ls
+git init
+git branch -m tone_row_maximalism
+ls
+cd ..
+ls
+cd tone_row
+cd tone_row_maximalism
+ls
+ls -a
+git commit
+git add *
+git commit
+ls
+ls
+cd ..
+ls
+cd tone_row_maximalism
+ls
+ls -a
+cd .git
+ls
+cd ..
+ls
+cd .git
+cd info
+ls
+cd ..
+ls
+cd logs
+ls
+cd HEAD
+ls
+cd ..
+ls
+cd description
+nano description
+/usr/local/bin/python3 Untitled-1
+ /usr/bin/env /usr/local/bin/python3 /Users/christopherreilly/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 50300 -- /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py 
+ cd /Users/christopherreilly/Documents/the_vault/Code/gui_funsies ; /usr/bin/env /usr/local/bin/python3 /Users/christopherreilly/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 50326 -- /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py 
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/gui_funsies/first_tkinter_gui.py
+cd /Volumes
+ls
+cd REAL\ USB
+ls
+mkdir ra_pdfs
+ls
+cd ra_pdfs ;ls
+git --config
+git config
+git config --global user.name "cmaxreilly"
+git config --get
+ls
+cd Documents/the_vault/Code
+ls
+mkdir which_slonimsky.py
+mkdir which_slonimsky
+mv which_slonimsky.py which_slonimsky/which_slonimsky.py
+ls
+cd which_slonimsky
+ls
+git init
+ls
+git add which_slonimsky.py
+ls
+git commit
+ls
+cd .git
+ls
+cd objects
+ls
+cd ..
+ls
+cd index
+ls
+vim index
+ls -a
+cd hooks
+ls
+cd ..
+ls
+cd info
+ls
+cd exclude
+vim exclude
+ls
+cd ..
+ls
+cd ..
+ls
+git remote add origin https://github.com/cmaxreilly/which_slonimsky.git
+git branch -M main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+ls
+cd ~
+cd Documents/the_vault/Code/website
+ls
+cd cmaxreilly.github.io
+git commit
+git add *
+ls
+git commit
+git commit -m
+git commit -m second website deployment
+git commit - m "second website deployment"
+git
+ls
+cd ..
+ls
+cd cmaxreilly.github.io
+ls
+git add *
+ls
+git commit
+git init
+git add *
+git commit
+git push
+ls
+git push
+cd ~
+pip install tkinter
+pip search tkinter
+pip
+python --version
+pip -V
+pip install tk
+code
+cd Documents/the_vault/Code/gui_funsies
+ls
+mv from\ tkinter\ import\ \*.py first_tkinter_gui.py
+ls
+code first_tkinter_gui.py
+brew install python-tk
+ra
+ls
+cp **/**.pdf /Volumes/REAL\ USB/ra_pdfs
+cd Documents/work_and_gigs/
+ls
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_1.0.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_1.0.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_1.0.py
+ls
+cd Downloads
+ls
+mv **.png ~/Documents/work_and_gigs/memes
+ls
+mv 2022\ 07\ 17\ worship\ guide.docx ~/Documents/work_and_gigs/First_Congregational_United_Church_of_Christ/bulletins
+mv Worship\ Bulleting\ draft\ July\ 3.docx ~/Documents/work_and_gigs/First_Congregational_United_Church_of_Christ/bulletins
+rm private-party-colorado-title.pdf
+ls
+mv Attempt\ at\ Budget\ SK.xlsx ~/Documents/Life_Documents/st.kitts
+ls
+rm jammr.dmg
+ls
+open to_do_list_outline.odt
+rm Son_Clave_Pattern_triple.mid
+rm to_do_list_outline.odt
+ls
+cd ~/Documents/the_vault/Code ;ls
+cd tone_row_maximalism
+ls
+cd tone_row_maximalism_1.0\ Project
+ls
+cd ..
+cod tone_row_maximalism_1.0.py
+code tone_row_maximalism_1.0.py
+ls
+nano tone_row_repository.txt
+code from\ midiutil\ import\ MIDIFile.py
+mv from\ midiutil\ import\ MIDIFile.py midi_writer_example.py
+ls
+code midi_writer.py
+open C4_track.mid
+open C7_track.mid
+cat tone_row_maximalism_1.0.py
+cd Documents/work_and_gigs/First_Congregational_United_Church_of_Christ
+ls
+mkdir bulletins
+ls
+cd ..
+ls
+cd ..
+ls
+cd Life_Documents
+ls
+mkdir st.kitts
+ls
+ /usr/bin/env /usr/local/bin/python3 /Users/christopherreilly/.vscode/extensions/ms-python.python-2022.8.1/pythonFiles/lib/python/debugpy/launcher 61067 -- /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0 
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+ls
+rm tone_row_repository.txt
+ls
+cd Documents/Code/
+ls
+cd ..
+ls
+cd the_vault/Code/tone_row_maximalism
+ls
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+ls
+cat tone_row_repository.txt
+cd ~
+ls
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+ls
+cd Documents/the_vault/Code/tone_row_maximalism
+ls
+cat tone_row_repository.txt
+ls
+code midi_writer.py
+code midi_writer_example.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/midi_writer_1.0.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/midi_writer_1.0.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/midi_writer_1.0.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/midi_writer_1.0.py
+ls
+open C1_track.mid
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/midi_writer_1.0.py
+open C7_track.mid
+open C7_track.mid
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+ls
+cd ~
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/tone_row_maximalism_2.0
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/midi_writer_1.0.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/midi_writer_1.0.py
+open C7_track.mid
+pwd
+ls
+rm C**.mid
+ls
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/midi_writer_1.0.py
+ls
+cd Documents/the_vault/Code/tone_row_maximalism
+ls
+cd monstrosity_1.0
+ls
+cd Project
+ls
+cd ../..
+ls
+mv tone_row_maximalism_2.0 tone_row_maximalism_2.0.py
+mv tone_row_maximalism_2.0.py tone_row_maximalism_20.py
+mv midi_writer_1.0.py midi_writer_10.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/whole_damn_thing.py
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/whole_damn_thing.py
+cd ~
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/whole_damn_thing.py
+ls
+alias tone="cd Documents/the_vault/Code/tone_row_maximalism/"
+tone
+ls
+rm __init__.py
+ls
+/usr/local/bin/python3 /Users/christopherreilly/Documents/the_vault/Code/tone_row_maximalism/whole_damn_thing.py
+git status
+git add *
+git commit
+git push
+git remote add origin https://github.com/cmaxreilly/tone_row_maximalims.git
+git push -u origin main
+git push
+git branch -M main
+git push -u origin main
+ls
+cd Documents
+ls
+cd the_vault
+ls
+cd daily_checklists
+ls
+git init
+git add **
+git status
+git commit
+git config --global core.editor "nano"
+git commit
+git push
+gh repo create
+gh auth login
+brew update && brew upgrade gh
+gh repo create
+git push
+git remote add cmaxreilly cmaxreilly/checklists
+git push
+git push cmaxreilly/checklists
+git push --set-upstream cmaxreilly/checklists master
+ls
+cd ..
+ls
+cd Code/tone_row_maximalism
+ls
+rm c**.py
+ls
+code tone_row_maximalism_1.0.py
+git status
+git status
+ls
+ls
+ls
+touch whole_damn_thing.sh; code whole_damn_thing.sh
+brew install php
+python3
+ls
+ra
+open Prodigal_Return
+cd ..
+ls
+cd ra_lasater
+ls
+open Procession/procession_ed.sib
+open Hope_Fore_The_Dawn/hope_fire_the_dawn.sib
+cd Hope_Fore_The_Dawn
+ls
+open Hope\ Fore\ The\ Dawn.docx
+echo -e '\a'
+echo -e '\a'
+echo -e '\a'
+echo -e '\a'
+ra
+cd Hope_Fore_The_Dawn
+ls
+open hope_fire_the_dawn.sib
+php
+python
+ra
+cd Prodigal_Return
+ls
+open prodigal_return_ed.sib
+cd code
+cd Documents/the_vault/Code
+vim vim_tutor.txt
+cat vim_tutor.txt
+ls
+cd ~
+ls
+cd test
+ls
+cd ..
+ls
+rm test
+rm -r test
+ls
+ls -a
+touch .vimrc
+printenv > /var/folders/1v/z0rpld0165bc1t1bchvn8yfc0000gn/T/tmp-27334cMPZrnaTqJyxtxt
+ls
+cd ~/Documents/the_vault/Code/website/cmaxreilly.github.io
+ls
+touch nav.php
+ls
+cod nav.php
+code nav.php
+vimtutor
+vimtutor
+vimtutor
+ls
+vim ~/bash_aliases
+vim ~/.bash_aliases
+edali
+sbash
+edali
+lynx
+brew install vmail
+brew install gem
+vim --version | grep ruby
+brew install brew-gem
+gem
+gem install vmail
+sudo gem install vmail
+cd ~
+ls
+vim .vmailrc
+ls
+ls -a
+vmail
+vmail
+webed
+edali
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false  
+code
+code
+cd Documents/the_vault/Code
+ls
+code which_slonimsky
+brew search bittorrent
+brew install qbittorrent
+qbittorrent
+ra
+cd Hope_Fore_The_Dawn
+ls
+mv hope_fire_the_dawn.sib hope_fore_the_dawn.sib
+ls
+open Hope\ Fore\ The\ Dawn.docx
+edbash
+cd ~
+ls
+ls -a
+vim .bash_profile
+ra
+ls -a
+cd bash
+cd .bash_scripts
+ls
+ls -a
+vim .project_aliases
+sbash
+edraali
+ra
+ls
+mkdir .bash_scripts
+ls
+ls -a
+cd .bash_scripts
+ls
+vim hope_for_the_dawn.sh
+ls
+bash hope_for_the_dawn.sh
+vim hope_for_the_dawn.sh
+bash hope_for_the_dawn.sh
+vim .project_aliases
+edali
+sbash
+edali
+sbash
+hope_fore
+edali
+ls
+ls
+edraali
+ls
+edraali
+cd ~/Documents/the_vault/Church_Music/
+ls
+cd compositions
+ls
+cd ..
+ls
+find my_root_dir -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+ls
+cd compositions
+ls
+vim .bash_aliases
+edali
+sbash
+edali
+ls
+vim .bash_aliases
+beach
+ls
+ra
+ls
+ls
+vim todo.txt
+vim todo.txt
+ls
+mv Blossom/blossom
+mv Blossom blossom
+mv Enchanting_Rae enchanting_rae
+mv Hope_Fore_The_Dawn hope_fore_the_dawn
+mv Light_By_Seven light_by_seven
+mv Lotus_Rising lotus_rising
+mv Procession procession
+mv Prodigal_Return prodigal_return
+mv Rae_in_E rae_in_e
+mv Six,_Nine_and_3 six,_nine_and_3
+mv Snow_Lace snow_lace
+mv The_Scent_of_Light the_scent_of_light
+ls
+vim todo.txt
+ls -a
+cd .bash_scripts
+ls
+ls -a
+cp hope_for_the_dawn.sh binary_star.sh
+cp hope_for_the_dawn.sh blossom.sh
+cp hope_for_the_dawn.sh butterflies.sh
+cp hope_for_the_dawn.sh enchanting_rae.sh
+cp hope_for_the_dawn.sh light_by_seven.sh
+cp hope_for_the_dawn.sh lotus_rising.sh
+cp hope_for_the_dawn.sh procession.sh
+cp hope_for_the_dawn.sh prodigal_return.sh
+cp hope_for_the_dawn.sh rae_in_e.sh
+cp hope_for_the_dawn.sh six,_nine_and_3.sh
+cp hope_for_the_dawn.sh snow_lace.sh
+cp hope_for_the_dawn.sh the_scent_of_light.sh
+ls
+cd ..
+ls
+cd .bash_scripts
+ls
+ls -a
+edraali
+ls
+ratd
+sbash
+ratd
+rahelp
+edraali
+sbash
+rahelp
+edraali
+sbash
+rahelp
+ls
+hope_fore
+cd ~/Documents/the_vault/Church_Music/compositions
+ls
+cd Documents/work_and_gigs/studio/ ;ls
+mkdir jake_lee
+mkdir .bash_scripts
+cd .bash_scripts
+ra
+cd butterflies
+ls
+ls
+ls -a
+cd ..
+ls
+sbash
+binary_star
+ra
+cd .bash_scripts
+ls
+vim butterflies.sh
+sbash
+butterflies
+ratd
+ls
+ratd
+ls
+cd ..
+ls
+ratd
+python
+ls
+ra
+ls -a
+ratd
+edraali
+rahelp
+ratd
+edraali
+sbash
+butterflies
+edraali

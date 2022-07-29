@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+	name = cmaxreilly
+	email = c.maxwell.reilly@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Christopher Reilly
+#	email = christopherreilly@Christophers-MacBook-Pro-2.local
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	default = branch
+[core]
+	editor = vim

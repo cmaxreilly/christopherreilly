@@ -1,0 +1,10 @@
+ls
+cd
+chsh -s /bin/bash
+clear
+source
+python3
+ls
+jupyter --version
+conda install jupyter
+python3

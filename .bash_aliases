@@ -1,4 +1,4 @@
-S1=">>"
+PS1=">>"
 python="python3"
 pip="pip3"
 export PATH="/usr/local/anaconda3/bin:$PATH"
@@ -65,7 +65,7 @@ echo "hsm2 -------> open High School Musical instruments for act 2"&&
 echo "hsm1in -----> open instrument index for HSM act 1"&&
 echo "hsm2in -----> open instrument index for HSM act 2"&&
 echo "live -------> open Ableton Live 11"&&
-echo "reflect ----> open reflection.txt with nano and add date"&&
+echo "reflect ----> open new refleciton with vim"&&
 echo "reflection -> open reflection.txt with nano"&&
 echo "racksed ----> open and edit Ableton Racks project"&&
 echo "racks ------> open the full instrument racks template"&&
@@ -95,7 +95,7 @@ alias hsm2="bash ~/documents/work_and_gigs/district_51/GJHS/2021-2022/hs_musical
 alias hsm1in="open ~/documents/work_and_gigs/district_51/GJHS/2021-2022/hs_musical/act_1_instrument_index.pages"
 alias hsm2in="open ~/documents/work_and_gigs/district_51/GJHS/2021-2022/hs_musical/act_2_instrument_index.pages"
 alias live="open -a 'Ableton Live 11 Standard.app'"
-alias reflect="bash ~/documents/academic_documents/CMU/senior_recital/documentation/reflect.sh"
+alias reflect="bash ~/.bash_scripts/reflection.sh"
 alias reflection="nano ~/documents/academic_documents/CMU/senior_recital/documentation/lesson_reflection.txt"
 alias racksed='open ~/documents/the_vault/racks_project/racks.als'
 alias racks='open ~/Music/Ableton/"User Library"/Templates/all_racks_1.0.als'
@@ -107,7 +107,7 @@ alias ebfugsketch="open ~/documents/academic_documents/CMU/comp_lessons_with_kri
 alias foutzin="open ~/documents/work_and_gigs/foutz_quartet/'instruments Project'/instruments.als"
 alias debacc="bash ~/documents/work_and_gigs/cameron_galvin/senior_recital/bash_scripts/debacc.sh"
 alias copacc="bash ~/documents/work_and_gigs/cameron_galvin/senior_recital/bash_scripts/copacc.sh"
-alias account="open -a libreoffice.app ~/Documents/work_and_gigs/studio/business_documents/Max_Spreadsheets_2022.ods"
+alias account="open -a libreoffice.app ~/Documents/work_and_gigs/studio/business_documents/Max_Spreadsheets_2022.ods; vim ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
 alias ramv="mv ~/Downloads/** ~/Documents/work_and_gigs/ra_lasater"
 alias ra="cd ~/Documents/work_and_gigs/ra_lasater; ls"
 alias jazzvids="cd ~/Documents/work_and_gigs/"

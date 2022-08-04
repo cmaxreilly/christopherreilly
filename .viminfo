@@ -17,15 +17,19 @@
 ~MSle0&hope_fore
 
 # Last Substitute String:
-$slight
+$
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1659558745,,"wq"
+|2,0,1659587763,,"wq"
+:"*y
+|2,0,1659568082,,"\"*y"
+:e todo.txt
+|2,0,1659567796,,"e todo.txt"
+:w
+|2,0,1659567673,,"w"
 :q
 |2,0,1659558695,,"q"
-:w
-|2,0,1659556273,,"w"
 :terminal
 |2,0,1659556109,,"terminal"
 :syntax
@@ -34,8 +38,6 @@ $slight
 |2,0,1659535772,,"term"
 :syntax on
 |2,0,1659421443,,"syntax on"
-:e todo.txt
-|2,0,1659213638,,"e todo.txt"
 :q!
 |2,0,1659207572,,"q!"
 :e ./cold_call_speech.txt
@@ -118,10 +120,10 @@ $slight
 |2,0,1658541866,,"s/hope_fore/blossom"
 :s/hope_fore/binary_star
 |2,0,1658541447,,"s/hope_fore/binary_star"
-:s/Aliases/Scripts
-|2,0,1658541617,,"s/Aliases/Scripts"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1659559694,,"@$"
 ?/reflection
 |2,1,1659422027,47,"reflection"
 ?/account
@@ -161,262 +163,394 @@ $slight
 
 # Registers:
 "0	LINE	0
-			* 
-|3,0,0,1,1,0,1659131893,"		* "
+	
+|3,0,0,1,1,0,1659559707,""
 "1	LINE	0
 	
-|3,0,1,1,1,0,1659553256,""
+|3,0,1,1,1,0,1659559720,""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1659421745,""
+	 
+|3,0,2,1,1,0,1659559718," "
 "3	LINE	0
-	
-|3,0,3,1,1,0,1659213942,""
+	vim ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh;
+|3,0,3,1,1,0,1659559714,"vim ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh;"
 "4	LINE	0
 	
-|3,0,4,1,1,0,1659206894,""
+|3,0,4,1,1,0,1659558809,""
 "5	LINE	0
-	 Logistics
-|3,0,5,1,1,0,1659206468," Logistics"
+	
+|3,0,5,1,1,0,1659553256,""
 "6	LINE	0
-	a
-|3,0,6,1,1,0,1659206148,"a"
+	
+|3,0,6,1,1,0,1659421745,""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1659206147,""
+|3,0,7,1,1,0,1659213942,""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1659206063,""
+|3,0,8,1,1,0,1659206894,""
 "9	LINE	0
-	
-|3,0,9,1,1,0,1659131912,""
-""-	CHAR	0
-	m
-|3,1,36,0,1,0,1659556244,"m"
+	 Logistics
+|3,0,9,1,1,0,1659206468," Logistics"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1659567619," "
 
 # File marks:
-'0  6  0  ~/.bash_scripts/sungoinin.sh
-|4,48,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
-'1  6  0  ~/.gitignore
-|4,49,6,0,1659558734,"~/.gitignore"
-'2  3  2  ~/.gitignore
-|4,50,3,2,1659558589,"~/.gitignore"
-'3  3  2  ~/.gitignore
-|4,51,3,2,1659558589,"~/.gitignore"
-'4  1  0  ~/.bash_scripts/sungoinin.sh
-|4,52,1,0,1659555955,"~/.bash_scripts/sungoinin.sh"
-'5  1  0  ~/.bash_scripts/sungoinin.sh
-|4,53,1,0,1659555955,"~/.bash_scripts/sungoinin.sh"
-'6  1  0  ~/.bash_scripts/sungoinin.sh
-|4,54,1,0,1659555940,"~/.bash_scripts/sungoinin.sh"
-'7  1  0  ~/.bash_scripts/sungoinin.sh
-|4,55,1,0,1659555940,"~/.bash_scripts/sungoinin.sh"
+'0  41  55  ~/Documents/work_and_gigs/izzy_burns/todo.txt
+|4,48,41,55,1659587763,"~/Documents/work_and_gigs/izzy_burns/todo.txt"
+'1  1  34  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,49,1,34,1659559827,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+'2  1  34  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,50,1,34,1659559827,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+'3  7  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,51,7,0,1659559723,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+'4  7  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,52,7,0,1659559723,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+'5  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,53,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+'6  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,54,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+'7  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,55,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
 '8  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,56,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
-'9  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,57,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
+|4,56,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+'9  1  27  ~/.git/COMMIT_EDITMSG
+|4,57,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
+-'  41  55  ~/Documents/work_and_gigs/izzy_burns/todo.txt
+|4,39,41,55,1659587763,"~/Documents/work_and_gigs/izzy_burns/todo.txt"
+-'  55  676  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
+|4,39,55,676,1659567796,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
+-'  1  0  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
+|4,39,1,0,1659567054,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
+-'  1  34  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,34,1659559827,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  1  34  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,34,1659559827,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  3  0  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,3,0,1659559807,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  3  0  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,3,0,1659559807,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  7  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,7,0,1659559723,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  7  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,7,0,1659559723,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  7  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,7,0,1659559723,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  27  ~/.git/COMMIT_EDITMSG
+|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
+-'  1  27  ~/.git/COMMIT_EDITMSG
+|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
+-'  1  27  ~/.git/COMMIT_EDITMSG
+|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
+-'  1  27  ~/.git/COMMIT_EDITMSG
+|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
+-'  1  27  ~/.git/COMMIT_EDITMSG
+|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
+-'  1  27  ~/.git/COMMIT_EDITMSG
+|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
+-'  1  27  ~/.git/COMMIT_EDITMSG
+|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
+-'  1  27  ~/.git/COMMIT_EDITMSG
+|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
+-'  1  27  ~/.git/COMMIT_EDITMSG
+|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
+-'  6  0  ~/.bash_scripts/sungoinin.sh
+|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
 -'  6  0  ~/.bash_scripts/sungoinin.sh
 |4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
 -'  6  0  ~/.gitignore
 |4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  6  0  ~/.gitignore
+|4,39,6,0,1659558734,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1659558624,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1659558624,"~/.gitignore"
 -'  3  2  ~/.gitignore
 |4,39,3,2,1659558589,"~/.gitignore"
 -'  3  2  ~/.gitignore
 |4,39,3,2,1659558589,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558462,"~/.gitignore"
--'  8  81  ~/.bash_scripts/sungoinin.sh
-|4,39,8,81,1659556109,"~/.bash_scripts/sungoinin.sh"
--'  1  0  ~/.bash_scripts/sungoinin.sh
-|4,39,1,0,1659555964,"~/.bash_scripts/sungoinin.sh"
--'  1  0  ~/.bash_scripts/sungoinin.sh
-|4,39,1,0,1659555955,"~/.bash_scripts/sungoinin.sh"
--'  1  0  ~/.bash_scripts/sungoinin.sh
-|4,39,1,0,1659555955,"~/.bash_scripts/sungoinin.sh"
--'  1  0  ~/.bash_scripts/sungoinin.sh
-|4,39,1,0,1659555955,"~/.bash_scripts/sungoinin.sh"
--'  1  0  ~/.bash_scripts/sungoinin.sh
-|4,39,1,0,1659555955,"~/.bash_scripts/sungoinin.sh"
--'  1  0  ~/.bash_scripts/sungoinin.sh
-|4,39,1,0,1659555940,"~/.bash_scripts/sungoinin.sh"
--'  1  0  ~/.bash_scripts/sungoinin.sh
-|4,39,1,0,1659555940,"~/.bash_scripts/sungoinin.sh"
--'  1  0  ~/.bash_scripts/sungoinin.sh
-|4,39,1,0,1659555940,"~/.bash_scripts/sungoinin.sh"
--'  1  0  ~/.bash_scripts/sungoinin.sh
-|4,39,1,0,1659555940,"~/.bash_scripts/sungoinin.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553470,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  7  15  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,7,15,1659553290,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  7  15  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,7,15,1659553290,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  7  15  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,7,15,1659553290,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  7  15  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,7,15,1659553290,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  7  15  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,7,15,1659553290,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553210,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553210,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553210,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553210,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659553210,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  4  9  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,4,9,1659553065,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  5  11  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,5,11,1659535772,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  5  11  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,5,11,1659535772,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  5  11  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,5,11,1659535772,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  5  11  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,5,11,1659535772,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  5  11  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,5,11,1659535772,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  5  11  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,5,11,1659535772,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  5  11  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,5,11,1659535772,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
--'  5  11  ~/Documents/the_vault/lilypad_projects/notes_test.ly
-|4,39,5,11,1659535772,"~/Documents/the_vault/lilypad_projects/notes_test.ly"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
+-'  3  2  ~/.gitignore
+|4,39,3,2,1659558589,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
+
+> ~/Documents/work_and_gigs/izzy_burns/todo.txt
+	*	1659587761	0
+	"	41	55
+	^	41	81
+	.	41	80
+	+	38	18
+	+	42	10
+	+	17	2
+	+	7	0
+	+	8	0
+	+	17	16
+	+	36	22
+	+	10	77
+	+	42	0
+	+	39	52
+	+	41	0
+	+	39	56
+	+	41	29
+	+	42	37
+	+	43	32
+	+	44	39
+	+	45	30
+	+	46	27
+	+	47	46
+	+	60	18
+	+	48	27
+	+	49	0
+	+	48	41
+	+	49	35
+	+	50	28
+	+	51	37
+	+	52	29
+	+	53	28
+	+	54	29
+	+	55	36
+	+	56	31
+	+	57	48
+	+	58	32
+	+	59	38
+	+	60	34
+	+	40	9
+	+	11	37
+	+	37	12
+	+	36	24
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	27
+	+	15	37
+	+	14	23
+	+	39	86
+	+	41	51
+	+	42	39
+	+	43	60
+	+	44	69
+	+	45	74
+	+	46	30
+	+	41	80
+
+> ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
+	*	1659568433	0
+	"	55	200
+	^	55	675
+	.	55	674
+	+	8	3
+	+	7	12
+	+	9	9
+	+	10	0
+	+	9	9
+	+	16	47
+	+	13	79
+	+	14	0
+	+	18	0
+	+	22	27
+	+	23	0
+	+	28	197
+	+	26	0
+	+	27	13
+	+	35	0
+	+	34	72
+	+	32	102
+	+	39	86
+	+	35	355
+	+	42	42
+	+	41	41
+	+	45	84
+	+	55	34
+	+	51	37
+	+	55	82
+	+	47	41
+	+	27	51
+	+	48	565
+	+	55	499
+	+	55	467
+	+	55	1
+	+	55	674
+	a	55	79
+
+> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+	*	1659559825	0
+	"	1	34
+	^	1	35
+	.	1	34
+	+	1	28
+	+	2	0
+	+	3	0
+	+	1	34
+
+> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+	*	1659559722	0
+	"	7	0
+	.	8	0
+	+	7	0
+	+	5	76
+	+	3	56
+	+	9	42
+	+	7	0
+	+	8	0
+	+	7	24
+	+	8	0
+	+	11	0
+	+	8	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1659558823	0
+	"	1	27
+	^	1	28
+	.	1	27
+	+	1	27
 
 > ~/.bash_scripts/sungoinin.sh
 	*	1659558736	0
@@ -439,20 +573,6 @@ $slight
 	.	5	9
 	+	3	3
 	+	5	9
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-	*	1659553489	0
-	"	9	67
-	^	9	68
-	.	9	68
-	+	7	0
-	+	5	76
-	+	3	56
-	+	11	42
-	+	7	0
-	+	10	0
-	+	7	24
-	+	9	68
 
 > ~/Documents/the_vault/lilypad_projects/notes_test.ly
 	*	1659553063	0
@@ -544,92 +664,6 @@ $slight
 	+	5	56
 	+	4	127
 
-> ~/Documents/work_and_gigs/izzy_burns/todo.txt
-	*	1659222869	0
-	"	46	29
-	^	46	30
-	.	46	30
-	+	38	18
-	+	42	10
-	+	17	2
-	+	7	0
-	+	8	0
-	+	17	16
-	+	36	22
-	+	10	77
-	+	42	0
-	+	39	52
-	+	41	0
-	+	39	56
-	+	41	29
-	+	42	37
-	+	43	32
-	+	44	39
-	+	45	30
-	+	46	27
-	+	47	46
-	+	60	18
-	+	48	27
-	+	49	0
-	+	48	41
-	+	49	35
-	+	50	28
-	+	51	37
-	+	52	29
-	+	53	28
-	+	54	29
-	+	55	36
-	+	56	31
-	+	57	48
-	+	58	32
-	+	59	38
-	+	60	34
-	+	40	9
-	+	11	37
-	+	37	12
-	+	36	24
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	27
-	+	15	37
-	+	14	23
-	+	39	86
-	+	41	51
-	+	42	39
-	+	43	60
-	+	44	69
-	+	45	74
-	+	46	30
-
-> ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-	*	1659215116	0
-	"	45	2
-	^	45	3
-	.	45	2
-	+	8	3
-	+	7	12
-	+	9	9
-	+	10	0
-	+	9	9
-	+	16	47
-	+	13	79
-	+	14	0
-	+	18	0
-	+	22	27
-	+	23	0
-	+	28	197
-	+	26	0
-	+	27	13
-	+	35	0
-	+	34	72
-	+	32	102
-	+	39	86
-	+	35	355
-	+	42	42
-	+	41	41
-	+	45	2
-
 > ~/.bash_profile
 	*	1659207928	0
 	"	9	0
@@ -659,14 +693,6 @@ $slight
 	^	1	47
 	.	1	46
 	+	1	46
-
-> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-	*	1659129845	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	1	28
-	+	2	0
 
 > ~/Documents/work_and_gigs/ra_lasater/todo.txt
 	*	1659129679	0
@@ -794,13 +820,6 @@ $slight
 	^	3	19
 	.	3	18
 	+	3	18
-
-> ~/.git/COMMIT_EDITMSG
-	*	1659105037	0
-	"	1	13
-	^	1	14
-	.	1	13
-	+	1	13
 
 > ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/rae_in_e.sh
 	*	1659035168	0

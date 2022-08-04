@@ -84,7 +84,8 @@ echo "jazzvids ---> change to jazz presentation project directory"&&
 echo "miranda ----> open mirandas lesson materials"&&
 echo "met --------> open metronome ableton project"&&
 echo "izzy -------> open Izzy Burns folder"&&
-echo "izzytd -----> open Izzy Burns todo.txt"'
+echo "izzytd -----> open Izzy Burns todo.txt"&&
+echo "comp -------> open whatever composition I am working on"'
 
 
 #shortcuts
@@ -115,6 +116,7 @@ alias miranda="bash ~/Documents/work_and_gigs/studio/miranda/miranda.sh"
 alias met="open ~/Documents/the_vault/metronomes\ Project/metronomes.als"
 alias izzy="cd ~/Documents/work_and_gigs/izzy_burns ; ls"
 alias izzytd="vim ~/Documents/work_and_gigs/izzy_burns/todo.txt"
+alias comp="bash ~/.bash_scripts/composition.sh"
 
 # CHECKLISTS
 #shortcut descriptions

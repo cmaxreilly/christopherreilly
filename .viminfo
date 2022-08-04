@@ -21,23 +21,29 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1659587763,,"wq"
+|2,0,1659647167,,"wq"
+:w
+|2,0,1659647131,,"w"
+:terminal
+|2,0,1659647095,,"terminal"
+:s
+|2,0,1659646951,,"s"
+:syntax on
+|2,0,1659646926,,"syntax on"
+:e ~/.bash_aliases
+|2,0,1659646920,,"e ~/.bash_aliases"
+:q
+|2,0,1659647082,,"q"
+:e snow_lace.sh
+|2,0,1659643411,,"e snow_lace.sh"
 :"*y
 |2,0,1659568082,,"\"*y"
 :e todo.txt
 |2,0,1659567796,,"e todo.txt"
-:w
-|2,0,1659567673,,"w"
-:q
-|2,0,1659558695,,"q"
-:terminal
-|2,0,1659556109,,"terminal"
 :syntax
 |2,0,1659556096,,"syntax"
 :term
 |2,0,1659535772,,"term"
-:syntax on
-|2,0,1659421443,,"syntax on"
 :q!
 |2,0,1659207572,,"q!"
 :e ./cold_call_speech.txt
@@ -106,8 +112,6 @@ $
 |2,0,1658542252,,"s/hope_fore/prod"
 :s/hope_fore/procession
 |2,0,1658542169,,"s/hope_fore/procession"
-:s
-|2,0,1658542119,,"s"
 :s/hope_fore/lotus
 |2,0,1658542115,,"s/hope_fore/lotus"
 :s/hope_fore/lightby
@@ -116,10 +120,6 @@ $
 |2,0,1658542006,,"s/hope_for_the_dawn.sh/enchanting_rae.sh"
 :s/hope_fore/enchanting_rae
 |2,0,1658541966,,"s/hope_fore/enchanting_rae"
-:s/hope_fore/blossom
-|2,0,1658541866,,"s/hope_fore/blossom"
-:s/hope_fore/binary_star
-|2,0,1658541447,,"s/hope_fore/binary_star"
 
 # Search String History (newest to oldest):
 ? @$
@@ -163,264 +163,360 @@ $
 
 # Registers:
 "0	LINE	0
-	
-|3,0,0,1,1,0,1659559707,""
+	vim ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh;
+|3,0,0,1,1,0,1659643553,"vim ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh;"
 "1	LINE	0
 	
-|3,0,1,1,1,0,1659559720,""
+|3,0,1,1,1,0,1659644733,""
 "2	LINE	0
-	 
-|3,0,2,1,1,0,1659559718," "
-"3	LINE	0
 	vim ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh;
-|3,0,3,1,1,0,1659559714,"vim ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh;"
+|3,0,2,1,1,0,1659644732,"vim ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh;"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1659644730,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1659558809,""
+|3,0,4,1,1,0,1659643540,""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1659553256,""
+	 
+|3,0,5,1,1,0,1659643539," "
 "6	LINE	0
 	
-|3,0,6,1,1,0,1659421745,""
+|3,0,6,1,1,0,1659559720,""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1659213942,""
-"8	LINE	0
-	
-|3,0,8,1,1,0,1659206894,""
-"9	LINE	0
-	 Logistics
-|3,0,9,1,1,0,1659206468," Logistics"
-"-	CHAR	0
 	 
-|3,0,36,0,1,0,1659567619," "
+|3,0,7,1,1,0,1659559718," "
+"8	LINE	0
+	vim ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh;
+|3,0,8,1,1,0,1659559714,"vim ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh;"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1659558809,""
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1659647125," "
 
 # File marks:
-'0  41  55  ~/Documents/work_and_gigs/izzy_burns/todo.txt
-|4,48,41,55,1659587763,"~/Documents/work_and_gigs/izzy_burns/todo.txt"
-'1  1  34  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,49,1,34,1659559827,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
-'2  1  34  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,50,1,34,1659559827,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
-'3  7  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,51,7,0,1659559723,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
-'4  7  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,52,7,0,1659559723,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
-'5  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,53,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
-'6  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,54,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
-'7  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,55,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
-'8  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,56,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
-'9  1  27  ~/.git/COMMIT_EDITMSG
-|4,57,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
+'0  5  13  ~/.bash_scripts/composition.sh
+|4,48,5,13,1659647167,"~/.bash_scripts/composition.sh"
+'1  1  0  ~/.bash_scripts/composition.sh
+|4,49,1,0,1659647159,"~/.bash_scripts/composition.sh"
+'2  6  0  ~/.bash_scripts/composition.sh
+|4,50,6,0,1659647082,"~/.bash_scripts/composition.sh"
+'3  6  0  ~/.bash_scripts/composition.sh
+|4,51,6,0,1659647082,"~/.bash_scripts/composition.sh"
+'4  1  94  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,52,1,94,1659644777,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+'5  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,53,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+'6  3  0  ~/testy
+|4,54,3,0,1659641671,"~/testy"
+'7  1  20  ~/.git/COMMIT_EDITMSG
+|4,55,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+'8  41  55  ~/Documents/work_and_gigs/izzy_burns/todo.txt
+|4,56,41,55,1659587763,"~/Documents/work_and_gigs/izzy_burns/todo.txt"
+'9  1  34  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,57,1,34,1659559827,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
--'  41  55  ~/Documents/work_and_gigs/izzy_burns/todo.txt
-|4,39,41,55,1659587763,"~/Documents/work_and_gigs/izzy_burns/todo.txt"
--'  55  676  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,55,676,1659567796,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  1  0  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,1,0,1659567054,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  1  34  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,39,1,34,1659559827,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
--'  1  34  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,39,1,34,1659559827,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
--'  3  0  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,39,3,0,1659559807,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
--'  3  0  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,39,3,0,1659559807,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
--'  7  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,7,0,1659559723,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  7  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,7,0,1659559723,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  7  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,7,0,1659559723,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1659559667,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  27  ~/.git/COMMIT_EDITMSG
-|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
--'  1  27  ~/.git/COMMIT_EDITMSG
-|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
--'  1  27  ~/.git/COMMIT_EDITMSG
-|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
--'  1  27  ~/.git/COMMIT_EDITMSG
-|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
--'  1  27  ~/.git/COMMIT_EDITMSG
-|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
--'  1  27  ~/.git/COMMIT_EDITMSG
-|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
--'  1  27  ~/.git/COMMIT_EDITMSG
-|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
--'  1  27  ~/.git/COMMIT_EDITMSG
-|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
--'  1  27  ~/.git/COMMIT_EDITMSG
-|4,39,1,27,1659558823,"~/.git/COMMIT_EDITMSG"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.bash_scripts/sungoinin.sh
-|4,39,6,0,1659558745,"~/.bash_scripts/sungoinin.sh"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  6  0  ~/.gitignore
-|4,39,6,0,1659558734,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1659558624,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
--'  3  2  ~/.gitignore
-|4,39,3,2,1659558589,"~/.gitignore"
+-'  5  13  ~/.bash_scripts/composition.sh
+|4,39,5,13,1659647167,"~/.bash_scripts/composition.sh"
+-'  1  0  ~/.bash_scripts/composition.sh
+|4,39,1,0,1659647159,"~/.bash_scripts/composition.sh"
+-'  6  0  ~/.bash_scripts/composition.sh
+|4,39,6,0,1659647082,"~/.bash_scripts/composition.sh"
+-'  6  0  ~/.bash_scripts/composition.sh
+|4,39,6,0,1659647082,"~/.bash_scripts/composition.sh"
+-'  1  0  ~/.bash_scripts/composition.sh
+|4,39,1,0,1659647079,"~/.bash_scripts/composition.sh"
+-'  3  30  ~/.bash_scripts/composition.sh
+|4,39,3,30,1659646332,"~/.bash_scripts/composition.sh"
+-'  1  0  ~/.bash_scripts/composition.sh
+|4,39,1,0,1659646258,"~/.bash_scripts/composition.sh"
+-'  1  94  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,94,1659644777,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,94,1659644777,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,94,1659644777,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,94,1659644777,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  1  94  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,94,1659644777,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  10  73  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,10,73,1659643631,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,1,0,1659643380,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,1,0,1659643380,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,1,0,1659643380,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,1,0,1659643380,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,1,0,1659643380,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,1,0,1659643380,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,1,0,1659643380,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,1,0,1659643380,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,1,0,1659643380,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+|4,39,1,0,1659643380,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  3  0  ~/testy
+|4,39,3,0,1659641671,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  0  ~/testy
+|4,39,1,0,1659590134,"~/testy"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
+-'  1  20  ~/.git/COMMIT_EDITMSG
+|4,39,1,20,1659587832,"~/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/.bash_scripts/composition.sh
+	*	1659647165	0
+	"	5	13
+	^	7	35
+	.	5	12
+	+	3	78
+	+	5	5
+	+	8	0
+	+	7	34
+	+	5	12
+
+> ~/.bash_aliases
+	*	1659647161	0
+	"	119	47
+	^	119	48
+	.	119	48
+	+	24	17
+	+	25	15
+	+	37	13
+	+	43	22
+	+	204	74
+	+	205	67
+	+	89	0
+	+	85	53
+	+	87	44
+	+	89	0
+	+	87	45
+	+	58	79
+	+	117	57
+	+	118	63
+	+	81	0
+	+	1	0
+	+	120	13
+	+	1	2
+	+	111	200
+	+	68	38
+	+	99	49
+	+	88	61
+	+	119	48
+
+> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+	*	1659644775	0
+	"	1	94
+	^	1	95
+	.	1	95
+	+	1	28
+	+	1	0
+	+	3	0
+	+	1	34
+	+	1	0
+	+	1	95
+
+> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+	*	1659643623	0
+	"	10	73
+	^	10	74
+	.	10	73
+	+	3	81
+	+	5	42
+	+	8	0
+	+	9	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	10	73
+
+> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+	*	1659643586	0
+	"	11	0
+	.	8	0
+	+	7	0
+	+	5	76
+	+	3	56
+	+	9	42
+	+	7	0
+	+	8	0
+	+	7	24
+	+	8	0
+	+	11	0
+	+	8	0
+
+> ~/testy
+	*	1659590139	0
+	"	3	0
+	^	6	0
+	.	6	0
+	+	6	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1659587831	0
+	"	1	20
+	^	1	21
+	.	1	21
+	+	1	0
+	+	1	21
 
 > ~/Documents/work_and_gigs/izzy_burns/todo.txt
 	*	1659587761	0
@@ -520,38 +616,6 @@ $
 	+	55	674
 	a	55	79
 
-> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-	*	1659559825	0
-	"	1	34
-	^	1	35
-	.	1	34
-	+	1	28
-	+	2	0
-	+	3	0
-	+	1	34
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-	*	1659559722	0
-	"	7	0
-	.	8	0
-	+	7	0
-	+	5	76
-	+	3	56
-	+	9	42
-	+	7	0
-	+	8	0
-	+	7	24
-	+	8	0
-	+	11	0
-	+	8	0
-
-> ~/.git/COMMIT_EDITMSG
-	*	1659558823	0
-	"	1	27
-	^	1	28
-	.	1	27
-	+	1	27
-
 > ~/.bash_scripts/sungoinin.sh
 	*	1659558736	0
 	"	6	0
@@ -596,33 +660,6 @@ $
 	^	1	166
 	.	1	166
 	+	1	166
-
-> ~/.bash_aliases
-	*	1659422120	0
-	"	98	49
-	^	98	50
-	.	98	49
-	+	24	17
-	+	25	15
-	+	37	13
-	+	43	22
-	+	202	74
-	+	203	67
-	+	88	0
-	+	85	53
-	+	87	44
-	+	88	0
-	+	87	45
-	+	58	79
-	+	116	57
-	+	117	63
-	+	81	0
-	+	1	0
-	+	118	13
-	+	1	2
-	+	110	200
-	+	68	38
-	+	98	49
 
 > ~/.bash_scripts/reflection.sh
 	*	1659421995	0
@@ -827,14 +864,6 @@ $
 	^	5	43
 	.	5	42
 	+	3	61
-	+	5	42
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
-	*	1659034902	0
-	"	5	42
-	^	5	43
-	.	5	42
-	+	3	81
 	+	5	42
 
 > ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/procession.sh

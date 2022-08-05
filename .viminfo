@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/reflection
+~MSle0~/miranda
 
 # Last Substitute Search Pattern:
 ~MSle0&hope_fore
@@ -21,37 +21,47 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1659708114,,"wq"
+|2,0,1659742958,,"wq"
+:q
+|2,0,1659737999,,"q"
 :'<,'>sort
-|2,0,1659707991,,"'<,'>sort"
+|2,0,1659735590,,"'<,'>sort"
+:w
+|2,0,1659733597,,"w"
+:term
+|2,0,1659733067,,"term"
 :terminal
-|2,0,1659707945,,"terminal"
+|2,0,1659735046,,"terminal"
+:e reflect.sh
+|2,0,1659732588,,"e reflect.sh"
+:q!
+|2,0,1659732258,,"q!"
+:syntax on
+|2,0,1659719941,,"syntax on"
+:syntax off
+|2,0,1659719936,,"syntax off"
+:e ~/.bash_aliases
+|2,0,1659719614,,"e ~/.bash_aliases"
+:e ragit.sh
+|2,0,1659719395,,"e ragit.sh"
+:termina
+|2,0,1659718577,,"termina"
+:e .bash_aliases
+|2,0,1659709438,,"e .bash_aliases"
 :e ~/.bash_profile
 |2,0,1659707689,,"e ~/.bash_profile"
-:syntax on
-|2,0,1659707663,,"syntax on"
 :syntax
 |2,0,1659707657,,"syntax"
-:q
-|2,0,1659676124,,"q"
-:w
-|2,0,1659654460,,"w"
 :e cold_call_speech.txt
 |2,0,1659653395,,"e cold_call_speech.txt"
 :s
 |2,0,1659646951,,"s"
-:e ~/.bash_aliases
-|2,0,1659646920,,"e ~/.bash_aliases"
 :e snow_lace.sh
 |2,0,1659643411,,"e snow_lace.sh"
 :"*y
 |2,0,1659568082,,"\"*y"
 :e todo.txt
 |2,0,1659567796,,"e todo.txt"
-:term
-|2,0,1659535772,,"term"
-:q!
-|2,0,1659207572,,"q!"
 :e ./cold_call_speech.txt
 |2,0,1659131408,,"e ./cold_call_speech.txt"
 :e ../.bash_scripts/merge_work.sh
@@ -86,8 +96,6 @@ $
 |2,0,1659034081,,"e ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/procession.sh"
 :open ./bash_scripts/procession.sh
 |2,0,1659033913,,"open ./bash_scripts/procession.sh"
-:syntax off
-|2,0,1658957446,,"syntax off"
 :set nu
 |2,0,1658957135,,"set nu"
 :open lotus_rising.sh
@@ -112,16 +120,16 @@ $
 |2,0,1658542393,,"s/hope_fore/slace"
 :s/hope_fore/693
 |2,0,1658542352,,"s/hope_fore/693"
-:s/hope_fore/raee
-|2,0,1658542298,,"s/hope_fore/raee"
-:s/hope_fore/prod
-|2,0,1658542252,,"s/hope_fore/prod"
-:s/hope_fore/procession
-|2,0,1658542169,,"s/hope_fore/procession"
-:s/hope_fore/lotus
-|2,0,1658542115,,"s/hope_fore/lotus"
 
 # Search String History (newest to oldest):
+?/miranda
+|2,1,1659737714,47,"miranda"
+?/reflect
+|2,1,1659732403,47,"reflect"
+?/ramv
+|2,1,1659719628,47,"ramv"
+?/gmail
+|2,1,1659709445,47,"gmail"
 ? @$
 |2,1,1659559694,,"@$"
 ?/reflection
@@ -163,382 +171,440 @@ $
 
 # Registers:
 "0	CHAR	0
-	alias music='e
-|3,0,0,0,1,0,1659676228,"alias music='e"
-""1	LINE	0
+	for i in {1..4}
+	do
+		echo "" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+	done
 	
-|3,1,1,1,1,0,1659708058,""
+	
+|3,0,0,0,6,0,1659735102,"for i in {1..4}","do","	echo \"\" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt","done","",""
+"1	CHAR	0
+	FridayAugust05
+	
+	
+	
+	
+	
+	FridayAugust05
+	
+	
+	
+	
+	
+	
+	
+	
+	
+|3,0,1,0,16,0,1659735165,"FridayAugust05","","","","","","FridayAugust05","","","","","","","","",""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1659708058,""
+	echo "" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;
+|3,0,2,1,1,0,1659735106,"echo \"\" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1659708057,""
+	echo "" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;
+|3,0,3,1,1,0,1659734978,"echo \"\" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1659708057,""
+	echo "" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;
+|3,0,4,1,1,0,1659734977,"echo \"\" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1659708056,""
+|3,0,5,1,1,0,1659734826,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1659708056,""
+|3,0,6,1,1,0,1659734826,""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1659708055,""
+|3,0,7,1,1,0,1659734825,""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1659708055,""
+|3,0,8,1,1,0,1659733993,""
 "9	LINE	0
-	echo "safari -----> open safari app"&&
-|3,0,9,1,1,0,1659708028,"echo \"safari -----> open safari app\"&&"
+	Fri Aug  5 15:11:50 MDT 2022
+|3,0,9,1,1,0,1659733991,"Fri Aug  5 15:11:50 MDT 2022"
 "w	CHAR	0
 	wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk
 |3,0,32,0,1,0,1659654088,"wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk"
-"-	CHAR	0
-	alias music='e
-|3,0,36,0,1,0,1659676234,"alias music='e"
+""-	CHAR	0
+	;
+|3,1,36,0,1,0,1659735028,";"
 
 # File marks:
-'0  12  0  ~/.bash_profile
-|4,48,12,0,1659708114,"~/.bash_profile"
-'1  11  0  ~/.bash_aliases
-|4,49,11,0,1659676244,"~/.bash_aliases"
-'2  84  0  ~/.bash_aliases
-|4,50,84,0,1659676244,"~/.bash_aliases"
-'3  1  0  ~/.bash_scripts/composition.sh
-|4,51,1,0,1659676124,"~/.bash_scripts/composition.sh"
-'4  40  0  ~/.bash_aliases
-|4,52,40,0,1659675665,"~/.bash_aliases"
-'5  40  0  ~/.bash_aliases
-|4,53,40,0,1659675665,"~/.bash_aliases"
-'6  123  0  ~/.bash_aliases
-|4,54,123,0,1659675665,"~/.bash_aliases"
-'7  123  0  ~/.bash_aliases
-|4,55,123,0,1659675665,"~/.bash_aliases"
-'8  5  0  ~/.bash_scripts/composition.sh
-|4,56,5,0,1659675621,"~/.bash_scripts/composition.sh"
-'9  5  0  ~/.bash_scripts/composition.sh
-|4,57,5,0,1659675621,"~/.bash_scripts/composition.sh"
+'0  2  0  ~/.git/COMMIT_EDITMSG
+|4,48,2,0,1659742958,"~/.git/COMMIT_EDITMSG"
+'1  1  0  ~/.bash_aliases
+|4,49,1,0,1659737999,"~/.bash_aliases"
+'2  10  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+|4,50,10,0,1659737742,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
+'3  28  6  ~/.bash_aliases
+|4,51,28,6,1659737722,"~/.bash_aliases"
+'4  28  6  ~/.bash_aliases
+|4,52,28,6,1659737722,"~/.bash_aliases"
+'5  5  68  ~/.bash_scripts/colorblind.sh
+|4,53,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+'6  2  30  ~/.bash_aliases
+|4,54,2,30,1659736583,"~/.bash_aliases"
+'7  2  30  ~/.bash_aliases
+|4,55,2,30,1659736583,"~/.bash_aliases"
+'8  2  30  ~/.bash_aliases
+|4,56,2,30,1659736583,"~/.bash_aliases"
+'9  2  30  ~/.bash_aliases
+|4,57,2,30,1659736583,"~/.bash_aliases"
 
 # Jumplist (newest first):
--'  12  0  ~/.bash_profile
-|4,39,12,0,1659708114,"~/.bash_profile"
+-'  2  0  ~/.git/COMMIT_EDITMSG
+|4,39,2,0,1659742958,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1659742936,"~/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1659707689,"~/.bash_aliases"
--'  11  0  ~/.bash_aliases
-|4,39,11,0,1659676244,"~/.bash_aliases"
--'  84  0  ~/.bash_aliases
-|4,39,84,0,1659676244,"~/.bash_aliases"
--'  60  0  ~/.bash_aliases
-|4,39,60,0,1659676239,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1659676166,"~/.bash_aliases"
+|4,39,1,0,1659737999,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1659676127,"~/.bash_aliases"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659676124,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659676124,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659676124,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659676124,"~/.bash_scripts/composition.sh"
--'  40  0  ~/.bash_aliases
-|4,39,40,0,1659675665,"~/.bash_aliases"
--'  123  0  ~/.bash_aliases
-|4,39,123,0,1659675665,"~/.bash_aliases"
--'  123  0  ~/.bash_aliases
-|4,39,123,0,1659675665,"~/.bash_aliases"
--'  123  0  ~/.bash_aliases
-|4,39,123,0,1659675665,"~/.bash_aliases"
+|4,39,1,0,1659737999,"~/.bash_aliases"
+-'  10  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+|4,39,10,0,1659737742,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
+-'  10  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+|4,39,10,0,1659737742,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
+-'  10  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+|4,39,10,0,1659737742,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
+-'  10  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+|4,39,10,0,1659737742,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+|4,39,1,0,1659737724,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+|4,39,1,0,1659737724,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+|4,39,1,0,1659737724,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+|4,39,1,0,1659737724,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
+-'  28  6  ~/.bash_aliases
+|4,39,28,6,1659737722,"~/.bash_aliases"
+-'  28  6  ~/.bash_aliases
+|4,39,28,6,1659737722,"~/.bash_aliases"
+-'  28  6  ~/.bash_aliases
+|4,39,28,6,1659737722,"~/.bash_aliases"
+-'  28  6  ~/.bash_aliases
+|4,39,28,6,1659737722,"~/.bash_aliases"
+-'  28  6  ~/.bash_aliases
+|4,39,28,6,1659737722,"~/.bash_aliases"
+-'  28  6  ~/.bash_aliases
+|4,39,28,6,1659737722,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1659675634,"~/.bash_aliases"
+|4,39,1,0,1659737714,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1659675634,"~/.bash_aliases"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  5  0  ~/.bash_scripts/composition.sh
-|4,39,5,0,1659675621,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659675591,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659675591,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659675591,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659675591,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659675591,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659675591,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659675591,"~/.bash_scripts/composition.sh"
--'  1  0  ~/.bash_scripts/composition.sh
-|4,39,1,0,1659675591,"~/.bash_scripts/composition.sh"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  1  17  ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-|4,39,1,17,1659675215,"~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
--'  27  51  ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-|4,39,27,51,1659675021,"~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt"
+|4,39,1,0,1659737714,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1659737714,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1659737714,"~/.bash_aliases"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  5  68  ~/.bash_scripts/colorblind.sh
+|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  1  0  ~/.bash_scripts/colorblind.sh
+|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  2  30  ~/.bash_aliases
+|4,39,2,30,1659736583,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1659736515,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1659736515,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1659736515,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1659736515,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1659736515,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1659736515,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1659736515,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1659736515,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
+-'  6  0  ~/.bash_aliases
+|4,39,6,0,1659735612,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1659735612,"~/.bash_aliases"
 
 # History of marks within files (newest to oldest):
 
-> ~/.bash_profile
-	*	1659708111	0
-	"	12	0
-	^	15	0
-	.	15	0
-	+	8	30
-	+	13	0
-	+	14	8
-	+	15	0
+> ~/.git/COMMIT_EDITMSG
+	*	1659742954	0
+	"	2	0
+	^	2	0
+	.	1	64
+	+	1	0
+	+	1	64
 
 > ~/.bash_aliases
-	*	1659708106	0
+	*	1659737993	0
 	"	1	0
-	^	38	48
-	.	1	0
+	^	2	31
+	.	2	30
 	+	1	17
 	+	1	15
-	+	7	13
-	+	11	22
-	+	76	74
-	+	77	67
-	+	11	0
-	+	11	53
-	+	11	44
-	+	11	0
-	+	11	45
-	+	11	79
-	+	36	57
-	+	37	63
-	+	11	0
-	+	1	0
-	+	39	13
-	+	1	2
-	+	30	200
-	+	11	38
-	+	18	49
-	+	11	61
-	+	38	48
-	+	1	0
-	+	11	0
-	+	1	0
-	+	11	0
-	+	40	0
-	+	54	0
-	+	58	0
-	+	62	0
-	+	73	0
-	+	1	0
-	+	73	0
-	+	1	0
-
-> ~/.bash_scripts/composition.sh
-	*	1659675668	0
-	"	1	0
-	^	7	35
-	.	5	12
-	+	3	78
-	+	5	5
-	+	8	0
-	+	7	34
-	+	5	12
-
-> ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-	*	1659675214	0
-	"	1	17
-	^	1	18
-	.	1	17
-	+	1	17
-
-> ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
-	*	1659675019	0
-	"	27	51
-	^	55	587
-	.	55	586
-	+	8	3
-	+	7	12
-	+	9	9
-	+	10	0
-	+	9	9
-	+	16	47
+	+	11	13
+	+	13	22
+	+	67	74
+	+	68	67
+	+	13	0
+	+	13	53
+	+	13	44
+	+	13	0
+	+	13	45
 	+	13	79
-	+	14	0
+	+	28	57
+	+	29	63
+	+	13	0
+	+	1	0
+	+	31	13
+	+	1	2
+	+	23	200
+	+	13	38
+	+	18	49
+	+	13	61
+	+	30	48
+	+	1	0
+	+	13	0
+	+	1	0
+	+	13	0
+	+	32	0
+	+	46	0
+	+	50	0
+	+	53	0
+	+	64	0
+	+	1	0
+	+	64	0
+	+	1	0
+	+	6	44
+	+	1	0
+	+	10	0
+	+	12	0
+	+	13	0
 	+	18	0
-	+	22	27
-	+	23	0
-	+	28	197
+	+	19	0
+	+	22	0
+	+	24	0
+	+	50	0
+	+	65	0
+	+	6	40
+	+	1	0
+	+	39	104
+	+	1	0
+	+	4	41
+	+	29	45
+	+	1	0
+	+	2	30
+
+> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+	*	1659737724	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	1	4
+	+	1	0
+	+	2	0
+
+> ~/.bash_scripts/colorblind.sh
+	*	1659736703	0
+	"	5	68
+	^	5	69
+	.	5	68
+	+	7	63
+	+	3	61
+	+	5	68
+
+> ~/.bash_scripts/miranda.sh
+	*	1659735145	0
+	"	16	0
+	^	11	0
+	.	12	13
+	+	4	0
+	+	3	74
+	+	6	0
+	+	3	74
+	+	10	0
+	+	10	74
+	+	10	0
 	+	26	0
-	+	27	13
-	+	35	0
-	+	34	72
-	+	32	102
-	+	39	86
-	+	35	355
-	+	42	42
-	+	41	41
-	+	45	84
-	+	55	34
-	+	51	37
-	+	55	82
-	+	47	41
-	+	27	51
-	+	48	565
-	+	55	499
-	+	55	467
-	+	55	1
-	+	55	677
-	+	63	42
-	+	55	391
-	+	55	586
-	a	55	79
+	+	12	0
+	+	19	0
+	+	12	0
+	+	19	75
+	+	3	69
+	+	19	5
+	+	6	53
+	+	10	0
+	+	12	0
+	+	6	83
+	+	10	0
+	+	12	0
+	+	10	0
+	+	12	0
+	+	6	43
+	+	10	0
+	+	12	0
+	+	9	0
+	+	12	0
+	+	9	0
+	+	12	0
+	+	10	12
+	+	5	15
+	+	9	0
+	+	6	1
+	+	7	0
+	+	7	82
+	+	8	4
+	+	12	0
+	+	10	87
+	+	12	13
+
+> ~/.bash_scripts/jake.sh
+	*	1659733428	0
+	"	8	0
+	^	8	28
+	.	8	27
+	+	4	20
+	+	6	55
+	+	8	0
+	+	8	27
+
+> ~/.bash_scripts/reflect.sh
+	*	1659733000	0
+	"	3	0
+
+> ~/Documents/work_and_gigs/studio/miranda/miranda.sh
+	*	1659732247	0
+	"	1	0
 
 > ~/Documents/work_and_gigs/izzy_burns/todo.txt
-	*	1659654473	0
-	"	50	21
+	*	1659731219	0
+	"	52	0
 	^	48	117
 	.	48	117
 	+	38	18
@@ -600,50 +666,92 @@ $
 	+	46	42
 	+	48	117
 
-> ~/Documents/work_and_gigs/izzy_burns/.bash_scripts/izzy_bash.sh
-	*	1659653243	0
-	"	3	0
-	^	3	0
-	.	3	0
+> ~/Documents/work_and_gigs/ra_lasater/todo.txt
+	*	1659729069	0
+	"	70	35
+	^	70	36
+	.	70	36
+	+	20	9
+	+	56	0
+	+	4	16
+	+	5	0
+	+	35	0
+	+	65	0
+	+	35	57
+	+	64	20
+	+	36	0
+	+	34	41
+	+	5	1
+	+	6	4
+	+	7	1
+	+	8	1
+	+	9	1
+	+	10	1
+	+	11	1
+	+	12	1
+	+	13	1
+	+	14	1
+	+	15	1
+	+	16	1
+	+	17	1
+	+	4	0
+	+	5	4
+	+	6	4
+	+	7	4
+	+	8	4
+	+	9	4
+	+	10	4
+	+	11	4
+	+	12	4
+	+	13	4
+	+	14	4
+	+	15	4
+	+	16	4
+	+	17	4
+	+	34	1
+	+	35	1
+	+	33	1
+	+	20	0
+	+	37	0
+	+	54	0
+	+	32	1
+	+	21	1
+	+	22	1
+	+	23	1
+	+	24	1
+	+	25	1
+	+	26	1
+	+	27	1
+	+	28	1
+	+	29	1
+	+	30	1
+	+	31	1
 	+	3	0
-
-> ~/.git/COMMIT_EDITMSG
-	*	1659647983	0
-	"	1	36
-	^	1	37
-	.	1	37
-	+	1	0
-	+	1	37
-
-> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-	*	1659644775	0
-	"	1	94
-	^	1	95
-	.	1	95
-	+	1	28
-	+	1	0
-	+	3	0
-	+	1	34
-	+	1	0
-	+	1	95
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
-	*	1659643623	0
-	"	10	73
-	^	10	74
-	.	10	73
-	+	3	81
-	+	5	42
-	+	8	0
-	+	9	0
-	+	6	0
-	+	7	0
-	+	6	0
-	+	10	73
+	+	38	1
+	+	39	1
+	+	40	1
+	+	42	0
+	+	41	1
+	+	37	17
+	+	53	36
+	+	51	1
+	+	61	18
+	+	42	1
+	+	43	1
+	+	44	1
+	+	45	1
+	+	47	1
+	+	48	1
+	+	46	1
+	+	48	1
+	+	49	1
+	+	37	0
+	+	52	39
+	+	70	36
 
 > ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-	*	1659643586	0
-	"	11	0
+	*	1659726169	0
+	"	1	0
 	.	8	0
 	+	7	0
 	+	5	76
@@ -655,6 +763,140 @@ $
 	+	8	0
 	+	11	0
 	+	8	0
+
+> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+	*	1659725936	0
+	"	1	0
+	^	1	46
+	.	1	46
+	+	1	28
+	+	1	0
+	+	3	0
+	+	1	34
+	+	1	0
+	+	1	95
+	+	1	46
+
+> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
+	*	1659725907	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	3	81
+	+	5	42
+	+	8	0
+	+	9	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	10	73
+	+	1	0
+
+> ~/.bash_scripts/hgit.sh
+	*	1659720560	0
+	"	9	0
+	^	7	9
+	.	7	8
+	+	9	0
+	+	3	10
+	+	7	8
+
+> ~/.bash_scripts/ragit.sh
+	*	1659719941	0
+	"	5	3
+	^	9	9
+	.	9	8
+	+	3	0
+	+	10	0
+	+	3	1
+	+	3	93
+	+	3	0
+	+	3	93
+	+	9	8
+
+> ~/.vimrc
+	*	1659719324	0
+	"	1	8
+	^	1	9
+	.	1	9
+	+	1	9
+
+> ~/.bash_profile
+	*	1659708111	0
+	"	12	0
+	^	15	0
+	.	15	0
+	+	8	30
+	+	13	0
+	+	14	8
+	+	15	0
+
+> ~/.bash_scripts/composition.sh
+	*	1659675668	0
+	"	1	0
+	^	7	35
+	.	5	12
+	+	3	78
+	+	5	5
+	+	8	0
+	+	7	34
+	+	5	12
+
+> ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
+	*	1659675214	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> ~/Documents/work_and_gigs/izzy_burns/cold_call_speech.txt
+	*	1659675019	0
+	"	27	51
+	^	55	587
+	.	55	586
+	+	8	3
+	+	7	12
+	+	9	9
+	+	10	0
+	+	9	9
+	+	16	47
+	+	13	79
+	+	14	0
+	+	18	0
+	+	22	27
+	+	23	0
+	+	28	197
+	+	26	0
+	+	27	13
+	+	35	0
+	+	34	72
+	+	32	102
+	+	39	86
+	+	35	355
+	+	42	42
+	+	41	41
+	+	45	84
+	+	55	34
+	+	51	37
+	+	55	82
+	+	47	41
+	+	27	51
+	+	48	565
+	+	55	499
+	+	55	467
+	+	55	1
+	+	55	677
+	+	63	42
+	+	55	391
+	+	55	586
+	a	55	79
+
+> ~/Documents/work_and_gigs/izzy_burns/.bash_scripts/izzy_bash.sh
+	*	1659653243	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	3	0
 
 > ~/testy
 	*	1659590139	0
@@ -764,88 +1006,6 @@ $
 	+	27	437
 	+	30	0
 	+	30	816
-
-> ~/Documents/work_and_gigs/ra_lasater/todo.txt
-	*	1659129679	0
-	"	63	20
-	^	52	39
-	.	52	39
-	+	20	9
-	+	56	0
-	+	4	16
-	+	5	0
-	+	35	0
-	+	65	0
-	+	35	57
-	+	64	20
-	+	36	0
-	+	34	41
-	+	5	1
-	+	6	4
-	+	7	1
-	+	8	1
-	+	9	1
-	+	10	1
-	+	11	1
-	+	12	1
-	+	13	1
-	+	14	1
-	+	15	1
-	+	16	1
-	+	17	1
-	+	4	0
-	+	5	4
-	+	6	4
-	+	7	4
-	+	8	4
-	+	9	4
-	+	10	4
-	+	11	4
-	+	12	4
-	+	13	4
-	+	14	4
-	+	15	4
-	+	16	4
-	+	17	4
-	+	34	1
-	+	35	1
-	+	33	1
-	+	20	0
-	+	37	0
-	+	54	0
-	+	32	1
-	+	21	1
-	+	22	1
-	+	23	1
-	+	24	1
-	+	25	1
-	+	26	1
-	+	27	1
-	+	28	1
-	+	29	1
-	+	30	1
-	+	31	1
-	+	3	0
-	+	38	1
-	+	39	1
-	+	40	1
-	+	42	0
-	+	41	1
-	+	37	17
-	+	53	36
-	+	51	1
-	+	61	18
-	+	42	1
-	+	43	1
-	+	44	1
-	+	45	1
-	+	47	1
-	+	48	1
-	+	46	1
-	+	48	1
-	+	49	1
-	+	37	0
-	+	52	39
 
 > ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/merge_work.sh
 	*	1659129672	0

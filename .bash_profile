@@ -10,3 +10,9 @@ source ~/.bash_aliases
 
 export PATH="/Users/christopherreilly/Library/Python/3.9/bin:$PATH"
 export PATH="/Users/christopherreilly/Library/Frameworks/Python.framework/Version/3.9/bin:$PATH"
+
+PS1=">>"
+python="python3"
+pip="pip3"
+export PATH="/usr/local/anaconda3/bin:$PATH"
+

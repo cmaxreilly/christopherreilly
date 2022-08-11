@@ -11,31 +11,35 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/miranda
+~MSle0~/git
 
 # Last Substitute Search Pattern:
-~MSle0&hope_fore
+~MSle0&.bash_scripts
 
 # Last Substitute String:
-$
+$.scripts
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1659742958,,"wq"
 :q
-|2,0,1659737999,,"q"
+|2,0,1660176274,,"q"
+:term
+|2,0,1660176142,,"term"
+:wq
+|2,0,1660176184,,"wq"
+:%s/.bash_scripts/.scripts/gc
+|2,0,1660081553,,"%s/.bash_scripts/.scripts/gc"
+:set shell?
+|2,0,1660078742,,"set shell?"
+:q!
+|2,0,1660076733,,"q!"
+:terminal
+|2,0,1660075707,,"terminal"
+:w
+|2,0,1660075323,,"w"
 :'<,'>sort
 |2,0,1659735590,,"'<,'>sort"
-:w
-|2,0,1659733597,,"w"
-:term
-|2,0,1659733067,,"term"
-:terminal
-|2,0,1659735046,,"terminal"
 :e reflect.sh
 |2,0,1659732588,,"e reflect.sh"
-:q!
-|2,0,1659732258,,"q!"
 :syntax on
 |2,0,1659719941,,"syntax on"
 :syntax off
@@ -116,12 +120,20 @@ $
 |2,0,1658700555,,"version"
 :s/hope_fore/slight
 |2,0,1658542453,,"s/hope_fore/slight"
-:s/hope_fore/slace
-|2,0,1658542393,,"s/hope_fore/slace"
-:s/hope_fore/693
-|2,0,1658542352,,"s/hope_fore/693"
 
 # Search String History (newest to oldest):
+?/git
+|2,1,1660176226,47,"git"
+?/ragit
+|2,1,1660176131,47,"ragit"
+? .bash_scripts
+|2,1,1660081553,,".bash_scripts"
+?/account
+|2,1,1660078430,47,"account"
+?/check
+|2,1,1659743366,47,"check"
+?/pack
+|2,1,1659743361,47,"pack"
 ?/miranda
 |2,1,1659737714,47,"miranda"
 ?/reflect
@@ -134,8 +146,6 @@ $
 |2,1,1659559694,,"@$"
 ?/reflection
 |2,1,1659422027,47,"reflection"
-?/account
-|2,1,1659225414,47,"account"
 ? hope_fore
 |2,1,1658542453,,"hope_fore"
 ? hope_for_the_dawn.sh
@@ -178,294 +188,285 @@ $
 	
 	
 |3,0,0,0,6,0,1659735102,"for i in {1..4}","do","	echo \"\" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt","done","",""
-"1	CHAR	0
-	FridayAugust05
+""1	LINE	0
 	
-	
-	
-	
-	
-	FridayAugust05
-	
-	
-	
-	
-	
-	
-	
-	
-	
-|3,0,1,0,16,0,1659735165,"FridayAugust05","","","","","","FridayAugust05","","","","","","","","",""
+|3,1,1,1,1,0,1660171165,""
 "2	LINE	0
-	echo "" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;
-|3,0,2,1,1,0,1659735106,"echo \"\" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;"
+	
+	
+	Vmail 2.9.11
+	
+	Please wait while I fetch your messages.
+	
+	
+|3,0,2,1,7,0,1660171165,"","","Vmail 2.9.11","","Please wait while I fetch your messages.","",""
 "3	LINE	0
-	echo "" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;
-|3,0,3,1,1,0,1659734978,"echo \"\" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;"
+	+  | Aug 06 08:01am | U.S. Bank <1800USBanks@em | How to get the most from your new card                    |     47k | <f275a6ec-cf72-4eba-9348-6771c2de13b3@las1s04mta1095.xt.local>
+|3,0,3,1,1,0,1660171061,"+  | Aug 06 08:01am | U.S. Bank <1800USBanks@em | How to get the most from your new card                    |     47k | <f275a6ec-cf72-4eba-9348-6771c2de13b3@las1s04mta1095.xt.local>"
 "4	LINE	0
-	echo "" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;
-|3,0,4,1,1,0,1659734977,"echo \"\" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt;"
+	+  | Aug 06 08:32am | Hukum Singh <hukumsingh@m | LINK                                                      |     15k | <681E0993-4673-4C64-AD6D-02A8416B8CAD@mac.com>
+|3,0,4,1,1,0,1660171057,"+  | Aug 06 08:32am | Hukum Singh <hukumsingh@m | LINK                                                      |     15k | <681E0993-4673-4C64-AD6D-02A8416B8CAD@mac.com>"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1659734826,""
+	   | Aug 06 08:44am | YouTube <noreply@youtube. | New reply to a comment on "Linux r/unixporn Part 2"       |     26k | <000000000000442fa105e5939ffb@google.com>
+|3,0,5,1,1,0,1660171055,"   | Aug 06 08:44am | YouTube <noreply@youtube. | New reply to a comment on \"Linux r/unixporn Part 2\"       |     26k | <000000000000442fa105e5939ffb@google.com>"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1659734826,""
+	+  | Aug 06 08:49am | Jamey Aebersold Jazz <new | Why wait? 12 $9.99 Play-a-longs just for you!             |     69k | <029abfc13cd03b6c41bb2f70c.282ccf4b6f.20220806144856.47d09c641a.e31af4e0@mail85.suw13.rsgsv.net>
+|3,0,6,1,1,0,1660171046,"+  | Aug 06 08:49am | Jamey Aebersold Jazz <new | Why wait? 12 $9.99 Play-a-longs just for you!             |     69k | <029abfc13cd03b6c41bb2f70c.282ccf4b6f.20220806144856.47d09c641a.e31af4e0@mail85.suw13.rsgsv.net>"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1659734825,""
+	+  | Aug 06 09:26am | REI Outlet <REI_Gearmail@ | Savings Up to 70% Off Start Now!                          |     61k | <0.1.1F.3B5.1D8A9A8DC8B210E.0@omp.notices.rei.com>
+|3,0,7,1,1,0,1660171045,"+  | Aug 06 09:26am | REI Outlet <REI_Gearmail@ | Savings Up to 70% Off Start Now!                          |     61k | <0.1.1F.3B5.1D8A9A8DC8B210E.0@omp.notices.rei.com>"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1659733993,""
+	+  | Aug 06 10:37am | Redbox <no-reply@email.re | Get $1.25 OFF a Movie Night!                              |     78k | <NM6B496932C0CF1CC8Dredbox_mkt_prod1@email.redbox.com>
+|3,0,8,1,1,0,1660171043,"+  | Aug 06 10:37am | Redbox <no-reply@email.re | Get $1.25 OFF a Movie Night!                              |     78k | <NM6B496932C0CF1CC8Dredbox_mkt_prod1@email.redbox.com>"
 "9	LINE	0
-	Fri Aug  5 15:11:50 MDT 2022
-|3,0,9,1,1,0,1659733991,"Fri Aug  5 15:11:50 MDT 2022"
+	+  | Aug 06 12:20pm | Best Buy Anniversary Sale | An update from Best Buy... Don't pass up these DEALS - th |    201k | <471677590.462549.1659810031206.JavaMail.cloud@p2-elasticrender-05ee4c11d14762738>
+|3,0,9,1,1,0,1660171041,"+  | Aug 06 12:20pm | Best Buy Anniversary Sale | An update from Best Buy... Don't pass up these DEALS - th |    201k | <471677590.462549.1659810031206.JavaMail.cloud@p2-elasticrender-05ee4c11d14762738>"
 "w	CHAR	0
 	wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk
 |3,0,32,0,1,0,1659654088,"wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk"
-""-	CHAR	0
-	;
-|3,1,36,0,1,0,1659735028,";"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1660169938," "
 
 # File marks:
-'0  2  0  ~/.git/COMMIT_EDITMSG
-|4,48,2,0,1659742958,"~/.git/COMMIT_EDITMSG"
-'1  1  0  ~/.bash_aliases
-|4,49,1,0,1659737999,"~/.bash_aliases"
-'2  10  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-|4,50,10,0,1659737742,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
-'3  28  6  ~/.bash_aliases
-|4,51,28,6,1659737722,"~/.bash_aliases"
-'4  28  6  ~/.bash_aliases
-|4,52,28,6,1659737722,"~/.bash_aliases"
-'5  5  68  ~/.bash_scripts/colorblind.sh
-|4,53,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
-'6  2  30  ~/.bash_aliases
-|4,54,2,30,1659736583,"~/.bash_aliases"
-'7  2  30  ~/.bash_aliases
-|4,55,2,30,1659736583,"~/.bash_aliases"
-'8  2  30  ~/.bash_aliases
-|4,56,2,30,1659736583,"~/.bash_aliases"
-'9  2  30  ~/.bash_aliases
-|4,57,2,30,1659736583,"~/.bash_aliases"
+'0  1  0  ~/.git/COMMIT_EDITMSG
+|4,48,1,0,1660176274,"~/.git/COMMIT_EDITMSG"
+'1  16  12  ~/.bash_aliases
+|4,49,16,12,1660176234,"~/.bash_aliases"
+'2  38  5  ~/.bash_aliases
+|4,50,38,5,1660176196,"~/.bash_aliases"
+'3  38  5  ~/.bash_aliases
+|4,51,38,5,1660176196,"~/.bash_aliases"
+'4  1  19  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,52,1,19,1660176184,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+'5  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,53,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+'6  41  3  ~/.vmail/default/vmailbuffer
+|4,54,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+'7  102  0  ~/.vmail/default/vmailbuffer
+|4,55,102,0,1660171118,"~/.vmail/default/vmailbuffer"
+'8  8  0  ~/.vmail/default/vmailbuffer
+|4,56,8,0,1660171118,"~/.vmail/default/vmailbuffer"
+'9  2  26  ~/.vmailrc
+|4,57,2,26,1660169948,"~/.vmailrc"
 
 # Jumplist (newest first):
--'  2  0  ~/.git/COMMIT_EDITMSG
-|4,39,2,0,1659742958,"~/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1659742936,"~/.git/COMMIT_EDITMSG"
+|4,39,1,0,1660176274,"~/.git/COMMIT_EDITMSG"
+-'  16  12  ~/.bash_aliases
+|4,39,16,12,1660176234,"~/.bash_aliases"
+-'  16  12  ~/.bash_aliases
+|4,39,16,12,1660176234,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1659737999,"~/.bash_aliases"
+|4,39,1,0,1660176226,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1659737999,"~/.bash_aliases"
--'  10  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-|4,39,10,0,1659737742,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
--'  10  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-|4,39,10,0,1659737742,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
--'  10  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-|4,39,10,0,1659737742,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
--'  10  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-|4,39,10,0,1659737742,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
--'  1  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-|4,39,1,0,1659737724,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
--'  1  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-|4,39,1,0,1659737724,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
--'  1  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-|4,39,1,0,1659737724,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
--'  1  0  ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-|4,39,1,0,1659737724,"~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt"
--'  28  6  ~/.bash_aliases
-|4,39,28,6,1659737722,"~/.bash_aliases"
--'  28  6  ~/.bash_aliases
-|4,39,28,6,1659737722,"~/.bash_aliases"
--'  28  6  ~/.bash_aliases
-|4,39,28,6,1659737722,"~/.bash_aliases"
--'  28  6  ~/.bash_aliases
-|4,39,28,6,1659737722,"~/.bash_aliases"
--'  28  6  ~/.bash_aliases
-|4,39,28,6,1659737722,"~/.bash_aliases"
--'  28  6  ~/.bash_aliases
-|4,39,28,6,1659737722,"~/.bash_aliases"
+|4,39,1,0,1660176226,"~/.bash_aliases"
+-'  38  5  ~/.bash_aliases
+|4,39,38,5,1660176196,"~/.bash_aliases"
+-'  38  5  ~/.bash_aliases
+|4,39,38,5,1660176196,"~/.bash_aliases"
+-'  38  5  ~/.bash_aliases
+|4,39,38,5,1660176196,"~/.bash_aliases"
+-'  38  5  ~/.bash_aliases
+|4,39,38,5,1660176196,"~/.bash_aliases"
+-'  1  19  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,19,1660176184,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  1  19  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,19,1660176184,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  1  19  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,19,1660176184,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  1  19  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,19,1660176184,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  25  0  ~/.bash_aliases
+|4,39,25,0,1660176131,"~/.bash_aliases"
+-'  25  0  ~/.bash_aliases
+|4,39,25,0,1660176131,"~/.bash_aliases"
+-'  25  0  ~/.bash_aliases
+|4,39,25,0,1660176131,"~/.bash_aliases"
+-'  25  0  ~/.bash_aliases
+|4,39,25,0,1660176131,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1659737714,"~/.bash_aliases"
+|4,39,1,0,1660176092,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1659737714,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1659737714,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1659737714,"~/.bash_aliases"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  5  68  ~/.bash_scripts/colorblind.sh
-|4,39,5,68,1659736705,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  1  0  ~/.bash_scripts/colorblind.sh
-|4,39,1,0,1659736655,"~/.bash_scripts/colorblind.sh"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  2  30  ~/.bash_aliases
-|4,39,2,30,1659736583,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1659736515,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1659736515,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1659736515,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1659736515,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1659736515,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1659736515,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1659736515,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1659736515,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
--'  6  0  ~/.bash_aliases
-|4,39,6,0,1659735612,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1659735612,"~/.bash_aliases"
+|4,39,1,0,1660176092,"~/.bash_aliases"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  41  3  ~/.vmail/default/vmailbuffer
+|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  102  0  ~/.vmail/default/vmailbuffer
+|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
+-'  101  0  ~/.vmail/default/vmailbuffer
+|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
 
 # History of marks within files (newest to oldest):
 
 > ~/.git/COMMIT_EDITMSG
-	*	1659742954	0
-	"	2	0
-	^	2	0
-	.	1	64
+	*	1660176268	0
+	"	1	0
+	^	1	34
+	.	1	33
 	+	1	0
-	+	1	64
+	+	1	33
 
 > ~/.bash_aliases
-	*	1659737993	0
-	"	1	0
+	*	1660176226	0
+	"	16	12
 	^	2	31
-	.	2	30
+	.	49	0
 	+	1	17
 	+	1	15
 	+	11	13
@@ -519,7 +520,160 @@ $
 	+	4	41
 	+	29	45
 	+	1	0
-	+	2	30
+	+	2	0
+	+	6	0
+	+	8	0
+	+	9	0
+	+	18	0
+	+	22	0
+	+	28	0
+	+	38	0
+	+	40	0
+	+	49	0
+
+> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+	*	1660176183	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	28
+	+	1	0
+	+	3	0
+	+	1	34
+	+	1	0
+	+	1	95
+	+	1	19
+
+> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
+	*	1660174516	0
+	"	1	0
+	.	8	0
+	+	7	0
+	+	5	76
+	+	3	56
+	+	9	42
+	+	7	0
+	+	8	0
+	+	7	24
+	+	8	0
+	+	11	0
+	+	8	0
+
+> ~/.vmail/default/vmailbuffer
+	*	1660171178	0
+	"	41	3
+	.	102	0
+	+	156	0
+	+	102	0
+	+	103	0
+	+	104	0
+	+	105	0
+	+	106	0
+	+	102	0
+
+> ~/.vmail/default/current_message.txt
+	*	1660171164	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vmail/default/compose_message.txt
+	*	1660170910	0
+	"	12	2
+	^	12	3
+	.	12	3
+	+	42	0
+	+	42	1
+	+	42	0
+	+	1	0
+	+	10	44
+	+	13	0
+	+	12	3
+
+> ~/.vmailrc
+	*	1660169944	0
+	"	2	26
+	^	2	27
+	.	2	26
+	+	1	36
+	+	3	20
+	+	2	26
+
+> ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+	*	1660080068	0
+	"	1	0
+	^	4	128
+	.	4	127
+	+	4	101
+	+	3	92
+	+	5	39
+	+	2	91
+	+	3	121
+	+	6	130
+	+	5	56
+	+	4	127
+
+> ~/.zshrc
+	*	1660078910	0
+	"	3	0
+
+> ~/.bash_profile
+	*	1660078500	0
+	"	4	0
+	^	15	0
+	.	15	0
+	+	8	30
+	+	13	0
+	+	14	8
+	+	15	0
+
+> /private/etc/shells
+	*	1660076801	0
+	"	12	18
+	^	12	19
+	.	12	18
+	+	12	18
+
+> ~/.bash_scripts/feyn.sh
+	*	1660075749	0
+	"	17	0
+	^	17	0
+	.	16	0
+	+	31	80
+	+	5	117
+	+	6	0
+	+	31	0
+	+	6	118
+	+	7	72
+	+	23	38
+	+	11	49
+	+	23	63
+	+	26	189
+	+	30	92
+	+	12	0
+	+	19	0
+	+	12	0
+	+	13	78
+	+	15	12
+	+	16	0
+
+> ~/.bash_scripts/composition.sh
+	*	1659840417	0
+	"	1	0
+	^	7	35
+	.	5	12
+	+	3	78
+	+	5	5
+	+	8	0
+	+	7	34
+	+	5	12
+
+> ~/Documents/Life_Documents/camping_checklist.txt
+	*	1659743334	0
+	"	7	6
+	^	7	7
+	.	7	7
+	+	7	7
 
 > ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
 	*	1659737724	0
@@ -749,34 +903,6 @@ $
 	+	52	39
 	+	70	36
 
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-	*	1659726169	0
-	"	1	0
-	.	8	0
-	+	7	0
-	+	5	76
-	+	3	56
-	+	9	42
-	+	7	0
-	+	8	0
-	+	7	24
-	+	8	0
-	+	11	0
-	+	8	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-	*	1659725936	0
-	"	1	0
-	^	1	46
-	.	1	46
-	+	1	28
-	+	1	0
-	+	3	0
-	+	1	34
-	+	1	0
-	+	1	95
-	+	1	46
-
 > ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/prodigal_return.sh
 	*	1659725907	0
 	"	1	0
@@ -820,27 +946,6 @@ $
 	^	1	9
 	.	1	9
 	+	1	9
-
-> ~/.bash_profile
-	*	1659708111	0
-	"	12	0
-	^	15	0
-	.	15	0
-	+	8	30
-	+	13	0
-	+	14	8
-	+	15	0
-
-> ~/.bash_scripts/composition.sh
-	*	1659675668	0
-	"	1	0
-	^	7	35
-	.	5	12
-	+	3	78
-	+	5	5
-	+	8	0
-	+	7	34
-	+	5	12
 
 > ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
 	*	1659675214	0
@@ -975,20 +1080,6 @@ $
 	^	1	14
 	.	1	14
 	+	1	14
-
-> ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
-	*	1659226861	0
-	"	6	127
-	^	4	128
-	.	4	127
-	+	4	101
-	+	3	92
-	+	5	39
-	+	2	91
-	+	3	121
-	+	6	130
-	+	5	56
-	+	4	127
 
 > ~/Documents/work_and_gigs/district_51/colorado_west_2022/essay_outline.txt
 	*	1659207270	0
@@ -1207,14 +1298,6 @@ $
 	+	5	44
 	+	7	0
 	+	3	69
-
-> ~/.vmailrc
-	*	1658274452	0
-	"	3	19
-	^	3	20
-	.	3	20
-	+	1	36
-	+	3	20
 
 > ~/bash_aliases
 	*	1658156964	0

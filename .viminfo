@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/git
+~MSle0~/check
 
 # Last Substitute Search Pattern:
 ~MSle0&.bash_scripts
@@ -20,22 +20,44 @@
 $.scripts
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1660176274,,"q"
-:term
-|2,0,1660176142,,"term"
 :wq
-|2,0,1660176184,,"wq"
+|2,0,1660510948,,"wq"
+:term
+|2,0,1660507707,,"term"
+:w
+|2,0,1660507607,,"w"
+:e ~/.bash_aliases
+|2,0,1660507551,,"e ~/.bash_aliases"
+:q
+|2,0,1660507504,,"q"
+:terminal
+|2,0,1660345490,,"terminal"
+:e correspondence_checklist.tex
+|2,0,1660341286,,"e correspondence_checklist.tex"
+:w correspondence_checklist.tex
+|2,0,1660341281,,"w correspondence_checklist.tex"
+:e snow_lace.sh
+|2,0,1660325175,,"e snow_lace.sh"
+:set nospell
+|2,0,1660318452,,"set nospell"
+:set spell
+|2,0,1660318083,,"set spell"
+:run spell
+|2,0,1660318072,,"run spell"
+:e essay.tex
+|2,0,1660317191,,"e essay.tex"
+:w essay.tex
+|2,0,1660317186,,"w essay.tex"
+:e .project_aliases
+|2,0,1660251265,,"e .project_aliases"
+:w feyn.py
+|2,0,1660236904,,"w feyn.py"
+:q!
+|2,0,1660233959,,"q!"
 :%s/.bash_scripts/.scripts/gc
 |2,0,1660081553,,"%s/.bash_scripts/.scripts/gc"
 :set shell?
 |2,0,1660078742,,"set shell?"
-:q!
-|2,0,1660076733,,"q!"
-:terminal
-|2,0,1660075707,,"terminal"
-:w
-|2,0,1660075323,,"w"
 :'<,'>sort
 |2,0,1659735590,,"'<,'>sort"
 :e reflect.sh
@@ -44,8 +66,6 @@ $.scripts
 |2,0,1659719941,,"syntax on"
 :syntax off
 |2,0,1659719936,,"syntax off"
-:e ~/.bash_aliases
-|2,0,1659719614,,"e ~/.bash_aliases"
 :e ragit.sh
 |2,0,1659719395,,"e ragit.sh"
 :termina
@@ -60,8 +80,6 @@ $.scripts
 |2,0,1659653395,,"e cold_call_speech.txt"
 :s
 |2,0,1659646951,,"s"
-:e snow_lace.sh
-|2,0,1659643411,,"e snow_lace.sh"
 :"*y
 |2,0,1659568082,,"\"*y"
 :e todo.txt
@@ -102,26 +120,20 @@ $.scripts
 |2,0,1659033913,,"open ./bash_scripts/procession.sh"
 :set nu
 |2,0,1658957135,,"set nu"
-:open lotus_rising.sh
-|2,0,1658704497,,"open lotus_rising.sh"
-:open light_by_seven.sh
-|2,0,1658703887,,"open light_by_seven.sh"
-:open enchanting_rae.sh
-|2,0,1658703532,,"open enchanting_rae.sh"
-:!sbash
-|2,0,1658703353,,"!sbash"
-:open ../blossom/Blossom.docx
-|2,0,1658703011,,"open ../blossom/Blossom.docx"
-:open blossom.sh
-|2,0,1658702837,,"open blossom.sh"
-:!ls
-|2,0,1658702790,,"!ls"
-:version
-|2,0,1658700555,,"version"
-:s/hope_fore/slight
-|2,0,1658542453,,"s/hope_fore/slight"
 
 # Search String History (newest to oldest):
+?/color
+|2,1,1660342257,47,"color"
+?/color	
+|2,1,1660342254,47,"color	"
+?/miranda
+|2,1,1660342160,47,"miranda"
+?/mira	
+|2,1,1660342156,47,"mira	"
+?/check
+|2,1,1660340759,47,"check"
+?/Marth
+|2,1,1660234054,47,"Marth"
 ?/git
 |2,1,1660176226,47,"git"
 ?/ragit
@@ -130,12 +142,8 @@ $.scripts
 |2,1,1660081553,,".bash_scripts"
 ?/account
 |2,1,1660078430,47,"account"
-?/check
-|2,1,1659743366,47,"check"
 ?/pack
 |2,1,1659743361,47,"pack"
-?/miranda
-|2,1,1659737714,47,"miranda"
 ?/reflect
 |2,1,1659732403,47,"reflect"
 ?/ramv
@@ -181,372 +189,513 @@ $.scripts
 
 # Registers:
 "0	CHAR	0
-	for i in {1..4}
-	do
-		echo "" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-	done
-	
-	
-|3,0,0,0,6,0,1659735102,"for i in {1..4}","do","	echo \"\" >> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt","done","",""
-""1	LINE	0
-	
-|3,1,1,1,1,0,1660171165,""
+	~/Documents/work_and_gigs/ra_lasater/
+|3,0,0,0,1,0,1660326015,"~/Documents/work_and_gigs/ra_lasater/"
+"1	LINE	0
+	\setlist[todolist]{label=$\square$}
+|3,0,1,1,1,0,1660345747,"\\setlist[todolist]{label=$\\square$}"
 "2	LINE	0
-	
-	
-	Vmail 2.9.11
-	
-	Please wait while I fetch your messages.
-	
-	
-|3,0,2,1,7,0,1660171165,"","","Vmail 2.9.11","","Please wait while I fetch your messages.","",""
+	\newlist{todolist}{itemize}{2}
+|3,0,2,1,1,0,1660345747,"\\newlist{todolist}{itemize}{2}"
 "3	LINE	0
-	+  | Aug 06 08:01am | U.S. Bank <1800USBanks@em | How to get the most from your new card                    |     47k | <f275a6ec-cf72-4eba-9348-6771c2de13b3@las1s04mta1095.xt.local>
-|3,0,3,1,1,0,1660171061,"+  | Aug 06 08:01am | U.S. Bank <1800USBanks@em | How to get the most from your new card                    |     47k | <f275a6ec-cf72-4eba-9348-6771c2de13b3@las1s04mta1095.xt.local>"
-"4	LINE	0
-	+  | Aug 06 08:32am | Hukum Singh <hukumsingh@m | LINK                                                      |     15k | <681E0993-4673-4C64-AD6D-02A8416B8CAD@mac.com>
-|3,0,4,1,1,0,1660171057,"+  | Aug 06 08:32am | Hukum Singh <hukumsingh@m | LINK                                                      |     15k | <681E0993-4673-4C64-AD6D-02A8416B8CAD@mac.com>"
+	    \end{itemize}
+|3,0,3,1,1,0,1660344728,"    \\end{itemize}"
+"4	CHAR	0
+	\item List item 1 goes here.
+	    \item List item 2 goes here.
+	    \begin{todolist}
+	      \item Sublist item 1 goes here.
+	      \item Sublist item 2 goes here.
+	    \end{todolist}
+	    \item List item 3 goes here
+	    \item List item 4 goes here.
+	  \end{todolist}
+	
+	
+|3,0,4,0,11,0,1660344724,"\\item List item 1 goes here.","    \\item List item 2 goes here.","    \\begin{todolist}","      \\item Sublist item 1 goes here.","      \\item Sublist item 2 goes here.","    \\end{todolist}","    \\item List item 3 goes here","    \\item List item 4 goes here.","  \\end{todolist}","",""
 "5	LINE	0
-	   | Aug 06 08:44am | YouTube <noreply@youtube. | New reply to a comment on "Linux r/unixporn Part 2"       |     26k | <000000000000442fa105e5939ffb@google.com>
-|3,0,5,1,1,0,1660171055,"   | Aug 06 08:44am | YouTube <noreply@youtube. | New reply to a comment on \"Linux r/unixporn Part 2\"       |     26k | <000000000000442fa105e5939ffb@google.com>"
+	  \begin{todolist}
+|3,0,5,1,1,0,1660344717,"  \\begin{todolist}"
 "6	LINE	0
-	+  | Aug 06 08:49am | Jamey Aebersold Jazz <new | Why wait? 12 $9.99 Play-a-longs just for you!             |     69k | <029abfc13cd03b6c41bb2f70c.282ccf4b6f.20220806144856.47d09c641a.e31af4e0@mail85.suw13.rsgsv.net>
-|3,0,6,1,1,0,1660171046,"+  | Aug 06 08:49am | Jamey Aebersold Jazz <new | Why wait? 12 $9.99 Play-a-longs just for you!             |     69k | <029abfc13cd03b6c41bb2f70c.282ccf4b6f.20220806144856.47d09c641a.e31af4e0@mail85.suw13.rsgsv.net>"
+	:q
+|3,0,6,1,1,0,1660336173,":q"
 "7	LINE	0
-	+  | Aug 06 09:26am | REI Outlet <REI_Gearmail@ | Savings Up to 70% Off Start Now!                          |     61k | <0.1.1F.3B5.1D8A9A8DC8B210E.0@omp.notices.rei.com>
-|3,0,7,1,1,0,1660171045,"+  | Aug 06 09:26am | REI Outlet <REI_Gearmail@ | Savings Up to 70% Off Start Now!                          |     61k | <0.1.1F.3B5.1D8A9A8DC8B210E.0@omp.notices.rei.com>"
+	
+|3,0,7,1,1,0,1660322724,""
 "8	LINE	0
-	+  | Aug 06 10:37am | Redbox <no-reply@email.re | Get $1.25 OFF a Movie Night!                              |     78k | <NM6B496932C0CF1CC8Dredbox_mkt_prod1@email.redbox.com>
-|3,0,8,1,1,0,1660171043,"+  | Aug 06 10:37am | Redbox <no-reply@email.re | Get $1.25 OFF a Movie Night!                              |     78k | <NM6B496932C0CF1CC8Dredbox_mkt_prod1@email.redbox.com>"
+	
+|3,0,8,1,1,0,1660317299,""
 "9	LINE	0
-	+  | Aug 06 12:20pm | Best Buy Anniversary Sale | An update from Best Buy... Don't pass up these DEALS - th |    201k | <471677590.462549.1659810031206.JavaMail.cloud@p2-elasticrender-05ee4c11d14762738>
-|3,0,9,1,1,0,1660171041,"+  | Aug 06 12:20pm | Best Buy Anniversary Sale | An update from Best Buy... Don't pass up these DEALS - th |    201k | <471677590.462549.1659810031206.JavaMail.cloud@p2-elasticrender-05ee4c11d14762738>"
+	
+|3,0,9,1,1,0,1660317298,""
 "w	CHAR	0
 	wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk
 |3,0,32,0,1,0,1659654088,"wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk"
-"-	CHAR	0
-	 
-|3,0,36,0,1,0,1660169938," "
+""-	CHAR	0
+	"
+|3,1,36,0,1,0,1660507620,"\""
 
 # File marks:
-'0  1  0  ~/.git/COMMIT_EDITMSG
-|4,48,1,0,1660176274,"~/.git/COMMIT_EDITMSG"
-'1  16  12  ~/.bash_aliases
-|4,49,16,12,1660176234,"~/.bash_aliases"
-'2  38  5  ~/.bash_aliases
-|4,50,38,5,1660176196,"~/.bash_aliases"
-'3  38  5  ~/.bash_aliases
-|4,51,38,5,1660176196,"~/.bash_aliases"
-'4  1  19  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,52,1,19,1660176184,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
-'5  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,53,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
-'6  41  3  ~/.vmail/default/vmailbuffer
-|4,54,41,3,1660174505,"~/.vmail/default/vmailbuffer"
-'7  102  0  ~/.vmail/default/vmailbuffer
-|4,55,102,0,1660171118,"~/.vmail/default/vmailbuffer"
-'8  8  0  ~/.vmail/default/vmailbuffer
-|4,56,8,0,1660171118,"~/.vmail/default/vmailbuffer"
-'9  2  26  ~/.vmailrc
-|4,57,2,26,1660169948,"~/.vmailrc"
+'0  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,48,1,0,1660510948,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+'1  4  41  ~/.bash_aliases
+|4,49,4,41,1660507695,"~/.bash_aliases"
+'2  4  0  ~/.bash_aliases
+|4,50,4,0,1660507504,"~/.bash_aliases"
+'3  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,51,1,0,1660507470,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+'4  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,52,1,0,1660507260,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+'5  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,53,1,0,1660507260,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+'6  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,54,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+'7  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,55,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+'8  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,56,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+'9  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,57,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
 
 # Jumplist (newest first):
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1660176274,"~/.git/COMMIT_EDITMSG"
--'  16  12  ~/.bash_aliases
-|4,39,16,12,1660176234,"~/.bash_aliases"
--'  16  12  ~/.bash_aliases
-|4,39,16,12,1660176234,"~/.bash_aliases"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660510948,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  4  41  ~/.bash_aliases
+|4,39,4,41,1660507695,"~/.bash_aliases"
+-'  4  41  ~/.bash_aliases
+|4,39,4,41,1660507695,"~/.bash_aliases"
+-'  1  0  ~/.scripts/account.sh
+|4,39,1,0,1660507551,"~/.scripts/account.sh"
+-'  1  0  ~/.scripts/account.sh
+|4,39,1,0,1660507551,"~/.scripts/account.sh"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1660507504,"~/.bash_aliases"
+-'  4  0  ~/.bash_aliases
+|4,39,4,0,1660507504,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1660176226,"~/.bash_aliases"
+|4,39,1,0,1660507489,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1660176226,"~/.bash_aliases"
--'  38  5  ~/.bash_aliases
-|4,39,38,5,1660176196,"~/.bash_aliases"
--'  38  5  ~/.bash_aliases
-|4,39,38,5,1660176196,"~/.bash_aliases"
--'  38  5  ~/.bash_aliases
-|4,39,38,5,1660176196,"~/.bash_aliases"
--'  38  5  ~/.bash_aliases
-|4,39,38,5,1660176196,"~/.bash_aliases"
--'  1  19  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,39,1,19,1660176184,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
--'  1  19  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,39,1,19,1660176184,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
--'  1  19  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,39,1,19,1660176184,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
--'  1  19  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,39,1,19,1660176184,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
--'  25  0  ~/.bash_aliases
-|4,39,25,0,1660176131,"~/.bash_aliases"
--'  25  0  ~/.bash_aliases
-|4,39,25,0,1660176131,"~/.bash_aliases"
--'  25  0  ~/.bash_aliases
-|4,39,25,0,1660176131,"~/.bash_aliases"
--'  25  0  ~/.bash_aliases
-|4,39,25,0,1660176131,"~/.bash_aliases"
+|4,39,1,0,1660507489,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1660176092,"~/.bash_aliases"
+|4,39,1,0,1660507489,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1660176092,"~/.bash_aliases"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-|4,39,1,0,1660176072,"~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  41  3  ~/.vmail/default/vmailbuffer
-|4,39,41,3,1660174505,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  102  0  ~/.vmail/default/vmailbuffer
-|4,39,102,0,1660171165,"~/.vmail/default/vmailbuffer"
--'  101  0  ~/.vmail/default/vmailbuffer
-|4,39,101,0,1660171165,"~/.vmail/default/vmailbuffer"
+|4,39,1,0,1660507489,"~/.bash_aliases"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660507470,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660507470,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660507470,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660507470,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660507260,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660507260,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660507260,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660507260,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  3  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,3,0,1660506676,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660506409,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660506409,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660506409,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1660506409,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  12  60  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,12,60,1660506378,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
+-'  4  29  ~/.scripts/accounting_formulas.py
+|4,39,4,29,1660506270,"~/.scripts/accounting_formulas.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/.git/COMMIT_EDITMSG
-	*	1660176268	0
+> ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+	*	1660510946	0
 	"	1	0
-	^	1	34
-	.	1	33
-	+	1	0
-	+	1	33
+	^	9	61
+	.	9	60
+	+	10	101
+	+	8	92
+	+	11	39
+	+	2	91
+	+	8	121
+	+	12	130
+	+	11	56
+	+	10	127
+	+	7	31
+	+	2	48
+	+	6	65
+	+	9	28
+	+	6	67
+	+	9	78
+	+	5	34
+	+	4	25
+	+	5	36
+	+	9	60
 
 > ~/.bash_aliases
-	*	1660176226	0
-	"	16	12
-	^	2	31
-	.	49	0
+	*	1660507693	0
+	"	4	41
+	^	4	42
+	.	4	42
 	+	1	17
 	+	1	15
-	+	11	13
-	+	13	22
-	+	67	74
-	+	68	67
-	+	13	0
-	+	13	53
-	+	13	44
-	+	13	0
-	+	13	45
-	+	13	79
-	+	28	57
-	+	29	63
-	+	13	0
+	+	12	13
+	+	14	22
+	+	68	74
+	+	69	67
+	+	14	0
+	+	14	53
+	+	14	44
+	+	14	0
+	+	14	45
+	+	14	79
+	+	29	57
+	+	30	63
+	+	14	0
 	+	1	0
-	+	31	13
+	+	32	13
 	+	1	2
-	+	23	200
-	+	13	38
-	+	18	49
-	+	13	61
-	+	30	48
+	+	24	200
+	+	14	38
+	+	19	49
+	+	14	61
+	+	31	48
 	+	1	0
-	+	13	0
+	+	14	0
 	+	1	0
-	+	13	0
-	+	32	0
-	+	46	0
-	+	50	0
-	+	53	0
-	+	64	0
-	+	1	0
-	+	64	0
-	+	1	0
-	+	6	44
-	+	1	0
-	+	10	0
-	+	12	0
-	+	13	0
-	+	18	0
-	+	19	0
-	+	22	0
-	+	24	0
-	+	50	0
+	+	14	0
+	+	33	0
+	+	47	0
+	+	51	0
+	+	54	0
 	+	65	0
-	+	6	40
 	+	1	0
-	+	39	104
+	+	65	0
 	+	1	0
-	+	4	41
-	+	29	45
+	+	7	44
 	+	1	0
-	+	2	0
-	+	6	0
-	+	8	0
-	+	9	0
-	+	18	0
-	+	22	0
-	+	28	0
-	+	38	0
-	+	40	0
-	+	49	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-	*	1660176183	0
-	"	1	19
-	^	1	20
-	.	1	19
-	+	1	28
+	+	11	0
+	+	13	0
+	+	14	0
+	+	19	0
+	+	20	0
+	+	23	0
+	+	25	0
+	+	51	0
+	+	66	0
+	+	7	40
+	+	1	0
+	+	40	104
+	+	1	0
+	+	5	41
+	+	30	45
 	+	1	0
 	+	3	0
+	+	7	0
+	+	9	0
+	+	10	0
+	+	19	0
+	+	23	0
+	+	29	0
+	+	39	0
+	+	41	0
+	+	50	0
+	+	3	0
+	+	1	59
+	+	4	42
+	i	1	0
+
+> ~/.scripts/account.sh
+	*	1660507691	0
+	"	5	12
+	^	5	13
+	.	5	12
+	+	2	0
+	+	3	0
+	+	3	186
+	+	3	0
+	+	4	0
+	+	5	12
+
+> ~/.scripts/accounting_formulas.py
+	*	1660506269	0
+	"	4	29
+	^	4	23
+	.	4	22
+	+	6	25
+	+	7	0
+	+	4	22
+
+> ~/Documents/the_vault/Church_Music/compositions/.git/COMMIT_EDITMSG
+	*	1660431630	0
+	"	1	13
+	^	1	14
+	.	1	14
+	+	1	14
+
+> ~/.bash_scripts/composition.sh
+	*	1660357948	0
+	"	1	0
+	^	7	35
+	.	5	12
+	+	3	78
+	+	5	5
+	+	8	0
+	+	7	34
+	+	5	12
+
+> ~/.scripts/composition.sh
+	*	1660346478	0
+	"	3	68
+	^	3	68
+	.	3	67
+	+	3	67
+
+> ~/Documents/the_vault/daily_checklists/latex/correspondence_checklist.tex
+	*	1660345753	0
+	"	1	0
+	.	3	0
+	+	3	0
+
+> ~/Documents/the_vault/daily_checklists/correspondence_checklist.tex
+	*	1660345575	0
+	"	18	12
+	^	18	13
+	.	18	0
+	+	6	23
+	+	11	104
+	+	15	39
+	+	8	47
+	+	10	1
+	+	19	4
+	+	19	0
+	+	10	25
+	+	11	121
+	+	18	0
+
+> ~/.scripts/colorblind.sh
+	*	1660342248	0
+	"	7	0
+
+> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
+	*	1660342145	0
+	"	17	0
+	.	2	0
+	+	1	0
+	+	1	4
+	+	1	0
+	+	2	0
+
+> ~/Documents/the_vault/daily_checklists/latex_todo_template.tex
+	*	1660341281	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+	*	1660336176	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	28
+	+	1	0
+	+	5	0
 	+	1	34
 	+	1	0
-	+	1	95
-	+	1	19
+	+	3	22
+	+	1	72
+	+	3	0
+	+	1	24
+	+	2	0
+	+	1	0
+
+> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/butterflies.sh
+	*	1660326546	0
+	"	3	0
+	^	4	0
+	.	3	0
+	+	5	71
+	+	7	0
+	+	2	0
+	+	7	69
+	+	3	0
+
+> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/procession.sh
+	*	1660325242	0
+	"	10	78
+	^	10	79
+	.	10	78
+	+	3	69
+	+	5	15
+	+	5	0
+	+	3	0
+	+	5	15
+	+	1	1
+	+	3	86
+	+	1	1
+	+	12	67
+	+	8	0
+	+	11	0
+	+	7	0
+	+	9	0
+	+	10	78
 
 > ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-	*	1660174516	0
-	"	1	0
+	*	1660325200	0
+	"	6	0
 	.	8	0
 	+	7	0
 	+	5	76
@@ -559,23 +708,215 @@ $.scripts
 	+	11	0
 	+	8	0
 
-> ~/.vmail/default/vmailbuffer
-	*	1660171178	0
-	"	41	3
-	.	102	0
-	+	156	0
-	+	102	0
-	+	103	0
-	+	104	0
-	+	105	0
-	+	106	0
-	+	102	0
+> ~/Documents/work_and_gigs/district_51/colorado_west_2022/essay.tex
+	*	1660318840	0
+	"	1	0
+	^	27	38
+	.	27	37
+	+	8	0
+	+	5	0
+	+	8	0
+	+	6	16
+	+	9	14
+	+	11	0
+	+	43	13
+	+	1	14
+	+	2	11
+	+	1	0
+	+	12	1
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	1
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	28	336
+	+	27	37
+
+> ~/Documents/work_and_gigs/district_51/colorado_west_2022/essay_outline.txt
+	*	1660317186	0
+	"	1	0
+	^	30	816
+	.	30	816
+	+	13	22
+	+	11	57
+	+	15	0
+	+	17	64
+	+	18	1
+	+	18	0
+	+	27	2
+	+	26	0
+	+	27	437
+	+	30	0
+	+	30	816
+
+> ~/Documents/the_vault/latex/first_latex.tex
+	*	1660316686	0
+	"	14	13
+	^	14	15
+	.	14	0
+	+	17	14
+	+	16	54
+	+	1	43
+	+	7	0
+	+	12	10
+	+	15	1
+	+	14	0
+
+> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/.project_aliases
+	*	1660252628	0
+	"	33	0
+	^	44	0
+	.	43	92
+	+	1	93
+	+	18	0
+	+	3	68
+	+	8	86
+	+	8	87
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	29	0
+	+	31	0
+	+	33	0
+	+	10	0
+	+	6	60
+	+	14	0
+	+	24	0
+	+	13	0
+	+	16	0
+	+	13	0
+	+	23	0
+	+	25	0
+	+	23	0
+	+	25	0
+	+	23	0
+	+	23	88
+	+	21	0
+	+	22	0
+	+	20	0
+	+	19	0
+	+	19	89
+	+	21	0
+	+	21	80
+	+	25	0
+	+	29	0
+	+	29	87
+	+	31	0
+	+	31	83
+	+	33	0
+	+	33	86
+	+	35	0
+	+	35	87
+	+	36	0
+	+	37	0
+	+	37	80
+	+	39	0
+	+	39	86
+	+	41	0
+	+	41	82
+	+	43	0
+	+	43	92
+
+> ~/.bashrc
+	*	1660246500	0
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
+
+> ~/.scripts/feyn.py
+	*	1660244630	0
+	"	25	3
+	^	27	24
+	.	28	27
+	+	1	0
+	+	9	8
+	+	13	0
+	+	18	0
+	+	15	17
+	+	17	5
+	+	39	0
+	+	23	17
+	+	22	20
+	+	30	13
+	+	33	28
+	+	36	31
+	+	27	22
+	+	28	22
+	+	23	22
+	+	23	28
+	+	17	1
+	+	36	0
+	+	37	1
+	+	36	36
+	+	23	0
+	+	24	18
+	+	23	24
+	+	36	37
+	+	27	22
+	+	28	22
+	+	27	27
+	+	28	28
+	+	27	23
+	+	28	27
+
+> ~/.vimrc
+	*	1660238498	0
+	"	25	9
+	^	25	10
+	.	25	9
+	+	1	0
+	+	22	0
+	+	1	0
+	+	25	9
+
+> ~/.scripts/feyn.sh
+	*	1660236904	0
+	"	1	0
 
 > ~/.vmail/default/current_message.txt
-	*	1660171164	0
+	*	1660235562	0
 	"	1	0
 	.	1	0
 	+	1	0
+
+> ~/.vmail/default/vmailbuffer
+	*	1660234054	0
+	"	12	22
+	.	12	0
+	+	249	0
+	+	195	0
+	+	196	0
+	+	197	0
+	+	198	0
+	+	199	0
+	+	195	0
+	+	102	0
+	+	12	0
+
+> ~/.gitignore
+	*	1660176402	0
+	"	2	0
+	^	6	0
+	.	5	9
+	+	3	3
+	+	5	9
+
+> ~/.git/COMMIT_EDITMSG
+	*	1660176372	0
+	"	1	41
+	^	1	42
+	.	1	41
+	+	1	0
+	+	1	41
 
 > ~/.vmail/default/compose_message.txt
 	*	1660170910	0
@@ -598,20 +939,6 @@ $.scripts
 	+	1	36
 	+	3	20
 	+	2	26
-
-> ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
-	*	1660080068	0
-	"	1	0
-	^	4	128
-	.	4	127
-	+	4	101
-	+	3	92
-	+	5	39
-	+	2	91
-	+	3	121
-	+	6	130
-	+	5	56
-	+	4	127
 
 > ~/.zshrc
 	*	1660078910	0
@@ -657,32 +984,12 @@ $.scripts
 	+	15	12
 	+	16	0
 
-> ~/.bash_scripts/composition.sh
-	*	1659840417	0
-	"	1	0
-	^	7	35
-	.	5	12
-	+	3	78
-	+	5	5
-	+	8	0
-	+	7	34
-	+	5	12
-
 > ~/Documents/Life_Documents/camping_checklist.txt
 	*	1659743334	0
 	"	7	6
 	^	7	7
 	.	7	7
 	+	7	7
-
-> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-	*	1659737724	0
-	"	10	0
-	.	2	0
-	+	1	0
-	+	1	4
-	+	1	0
-	+	2	0
 
 > ~/.bash_scripts/colorblind.sh
 	*	1659736703	0
@@ -940,13 +1247,6 @@ $.scripts
 	+	3	93
 	+	9	8
 
-> ~/.vimrc
-	*	1659719324	0
-	"	1	8
-	^	1	9
-	.	1	9
-	+	1	9
-
 > ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
 	*	1659675214	0
 	"	1	17
@@ -1024,14 +1324,6 @@ $.scripts
 	+	6	24
 	+	8	24
 
-> ~/.gitignore
-	*	1659558732	0
-	"	6	0
-	^	6	0
-	.	5	9
-	+	3	3
-	+	5	9
-
 > ~/Documents/the_vault/lilypad_projects/notes_test.ly
 	*	1659553063	0
 	"	4	9
@@ -1080,23 +1372,6 @@ $.scripts
 	^	1	14
 	.	1	14
 	+	1	14
-
-> ~/Documents/work_and_gigs/district_51/colorado_west_2022/essay_outline.txt
-	*	1659207270	0
-	"	30	815
-	^	30	816
-	.	30	816
-	+	13	22
-	+	11	57
-	+	15	0
-	+	17	64
-	+	18	1
-	+	18	0
-	+	27	2
-	+	26	0
-	+	27	437
-	+	30	0
-	+	30	816
 
 > ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/merge_work.sh
 	*	1659129672	0
@@ -1151,17 +1426,6 @@ $.scripts
 	+	3	61
 	+	5	42
 
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/procession.sh
-	*	1659034736	0
-	"	5	15
-	^	5	45
-	.	5	15
-	+	3	69
-	+	5	15
-	+	5	0
-	+	3	0
-	+	5	15
-
 > ~/Documents/work_and_gigs/ra_lasater/./bash_scripts/procession.sh
 	*	1659033915	0
 	"	1	0
@@ -1209,70 +1473,6 @@ $.scripts
 > zipfile:///Users/christopherreilly/Documents/work_and_gigs/ra_lasater/blossom/Blossom.docx::word/document.xml
 	*	1658703062	0
 	"	1	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/.project_aliases
-	*	1658542478	0
-	"	44	0
-	^	44	0
-	.	43	92
-	+	1	93
-	+	18	0
-	+	3	68
-	+	8	86
-	+	8	87
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	29	0
-	+	31	0
-	+	33	0
-	+	10	0
-	+	6	60
-	+	14	0
-	+	24	0
-	+	13	0
-	+	16	0
-	+	13	0
-	+	23	0
-	+	25	0
-	+	23	0
-	+	25	0
-	+	23	0
-	+	23	88
-	+	21	0
-	+	22	0
-	+	20	0
-	+	19	0
-	+	19	89
-	+	21	0
-	+	21	80
-	+	25	0
-	+	29	0
-	+	29	87
-	+	31	0
-	+	31	83
-	+	33	0
-	+	33	86
-	+	35	0
-	+	35	87
-	+	36	0
-	+	37	0
-	+	37	80
-	+	39	0
-	+	39	86
-	+	41	0
-	+	41	82
-	+	43	0
-	+	43	92
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/butterflies.sh
-	*	1658541194	0
-	"	4	0
-	^	3	72
-	.	5	0
-	+	3	71
-	+	5	0
 
 > ~/Documents/the_vault/Church_Music/compositions/.bash_aliases
 	*	1658429572	0

@@ -12,5 +12,6 @@
 	required = true
 [init]
 	default = branch
+	defaultBranch = master
 [core]
 	editor = vim

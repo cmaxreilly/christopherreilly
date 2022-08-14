@@ -1,6 +1,7 @@
-
+alias check="cd ~/Documents/the_vault/daily_checklists; ls"
+alias edvim="vim ~/.vimrc"
 alias scr="cd ~/.scripts/"
-alias account="open -a libreoffice.app ~/Documents/work_and_gigs/studio/business_documents/Max_Spreadsheets_2022.ods; vim ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+alias account="bash ~/.scripts/account.sh"
 alias apps="cd /Applications/; ls"
 alias ashish="open -a safari https://www.youtube.com/c/AshishXiangyiKumar"
 alias cblind='bash ~/.scripts/colorblind.sh'

@@ -17,12 +17,3 @@ pip="pip3"
 export PATH="/usr/local/anaconda3/bin:$PATH"
 
 export PATH="/usr/local/sbin:$PATH"
-
-##
-# Your previous /Users/christopherreilly/.bash_profile file was backed up as /Users/christopherreilly/.bash_profile.macports-saved_2022-08-26_at_17:43:34
-##
-
-# MacPorts Installer addition on 2022-08-26_at_17:43:34: adding an appropriate PATH variable for use with MacPorts.
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-# Finished adapting your PATH environment variable for use with MacPorts.
-

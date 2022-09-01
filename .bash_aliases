@@ -1,15 +1,22 @@
-alias check="cd ~/Documents/the_vault/daily_checklists; ls"
-alias edvim="vim ~/.vimrc"
-alias scr="cd ~/.scripts/"
+
+
+alias gfc="cd ~/Documents/work_and_gigs/studio/github_for_composers.github.io/; ls"
 alias account="bash ~/.scripts/account.sh"
+alias allen="cd ~/Documents/work_and_gigs/allen_adair/nursing_home_gig/"
 alias apps="cd /Applications/; ls"
 alias ashish="open -a safari https://www.youtube.com/c/AshishXiangyiKumar"
+alias blog="gvim ~/Documents/the_vault/Code/website/cmaxreilly.github.io/blog.html"
 alias cblind='bash ~/.scripts/colorblind.sh'
+alias check="cd ~/Documents/the_vault/daily_checklists; ls"
 alias codedir="cd ~/documents/the_vault/code/"
 alias comp="bash ~/.scripts/composition.sh"
+alias correspond="open ~/Documents/the_vault/daily_checklists/latex/correspondence_checklist.pdf"
+alias deep="cd ~/Documents/the_vault/DeepBach; ls"
 alias doccopy="bash /Volumes/T7/.scripts/max_copy_script.sh"
-alias edali="vim ~/.bash_aliases"
-alias edbash="vim ~/.bash_profile"
+alias draftblog="gvim ~/Documents/the_vault/Code/website/cmaxreilly.github.io/blog_drafts.md"
+alias edali="gvim ~/.bash_aliases"
+alias edbash="gvim ~/.bash_profile"
+alias edvim="vim ~/.vimrc"
 alias edz="vim ~/.zshrc"
 alias finder="open -a finder ."
 alias findn="find ~ -type d -name"
@@ -25,6 +32,7 @@ alias jup="jupyter notebook"
 alias kitchen='open ~/documents/the_vault/daily_checklists/kitchen_checklist.pages'
 alias lib="open -a safari https://cmu.marmot.org"
 alias live="open -a 'Ableton Live 11 Standard.app'"
+alias machine='cd ~/Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/; ls'
 alias met="open ~/Documents/the_vault/metronomes\ Project/metronomes.als"
 alias miranda="bash ~/.scripts/miranda.sh"
 alias mon="open ~/documents/the_vault/daily_checklists/monday_checklist.pages"
@@ -45,7 +53,10 @@ alias run='open ~/documents/the_vault/daily_checklists/daily_run.pages'
 alias safari="open -a safari"
 alias sbash="source ~/.bash_profile"
 alias scec="open ~/documents/work_and_gigs/swing_city_express/swing_city_express_checklists.pages"
+alias scr="cd ~/.scripts/"
 alias scram='open ~/documents/the_vault/daily_checklists/scrambled_eggs.pages'
+alias search="sh ~/.scripts/search.sh"
+alias shootc="open ~/Documents/guns_and_hunting/shooting_overnight_packing_list.odt"
 alias snek="python3 ~/documents/the_vault/Code/games/snake.py"
 alias spacerace="bash ~/documents/the_vault/code.scripts/spacerace.sh"
 alias stretch="open ~/documents/the_vault/logic/stretch_timer/Bounces/stretch_timer.mp3"
@@ -60,9 +71,10 @@ alias tcrtd="open ~/documents/academic_documents/CMU/taos_cultural_revolution/es
 alias tcrwc="open ~/documents/academic_documents/CMU/taos_cultural_revolution/midterm/midterm_works_cited.odt"
 alias thurs="open ~/documents/the_vault/daily_checklists/thursday_checklist.pages"
 alias transcribe="open ~/Music/Ableton/'User Library'/Templates/transcription_template_1.0.als; open -a '4k Video Downloader.app'"
+alias treasure="cd ~/Documents/work_and_gigs/district_51/gjhs/22-23/drama/treasure_island/; ls"
+alias treasuretd="vim ~/Documents/work_and_gigs/district_51/gjhs/22-23/drama/treasure_island/README.md"
 alias tues="open ~/documents/the_vault/daily_checklists/tuesday_checklist.pages"
 alias vsali="code ~/.bash_aliases"
 alias wcjoc="open ~/documents/work_and_gigs/wcjo/wcjo_checklists.pages"
-# project links
-source ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/.project_aliases
 source ~/Documents/the_vault/Church_Music/compositions/.bash_aliases
+source ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/.project_aliases

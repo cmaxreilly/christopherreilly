@@ -1,500 +1,500 @@
-python3 feyn.py 
-python3 feyn.py 
-python3 feyn.py 
-python3 feyn.py 
-python3 feyn.py 
-exit
 ls
-exit
+cd 
 ls
-ls -a
-exit
+cd OneDrive_-_Colorado_Mesa_University
 ls
 cd ..
 ls
-cd procession/
+cd Colorado_Mesa_University
 ls
+cd Olori\,\ Erikemo\ -\ Max\ Rielly/
 ls
-ls -a
-cd ..
+cp ** ~/Documents/academic_documents/CMU/senior_recital/recordings/
+brew search teams
+brew install microsoft-teams
 ls
-ls -a
-cd .bash_scripts/
-ls -a
-ls
-cd ../procession/
-ls
-mv *.MID midi_files
-mv *.pdf pdfs
-mv *.sib sibelius_files/
-ls
-procession 
-ls
-cd midi_files/
-ls
-cd ../logic_files/
-ls
-rm take_5.logicx/
-rm -r take_5.logicx/
-ls
-open take_1.logicx/
-open take_2.logicx/
-open take_3.logicx/
-open take_4.logicx/
-exit
-echo "$SHELL"
-account
 cd
-cd .bash_scripts/
 ls
-edali
-account
+cd ~/Documents/MuseScore3/Plugins
 ls
-ed colorblind.sh 
-ls
-cat colorblind.sh 
-ls
-cd ..
-ls
-ls -a
-mkdir .scripts
-ls
-ls -a
-mv .bash_scripts/** .scripts
-cd .scripts; ls
-cd ..
-ls
-ls -a
-rm -r .bash_scripts/
-ls
-edali
-vmail
-brew install ruby-dev
-brew install ruby-build
-gem install vmail
-sudo gem install vmail
-vmail
-ls
-vim .vmailrc
-vmail
-vmail
-slace
-ra
-ragit
-edali
-sbash
-ragit
 cd
-edali
+cd ~/Documents/the_vault/
 ls
-gacp
+ls | less
+cd DeepBach/
+ls
+mv deepBachMuseScore.qml ~/Documents/MuseScore3/Plugins/; cd ~/Documents/MuseScore3/Plugins/
+cd -
+ls
+python musescore_flask_server.py 
+cd -
+ls
+python ~/Documents/the_vault/DeepBach/musescore_flask_server.py 
+brew unlink OpenMP
+cd ..
+ls
+cd ~
+ls
+cd Documents/the_vault/
+mkdir umesh
+vim umesh/umesh_question.md
+vim umesh/umesh_question.md
+python --version
+cd 
+ls Downloads/
+ls Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/
+mv Downloads/MX-GUYS\ AND\ DOLLS\ CALLBACK\ MUSIC.pdf  Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/
+clear
+account
+cd ~/.scripts; python3
+exit
+account
+cd Documents/the_vault/umesh/
+ls
+mkdir the_machine_learning_journey
+ls
+cd the_machine_learning_journey/
+ls
+git init
+gh repo create
+gh repo create
+gh repo create
+ls
+cd the_machine_learning_journey.github.io/
+ls
+vim index.html
+gvim index.htmle
+gvim index.html 
+ls
 git add .
 ls
-ls -a
-git add .scripts
-git status
-git status | less
+git commit
+git push
+git push --set-upstream origin master
+vim README.md
+ra
 gacp
-vim .gitignore 
-clear
-ls
-clear
-ls
-cd Downloads/
-ls
-rm 2022CMReillyAgreement.pdf Community-of-Christ-Leoni\ -\ in\ E\ minor.pdf m_turbotax_1040h_2020.530.0100.dmg 
-ls
-rm 2022-07-14\ Statement\ -\ USB\ Checking\ 4113.pdf 
-ls
+cd ~/Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/
+edali
+echo "alias machine='cd ~/Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/; ls'" >> ~/.bash_aliases 
+sbash
+machine
+machine
+gvim index.html 
+gacp
+machine
+vim index.html 
+gvim index.html 
+gvim index.html 
+gacp
+gvim index.html 
+machine
+gvim index.html 
+gacp
+gvim index.html 
+machine 
+gvim index.html 
+gvim index.html 
+gacp
 cd
 ls
-cd Documents/
+ls Downloads/
+mv Downloads/favicon_io.zip Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/
+machine 
+ls
+gacp
+open favicon_io.zip 
+ls
+rm favicon_io.zip 
+mv favicon_io/** ..
+ls
+ls
+cd fav
+cd favicon_io/
+ls
+cd
+mv Downloads/favicon_io.zip Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/
+ls Downloads/
+machine 
+rm -r favicon_io
+open favicon_io.zip 
+ls
+mv favicon_io/** .
+ls
+gvim index.html 
+open index.html 
+open -a safari index.html 
+cd ~/.scripts/; python
+exit
+webp
+edali
+cd Documents/the_vault/Code/website/;ls
+cd cmaxreilly.github.io/
+l
+ls
+gvim blog.html
+edali
+sbash
+blog
+edali
+sbash
+draftblog 
+ls
+touch .gitignore
+gvim .gitignore 
+gacp
+git pull
+git push
+ls
+rm blog_drafts.md 
+blog
+account
+cd ~/Documents/work_and_gigs/studio/
+ls
+cd business_documents/
+ls
+git init
+git add .
+git commit
+git add .
+git commit
+git push
+mv ../Invoices/ .
+ls
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.atrun.plist 
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.atrun.plist 
+at 9:07 am today
+at 9:08 am today
+ls
+clear
+cd
+machine
+gvim index.html 
+ls
+cd ../
+ls
+cd..
+ls
+cd ..
+ls
+cd ..
+ls
+mkdir family_website
+gh repo create
+ls
+cd kilgormanly.github.io/
+ls
+gvim README.md
+ls
+git add .
+git commit
+git push
+git push --set-upstream origin master
+gvim README.md 
+gvim README.md 
+gvim index.html
+gvim kitchen_checklist.html
+kitchen
+cd ~/Documents/
 ls
 cd the_vault/
 ls
-ls | less
+cd daily_checklists/
+ls
+open kitchen_checklist.odt 
+cd ~/Documents/the_vault/kilgormanly.github.io/
+ls
+safari kitchen_checklist.html 
+gvim kitchen_checklist.html
+gvim README.md 
+gvim index.html 
+safari index.html 
+gvim README.md 
+ls
+cd hope_fore_the_dawn/
+ls
+mv **.sib sibelius_files/
+mv **.pdf pdfs
+mv **.MID midi_files/
+ls
+cd sibelius_files/
+ls
+rm Hope\ Fire\ The\ Dawn.sib 
+ls
 cd ..
 ls
-cd Code/
+exit
+correspond 
+edali
+hope_fore 
+ra
+gvim README.md 
+gvim .bash_scripts/hope_for_the_dawn.sh 
+gacp
+gacp
+exit
+cd Documents/the_vault/kilgormanly.github.io/
+ls
+gacp
+vim README.md 
+gacp
+exit
+machine
+gvim index.html 
+gacp
+gvim index.html 
+gvim README.md 
+gacp
+cd ../../;l
 ls
 cd ..
 ls
-rm -r Code/
-cd work_and_gigs/
+cd kilgormanly.github.io/
 ls
+gvim README.md 
+gacp
+ra
+gvim .bash_scripts/light_by_seven.sh 
+cd light_by_seven/
+ls
+mv **.pdf pdfs
+mv **.sib sibelius_files/
+mv **.mid midi_files/
+ls
+ls
+cd logic_files/
+ls
+rm -r Project/
+ra
+ls
+gacp
+clear
+exit
+wcjoc
+jake
+grep -V
+tree
+tree | grep the_vault
+tree | grep *.logicx
+tree | grep **.logicx
+tree | grep **.logicx | less
+tree | grep **.logicx | wc -l
+find the_vault
+find -name the_vault
+find /Documents/ -name the_vault
+find /HOME/ -name "Documents" print
+find /HOME/ -name "Documents" -print
+find $HOME -name "Documents" -print
+find $HOME -name "Documents" -print | less
+find $HOME -name "the_vault" -print
+find $HOME -name "ra_lasater"
+find $HOME -name cmu_**
+find $HOME -name r*
+find $HOME -name .**
+/Applications/Wine\ Stable.app/Contents/Resources/wine/bin/wine ; exit;
+brew uninstall wine-stable
+brew uninstall zdoom
+cd 
+ls
+cd Downloads/
+ls
+brew search zoom
+brew install zdoom
+zdoom
+ratd
+ratd
+wine
+wine
+brew upgrade wine
+brew search wine stable
+brew update wine-stable
+brew upgrade wine-stable
+wine
+wich wine
+which wine
+file 'which wine'
+wine -version
+brew install wine64
+brew tap homebrew/cask-versions
+brew install --cask --no-quarantine wine-stable
+brew reinstall --cask wine-stable
+brew install winetricks
+wine
+cd /usr/local/bin/wine
+ls
+cd /usr/local/bin/
+ls
+wine64
+sudo wine64
+cd Downloads/
+ls
+mv Win10_21H2_English_x64.iso ~/Documents/the_vault/Code/disk_images/
+ls
+mv ** ~/Documents/the_vault/Code/disk_images/
+brew search konsole
+brew search macports
+sudo port install konsole
+xcodebuild -license
+sudo xcodebuild -license
+xcode-select --install
+port
+port
+sudo port install konsole
+konsole
+konsole
+cd /Volumes/
+ls
+ls
+cd /Volumes/
+ls
+diskutil list
+cd
+cd Documents/the_vault/Code/disk_images/
+ls
+cd ..
+mv disk_images/ iso_files
+mkdir disk_images
+hdutil convert iso_files/manjaro-kde-21.3.7-220816-linux515.iso -format UDRW -o disk_images/
+hduitl
+brew install hdutil
+diskutil
+hdiutil convert iso_files/manjaro-kde-21.3.7-220816-linux515.iso -format UDRW -o disk_images/
+cd disk_images
+ls
+cd ..
+ls
+hdiutil convert iso_files/manjaro-kde-21.3.7-220816-linux515.iso -format UDRW -o disk_images/manjaro-kde-21.3.7-220816-linux515
+cd /Volumes/
+ls
+cd -
+mv disk_images/manjaro-kde-21.3.7-220816-linux515.dmg /Volumes/NOTREAL/
+brew search rufus
 edali
 cd ~/Documents/the_vault/daily_checklists/
 ls
-git init
-gh repo create
-gh repo create
-ls
-git add .
-git commit
-ls -a
-cd .git/
-ls
+cd Documents/the_vault/; ls | less
 cd ..
 ls
-git status
-git add .
-git status
-clear
+cd guns_and_hunting/
 ls
-git pull
-ls
-cd ..
-ls
-cd ..
-ls
-cd 
-ls
-comp
-vmail
-ls
-cd scripts
-ls
-cd .scripts/
-ls
-vim feyn.sh 
-ls
-vim feyn.py 
-python feyn.py 
-vim feyn.py 
-cd 
 edali
-edvim
+shoot
 sbash
-edvim
-edali
+shootc
+hdiutil convert iso_files/manjaro-kde-21.3.7-220816-linux515.iso -format UDRW -o /Volumes/NOTREAL/manjaro-kde-21.3.7-220816-linux515
+hdiutil convert ~/Documents/the_vault/Code/iso_files/manjaro-kde-21.3.7-220816-linux515.iso -format UDRW -o /Volumes/NOTREAL/manjaro-kde-21.3.7-220816-linux515
 ls
-cd .scripts/
-ls
-vim feyn.py 
-ls -a
 cd
-ls -a
-vim .bashrc
+ls
+cp ~/Documents/work_and_gigs/ra_lasater/ Google\ Drive
+ls
+cd Google\ Drive
+ls
+cd My\ Drive/
+ls
+rm binary_star/ blossom/ butterflies/ enchanting_rae/ enter_as_one/ ipad/ light_by_seven/ lotus_rising/ procession/ prodigal_return/ rae_in_e/ six,_nine_and_3/ snow_lace/ the_scent_of_light/
+rm -r binary_star/ blossom/ butterflies/ enchanting_rae/ enter_as_one/ ipad/ light_by_seven/ lotus_rising/ procession/ prodigal_return/ rae_in_e/ six,_nine_and_3/ snow_lace/ the_scent_of_light/
+cd ~/Downloads/
+ls
+mv **.pdf ~/Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/
+cd ~/Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/
+ls
+ls
+sh search.sh colorblind
+edali
 sbash
-ls -a
+cd 
+search the_vault
+search kyle
+search tax
+ls
+cd Documents/
+tax
+search tax
+ls
+cd ~
+ls
+vim .scripts/search.sh 
+cd Documents/Life_Documents/Tax/
+ls
+mkdir 2021_taxes
+mkdir 2017_taxes 2018_taxes 2019_taxes
+ls
+mv 2017\ ** 2017_taxes/
+ls
+mv 2019\ ** 2018_taxes/
+ls
+ls
+mv 2018\ * 2018_taxes/
+ls
+open Tax\ Notification\ 2.htm 
+rm -r Tax\ Notification**
+ls
+open tax\ 2.pdf 
+ls
+mkdir 2016_taxes
+mv tax\ 2.pdf 
+mv tax\ 2.pdf 2016_taxes/
+open tax.pdf 
+mv tax.pdf 2016_taxes/
+ls
+cd 2021_taxes/
+ls
+cd
+ls ~/Downloads/
+ls
+ls ~/Downloads/
+mv ~/Downloads/ ~/Documents/Life_Documents/Tax/2021_taxes/
+mv ~/Downloads/2021_TaxReturn.pdf ~/Documents/Life_Documents/Tax/2021_taxes/
+mv ~/Downloads/ ~/load
+sudo mv ~/Downloads/ ~/load
+ls
+sudo mv ~/Documents/ ~/docs
+ls
+cd docs/
+ls
+cd ~/load/
+ls
 edali
-butterflies 
-ls
-ra
-cd butterflies/
-ls
-rm PIANO001.MID 
-ls
-mv PIANO002.MID take_1.mid
-mv PIANO003.MID take_2.mid
-mv PIANO004.MID take_3.mid
-mv PIANO005.MID take_4_both_hands.mid
-mv PIANO006.MID take_5_both_hands.mid
-mv PIANO007.MID take_6_both_hands.mid
-ls
-mkdir midi_files; mv take**.mid midi_files/
-ls
-cd midi_files/
-ls
-cd ..
-ls
-mkdir logic_projects mv tak** logic_projects/
-ls
-ls
-cd mv
-ls
-cd ..
-rm mv
-rm -r mv
-ls
-cd logic_projects/
-ls
-cd ..
-ls
-mv tak**x logic_projects/
-ls
-mkdir sibelius_files; mv **.sib sibelius_files
-ls
-mkdir pdfs; mv **.pdf pdfs
-ls
-cd ..
-ls
-mkdir enter_as_one.sib
-ls
-rm -r enter_as_one.sib/
-ls
-mkdir enter_as_one
-mv Enter\ As\ One.sib enter_as_one/
-mkdir **/sibelius_files
-cd binary_star/
-ls
-cd ..
-ls
-GLOBALIGNORE="butterflies"
-ls
-ls *
-ls
-cd butterflies/
-ls
-mv ** b**
-cd ..
-ls
-mv butterflies/ ../butterflies
-ls
-mkdir **/sibelius_files
-mkdir */sibelius_files
-alias mkall="mkdir sibelius_files pdfs logic_files midi_files"
-cd binary_star/
-mkall
-ls
-cd ..
-tree
-brew install tree
-tree
-tree | less
-ls
-blossom
-cd blossom/
-mkall 
-cd ../enchanting_rae/; mkall
-ls
-cd ../enter_as_one/; mkall; cd ../hope_fore_the_dawn/;mkall; cd ../light_by_seven/;mkall; cd ../lotus_rising/;mkall;cd ../procession/;mkall;cd ../prodigal_return/;mkall; cd ../rae_in_e/;mkall;cd ../six,_nine_and_3/;mkall
-cd ../snow_lace/;mkall;cd ../the_scent_of_light/;mkall
-ls
-tree
-cd ..
-ls
-for sibelius_file in */*.sib; do mv sibelius_file sibelius_files; done
-cd binary_star/
-ls
-for sibelius_file in **/**.sib; do mv sibelius_file sibelius_files; done
-ls
-clear
-ls
-cd ..
-ls
-cd binary_star/
-ls
-cd ..
-mv binary_star/**.sib binary_star/sibelius_files/
-for directory in **; do move direcory/**.sib directory/sibelius_files/; done
-for directory in **; do mv direcory/**.sib directory/sibelius_files/; done
-ls
-cd binary_star/
-ls
-cd ..
-ls
-mv blossom/**.sib blossom/sibelius_files/
-mv enchanting_rae/**.sib enchanting_rae/sibelius_files/
-gacp
-mv ../butterflies/ ./butterflies
-ls
-gacp
-ls
-ls -a
-cd .bash_scripts/
-ls
-vim procession.sh 
-ls
-gacp
-git add .
-ls
-git commit
-git add .
-cd ..
-ls
-gacp
-ls
-cd
-cd Documents/the_vault/
-mkdir latex
-cd latex/
-ls
-vim first_latex.tex
-pdflatex
-brew install pdflatex
-brew install basictex
-eval "$(/usr/libexec/path_helper)"
-ls
-basictex
-ls
-pdflatex first_latex.tex
-ls
-open first_latex.pdf 
-exit
-pdftex essay.tex 
-ls
-open essay.pdf 
-pdftex essay.tex 
-pdftex essay.tex 
-ls
-pdftex essay.tex 
-pdflatex
-ls
-open essay.pdf 
-pdflatex
-open essay.pdf 
-open essay.pdf 
-exit
-pdflatex
-ls
-open essay.pdf 
-rm essay.pdf
-pdflatex essay.tex
-open essay.pdf 
-exit
-ls
-cd ../procession
-ls
-cd logic_files/
-ls
-open take_4.logicx/
-open take_3.logicx/
-ls
-exit
-pwd
-cd butterflies; ls
-ls *
-rm sibelius_files/Butterflies.sib 
-rm pdfs/Butterflies\ -\ Full\ Score.pdf 
-ls
-mv take_6.logicx/ logic_projects/
-cd logic_projects/
-ls
-cd ..
-ls
-rm take_6.logicx/
-rm -r take_6.logicx/
-cd logic_projects/
-ls
-open take_1.logicx/
-open take_2.logicx/
-ls
-cd ../..
-ls
-gacp
-git config
-ls
-ls
-gacp
-ls
-ls
-cd butterflies/
-ls
-cd logic_projects/
-ls
-open take_1.logicx/
-open take_2.logicx/
-open take_3.logicx/
-open take_4.logicx/
-open take_1.logicx/
-cd ..
-ls
-cd ..
-ls
-cd procession/
-l
-ls
-cd logic_files/
-ls
-open take_3.logicx/
-open take_4.logicx/
-ls
-cd ..
-l
-ls
-cd ..
-ls
-cd enter_as_one/
-ls
-open Enter\ As\ One.sib 
-ls
-ra
-git pull
-git pull
-exit
-ls
-pdflatex correspondence_checklist.tex 
-pdflatex correspondence_checklist.tex 
-ls
-mkdir latex
-mv corr** latex
-ls
-mv latex_todo_template.tex latex
-ls
-cd latex
-ls
-open correspondence_checklist.pdf 
-vim correspondence_checklist.tex 
-pdflatex correspondence_checklist.tex 
-ls
-open correspondence_checklist.pdf 
-cd
-script
-ls
-scrip
-scr
-ls
-vim composition.sh 
-comp
-edali
-edali
-cd .scripts/
-ls
-vim colorblind.sh 
-edali
-cblind
-cblind
-check
-ls **.tex
-vim correspondence_checklist.tex 
-:q
-ls
-exit
-python3
-python3
 cd
 ls
-vim .scripts/accounting_formulas.py
-python
+mv load Downloads
+sudo mv load Downloads
+sudo mv docs Documents
 ls
-cd .scripts/
-python
+cd Documents/
 ls
-python
+mv Life_Documents/ life_documents
 ls
-vim accounting_formulas.py 
-python
-exit
-cd ~/.scripts/; python
+cd life_documents/
 ls
-python
-exit
-cd Documents/the_vault/c
-cd Documents/the_vault/Church_Music/compositions/
+mv Tax/ tax
 ls
-gh repo create
-git init
-git config --global init.defaultBranch master
-git add .
-git commit
-gh repo create
-account
-account
-account
-cd ~/.scripts; python3
+cd tax/
+ls
+cd 2021_taxes/
+ls
+open 2021_TaxReturn.pdf 
 cd
-cd ~/.scripts; python; from accounting_formulas import *
+cd Documents/life_documents/ ls
+cd Documents/life_documents/ ;ls
+mkdir thompson
+mv Lorena\ Thompson\ Letter** thompson/
+rm **2**
 ls
-cd ~/.scripts; python3; from accounting_formulas import *
+cd Financial
 ls
-exit
-account
-cd ~/.script; python3
-cd ~/.scripts; python3
-exit
+cd ..
 ls
-python3
+rm Dearest\ Clingman.docx 
+cd Games/
 ls
-cd
+rm **2**
+ls
+cd ..
+ls
+rename
+brew search rename
+brew install rename
+brew upgrade
 exit

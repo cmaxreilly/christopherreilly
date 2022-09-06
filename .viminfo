@@ -21,17 +21,17 @@ $x
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1662065486,,"wq"
+|2,0,1662432273,,"wq"
+:q
+|2,0,1662414157,,"q"
 :'<,'>sort
-|2,0,1662057133,,"'<,'>sort"
+|2,0,1662066454,,"'<,'>sort"
 :term
 |2,0,1661978483,,"term"
 :q!
 |2,0,1661979641,,"q!"
 :%s/Documents/docs/g
 |2,0,1661979621,,"%s/Documents/docs/g"
-:q
-|2,0,1661979195,,"q"
 :e .bash_scripts/snow_lace.sh
 |2,0,1661466292,,"e .bash_scripts/snow_lace.sh"
 :%s/âˆš/x/g
@@ -122,6 +122,8 @@ $x
 |2,0,1659732588,,"e reflect.sh"
 
 # Search String History (newest to oldest):
+?/guys_and_dolls
+|2,1,1662068236,47,"guys_and_dolls"
 ?/treasure
 |2,1,1662057172,47,"treasure"
 ? Documents
@@ -223,9 +225,9 @@ $x
 "0	LINE	0
 					<!-- Add a picture and link to this entry -->
 |3,0,0,1,1,0,1662064263,"				<!-- Add a picture and link to this entry -->"
-""1	LINE	0
+"1	LINE	0
 						
-|3,1,1,1,1,0,1662064485,"					"
+|3,0,1,1,1,0,1662064485,"					"
 "2	LINE	0
 					<!-- Add a picture and link to this entry -->
 |3,0,2,1,1,0,1662064276,"				<!-- Add a picture and link to this entry -->"
@@ -256,342 +258,368 @@ $x
 "w	CHAR	0
 	wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk
 |3,0,32,0,1,0,1659654088,"wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk"
-"-	CHAR	0
-	 
-|3,0,36,0,1,0,1662063360," "
+""-	CHAR	0
+	<
+|3,1,36,0,1,0,1662068279,"<"
 
 # File marks:
-'0  3  82  ~/.bash_aliases
-|4,48,3,82,1662065486,"~/.bash_aliases"
-'1  1  25  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,49,1,25,1662064577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
-'2  37  58  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,50,37,58,1662064557,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
-'3  3  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,51,3,0,1662062577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
-'4  3  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,52,3,0,1662062577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
-'5  1  13  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,53,1,13,1662062246,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
-'6  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,54,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
-'7  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,55,1,0,1662062219,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
-'8  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,56,1,0,1662062219,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
-'9  1  20  ~/Documents/work_and_gigs/studio/github_for_creatives/README.md
-|4,57,1,20,1662057471,"~/Documents/work_and_gigs/studio/github_for_creatives/README.md"
+'0  1  0  ~/Documents/readings/Infinite Proofs  The Effects of Mathematics on David Foster Wallace - Los Angeles Review of Books.html
+|4,48,1,0,1662495487,"~/Documents/readings/Infinite Proofs  The Effects of Mathematics on David Foster Wallace - Los Angeles Review of Books.html"
+'1  1  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,49,1,0,1662478156,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+'2  4  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,50,4,0,1662477652,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+'3  4  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,51,4,0,1662477652,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+'4  1  26  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
+|4,52,1,26,1662432273,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG"
+'5  1  0  ~/.bash_aliases
+|4,53,1,0,1662427276,"~/.bash_aliases"
+'6  1  0  ~/.bash_aliases
+|4,54,1,0,1662414157,"~/.bash_aliases"
+'7  5  5  ~/.scripts/move_downloads.sh
+|4,55,5,5,1662164262,"~/.scripts/move_downloads.sh"
+'8  3  20  ~/.scripts/move_downloads.sh
+|4,56,3,20,1662164127,"~/.scripts/move_downloads.sh"
+'9  3  20  ~/.scripts/move_downloads.sh
+|4,57,3,20,1662164127,"~/.scripts/move_downloads.sh"
 
 # Jumplist (newest first):
--'  3  82  ~/.bash_aliases
-|4,39,3,82,1662065486,"~/.bash_aliases"
+-'  1  0  ~/Documents/readings/Infinite Proofs  The Effects of Mathematics on David Foster Wallace - Los Angeles Review of Books.html
+|4,39,1,0,1662495487,"~/Documents/readings/Infinite Proofs  The Effects of Mathematics on David Foster Wallace - Los Angeles Review of Books.html"
+-'  1  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,39,1,0,1662478156,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+-'  1  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,39,1,0,1662478156,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+-'  4  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,39,4,0,1662477652,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+-'  4  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,39,4,0,1662477652,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+-'  4  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,39,4,0,1662477652,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+-'  4  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,39,4,0,1662477652,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+-'  1  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,39,1,0,1662477637,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+-'  1  0  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+|4,39,1,0,1662477637,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html"
+-'  1  26  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
+|4,39,1,26,1662432273,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG"
+-'  1  26  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
+|4,39,1,26,1662432273,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG"
+-'  1  26  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
+|4,39,1,26,1662432273,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG"
+-'  1  26  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
+|4,39,1,26,1662432273,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG"
+-'  1  26  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
+|4,39,1,26,1662432273,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG"
+-'  1  26  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
+|4,39,1,26,1662432273,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG"
+-'  1  26  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
+|4,39,1,26,1662432273,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG"
+-'  1  26  ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
+|4,39,1,26,1662432273,"~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1662065451,"~/.bash_aliases"
--'  1  25  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,25,1662064577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  25  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,25,1662064577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  37  58  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,37,58,1662064557,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  37  58  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,37,58,1662064557,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  37  58  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,37,58,1662064557,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  37  58  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,37,58,1662064557,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  11  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,11,0,1662063092,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  11  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,11,0,1662063092,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  11  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,11,0,1662063092,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  11  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,11,0,1662063092,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,1,0,1662062608,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,1,0,1662062608,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,1,0,1662062608,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,1,0,1662062608,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  3  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,3,0,1662062577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  3  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,3,0,1662062577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  3  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,3,0,1662062577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  3  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,3,0,1662062577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  3  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,3,0,1662062577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  3  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,3,0,1662062577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  3  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,3,0,1662062577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  3  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,3,0,1662062577,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,1,0,1662062381,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,1,0,1662062381,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,1,0,1662062381,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-|4,39,1,0,1662062381,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html"
--'  1  13  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,13,1662062246,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,13,1662062246,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,13,1662062246,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,13,1662062246,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,13,1662062246,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,13,1662062246,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,13,1662062246,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,13,1662062246,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  11  5  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,11,5,1662062231,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,0,1662062219,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,0,1662062219,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,0,1662062219,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,0,1662062219,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,0,1662062219,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,0,1662062219,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,0,1662062219,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  1  0  ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-|4,39,1,0,1662062219,"~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
--'  5  396  ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-|4,39,5,396,1662058204,"~/Documents/work_and_gigs/studio/github_for_composers/README.md"
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662427276,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1662414157,"~/.bash_aliases"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
+-'  5  5  ~/.scripts/move_downloads.sh
+|4,39,5,5,1662164262,"~/.scripts/move_downloads.sh"
 
 # History of marks within files (newest to oldest):
 
+> ~/Documents/readings/Infinite Proofs  The Effects of Mathematics on David Foster Wallace - Los Angeles Review of Books.html
+	*	1662495482	0
+	"	1	0
+
+> ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
+	*	1662478154	0
+	"	1	0
+
+> ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
+	*	1662432273	0
+	"	1	26
+	^	1	27
+	.	1	26
+	+	1	26
+
 > ~/.bash_aliases
-	*	1662065482	0
-	"	3	82
-	^	3	83
-	.	3	82
+	*	1662427275	0
+	"	1	0
+	^	1	46
+	.	1	45
 	+	1	17
 	+	1	15
-	+	24	13
-	+	26	22
-	+	79	74
-	+	80	67
-	+	26	0
-	+	26	53
-	+	26	44
-	+	26	0
-	+	26	45
-	+	26	79
-	+	41	57
-	+	42	63
-	+	26	0
+	+	26	13
+	+	28	22
+	+	81	74
+	+	82	67
+	+	28	0
+	+	28	53
+	+	28	44
+	+	28	0
+	+	28	45
+	+	28	79
+	+	43	57
+	+	44	63
+	+	28	0
 	+	1	0
-	+	44	13
+	+	46	13
 	+	1	2
-	+	36	200
-	+	26	38
-	+	31	49
-	+	26	61
-	+	43	48
+	+	38	200
+	+	28	38
+	+	33	49
+	+	28	61
+	+	45	48
 	+	1	0
-	+	26	0
+	+	28	0
 	+	1	0
-	+	26	0
-	+	45	0
-	+	59	0
-	+	63	0
-	+	66	0
-	+	77	0
+	+	28	0
+	+	47	0
+	+	61	0
+	+	65	0
+	+	68	0
+	+	79	0
 	+	1	0
-	+	77	0
+	+	79	0
 	+	1	0
-	+	19	44
+	+	21	44
 	+	1	0
-	+	23	0
 	+	25	0
-	+	26	0
-	+	31	0
-	+	32	0
-	+	35	0
+	+	27	0
+	+	28	0
+	+	33	0
+	+	34	0
 	+	37	0
-	+	63	0
-	+	78	0
-	+	19	40
+	+	39	0
+	+	65	0
+	+	80	0
+	+	21	40
 	+	1	0
-	+	52	104
+	+	54	104
 	+	1	0
-	+	17	41
-	+	42	45
+	+	19	41
+	+	44	45
 	+	1	0
-	+	15	0
-	+	19	0
+	+	17	0
 	+	21	0
-	+	22	0
-	+	31	0
-	+	35	0
-	+	41	0
-	+	51	0
+	+	23	0
+	+	24	0
+	+	33	0
+	+	37	0
+	+	43	0
 	+	53	0
-	+	62	0
-	+	15	0
+	+	55	0
+	+	64	0
+	+	17	0
 	+	1	59
-	+	16	42
+	+	18	42
 	+	1	0
-	+	11	0
-	+	12	0
-	+	11	49
-	+	10	71
-	+	23	13
-	+	24	14
-	+	11	0
-	+	9	82
-	+	8	92
-	+	7	83
-	+	6	37
-	+	7	0
-	+	4	96
-	+	5	102
-	+	6	0
-	+	2	0
-	+	78	0
+	+	13	0
+	+	14	0
+	+	13	49
+	+	12	71
+	+	25	13
+	+	26	14
+	+	13	0
+	+	11	82
+	+	10	92
+	+	9	83
+	+	8	37
+	+	9	0
+	+	6	96
+	+	7	102
+	+	8	0
 	+	4	0
-	+	74	93
-	+	3	82
+	+	80	0
+	+	6	0
+	+	76	93
+	+	5	82
+	+	2	91
+	+	2	0
+	+	3	76
+	+	2	28
+	+	1	45
 	i	1	0
 
-> ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-	*	1662064577	0
-	"	1	25
-	^	1	26
-	.	1	25
-	+	1	25
+> ~/.scripts/move_downloads.sh
+	*	1662164260	0
+	"	5	5
+	^	5	6
+	.	5	5
+	+	5	4
+	+	3	20
+	+	5	5
+
+> ~/Documents/the_vault/Code/.scripts/move_downloads.sh
+	*	1662164105	0
+	"	1	0
 
 > ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-	*	1662064555	0
-	"	37	58
-	^	37	59
-	.	37	58
+	*	1662068289	0
+	"	1	1
+	^	1	2
+	.	1	1
 	+	40	0
 	+	2	0
 	+	4	43
@@ -616,6 +644,72 @@ $x
 	+	38	0
 	+	36	62
 	+	37	58
+	+	1	1
+
+> ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
+	*	1662066513	0
+	"	1	24
+	^	1	25
+	.	1	24
+	+	1	24
+
+> ~/Documents/work_and_gigs/studio/github_for_composers.github.io/README.md
+	*	1662066495	0
+	"	6	0
+	^	17	32
+	.	10	3
+	+	13	33
+	+	14	25
+	+	17	31
+	+	8	3
+	+	9	3
+	+	10	3
+
+> ~/Documents/work_and_gigs/district_51/gjhs/22-23/drama/treasure_island/.git/COMMIT_EDITMSG
+	*	1662066096	0
+	"	1	36
+	^	1	37
+	.	1	36
+	+	1	36
+
+> ~/Documents/work_and_gigs/district_51/gjhs/22-23/drama/treasure_island/README.md
+	*	1662066059	0
+	"	21	3
+	^	15	83
+	.	15	3
+	+	3	14
+	+	1	1
+	+	11	6
+	+	12	0
+	+	13	0
+	+	11	29
+	+	8	73
+	+	12	27
+	+	21	24
+	+	10	13
+	+	20	17
+	+	13	49
+	+	18	0
+	+	17	0
+	+	13	49
+	+	14	49
+	+	15	5
+	+	16	0
+	+	21	40
+	+	15	82
+	+	16	0
+	+	11	3
+	+	12	3
+	+	13	3
+	+	15	3
+
+> ~/.git/COMMIT_EDITMSG
+	*	1662065537	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	0
+	+	1	13
 
 > ~/Documents/work_and_gigs/studio/github_for_composers/README.md
 	*	1662062230	0
@@ -642,42 +736,6 @@ $x
 	^	1	21
 	.	1	20
 	+	1	20
-
-> ~/Documents/work_and_gigs/district_51/gjhs/22-23/drama/treasure_island/README.md
-	*	1662057307	0
-	"	13	3
-	^	15	83
-	.	12	3
-	+	3	14
-	+	1	1
-	+	11	6
-	+	12	0
-	+	13	0
-	+	11	29
-	+	8	73
-	+	12	27
-	+	21	24
-	+	10	13
-	+	20	17
-	+	13	49
-	+	18	0
-	+	17	0
-	+	13	49
-	+	14	49
-	+	15	5
-	+	16	0
-	+	21	40
-	+	15	82
-	+	16	0
-	+	11	3
-	+	12	3
-
-> ~/Documents/work_and_gigs/district_51/gjhs/22-23/drama/treasure_island/.git/COMMIT_EDITMSG
-	*	1662056874	0
-	"	1	13
-	^	1	14
-	.	1	13
-	+	1	13
 
 > ~/Documents/Life_Documents/Tax/Tax Notification 2.htm
 	*	1661979195	0
@@ -1471,14 +1529,6 @@ $x
 	+	43	92
 	+	10	61
 
-> ~/.git/COMMIT_EDITMSG
-	*	1660510974	0
-	"	1	33
-	^	1	34
-	.	1	33
-	+	1	0
-	+	1	33
-
 > ~/.scripts/account.sh
 	*	1660507691	0
 	"	5	12
@@ -2025,66 +2075,3 @@ $x
 	^	3	0
 	.	3	0
 	+	3	0
-
-> ~/testy
-	*	1659590139	0
-	"	3	0
-	^	6	0
-	.	6	0
-	+	6	0
-
-> ~/.bash_scripts/sungoinin.sh
-	*	1659558736	0
-	"	6	0
-	^	8	25
-	.	8	24
-	+	1	24
-	+	1	11
-	+	2	0
-	+	3	0
-	+	9	0
-	+	8	83
-	+	6	24
-	+	8	24
-
-> ~/Documents/the_vault/lilypad_projects/notes_test.ly
-	*	1659553063	0
-	"	4	9
-	^	5	14
-	.	5	13
-	+	1	6
-	+	18	0
-	+	3	10
-	+	3	1
-	+	16	0
-	+	4	10
-	+	5	12
-	+	15	2
-	+	11	22
-	+	5	13
-
-> ~/Documents/the_vault/reflections/new_world.txt
-	*	1659422204	0
-	"	1	165
-	^	1	166
-	.	1	166
-	+	1	166
-
-> ~/.bash_scripts/reflection.sh
-	*	1659421995	0
-	"	9	43
-	^	7	40
-	.	7	39
-	+	5	9
-	+	3	32
-	+	8	0
-	+	9	35
-	+	3	28
-	+	9	38
-	+	10	0
-	+	9	47
-	+	7	39
-
-> ~/Documents/the_vault/test.txt
-	*	1659421607	0
-	"	1	0

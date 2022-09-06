@@ -1,6 +1,10 @@
 
 
-alias gfc="cd ~/Documents/work_and_gigs/studio/github_for_composers.github.io/; ls"
+
+alias scase="rename -f 'y/A-Z/a-z/' * ; rename -f 'y/ /_/' *"
+alias load="bash ~/.scripts/move_downloads.sh"
+alias load?="ls ~/Downloads/"
+alias gd="cd ~/Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/; ls"
 alias account="bash ~/.scripts/account.sh"
 alias allen="cd ~/Documents/work_and_gigs/allen_adair/nursing_home_gig/"
 alias apps="cd /Applications/; ls"
@@ -22,6 +26,8 @@ alias finder="open -a finder ."
 alias findn="find ~ -type d -name"
 alias fri="open ~/documents/the_vault/daily_checklists/friday_checklist.pages"
 alias gacp="git add .; git commit; git push"
+alias gfc="cd ~/Documents/work_and_gigs/studio/github_for_composers.github.io/; ls"
+alias gfctd="gvim ~/Documents/work_and_gigs/studio/github_for_composers.github.io/README.md"
 alias gmail="open -a safari https://mail.google.com/mail/u/o/#inbox"
 alias hgit='bash ~/.scripts/hgit.sh'
 alias how_many="python3 ~/documents/the_vault/code/days_till_graduation.py"
@@ -32,7 +38,7 @@ alias jup="jupyter notebook"
 alias kitchen='open ~/documents/the_vault/daily_checklists/kitchen_checklist.pages'
 alias lib="open -a safari https://cmu.marmot.org"
 alias live="open -a 'Ableton Live 11 Standard.app'"
-alias machine='cd ~/Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/; ls'
+alias machine='cd ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/; ls'
 alias met="open ~/Documents/the_vault/metronomes\ Project/metronomes.als"
 alias miranda="bash ~/.scripts/miranda.sh"
 alias mon="open ~/documents/the_vault/daily_checklists/monday_checklist.pages"

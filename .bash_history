@@ -1,391 +1,3 @@
-ls
-cd 
-ls
-cd OneDrive_-_Colorado_Mesa_University
-ls
-cd ..
-ls
-cd Colorado_Mesa_University
-ls
-cd Olori\,\ Erikemo\ -\ Max\ Rielly/
-ls
-cp ** ~/Documents/academic_documents/CMU/senior_recital/recordings/
-brew search teams
-brew install microsoft-teams
-ls
-cd
-ls
-cd ~/Documents/MuseScore3/Plugins
-ls
-cd
-cd ~/Documents/the_vault/
-ls
-ls | less
-cd DeepBach/
-ls
-mv deepBachMuseScore.qml ~/Documents/MuseScore3/Plugins/; cd ~/Documents/MuseScore3/Plugins/
-cd -
-ls
-python musescore_flask_server.py 
-cd -
-ls
-python ~/Documents/the_vault/DeepBach/musescore_flask_server.py 
-brew unlink OpenMP
-cd ..
-ls
-cd ~
-ls
-cd Documents/the_vault/
-mkdir umesh
-vim umesh/umesh_question.md
-vim umesh/umesh_question.md
-python --version
-cd 
-ls Downloads/
-ls Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/
-mv Downloads/MX-GUYS\ AND\ DOLLS\ CALLBACK\ MUSIC.pdf  Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/
-clear
-account
-cd ~/.scripts; python3
-exit
-account
-cd Documents/the_vault/umesh/
-ls
-mkdir the_machine_learning_journey
-ls
-cd the_machine_learning_journey/
-ls
-git init
-gh repo create
-gh repo create
-gh repo create
-ls
-cd the_machine_learning_journey.github.io/
-ls
-vim index.html
-gvim index.htmle
-gvim index.html 
-ls
-git add .
-ls
-git commit
-git push
-git push --set-upstream origin master
-vim README.md
-ra
-gacp
-cd ~/Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/
-edali
-echo "alias machine='cd ~/Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/; ls'" >> ~/.bash_aliases 
-sbash
-machine
-machine
-gvim index.html 
-gacp
-machine
-vim index.html 
-gvim index.html 
-gvim index.html 
-gacp
-gvim index.html 
-machine
-gvim index.html 
-gacp
-gvim index.html 
-machine 
-gvim index.html 
-gvim index.html 
-gacp
-cd
-ls
-ls Downloads/
-mv Downloads/favicon_io.zip Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/
-machine 
-ls
-gacp
-open favicon_io.zip 
-ls
-rm favicon_io.zip 
-mv favicon_io/** ..
-ls
-ls
-cd fav
-cd favicon_io/
-ls
-cd
-mv Downloads/favicon_io.zip Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/
-ls Downloads/
-machine 
-rm -r favicon_io
-open favicon_io.zip 
-ls
-mv favicon_io/** .
-ls
-gvim index.html 
-open index.html 
-open -a safari index.html 
-cd ~/.scripts/; python
-exit
-webp
-edali
-cd Documents/the_vault/Code/website/;ls
-cd cmaxreilly.github.io/
-l
-ls
-gvim blog.html
-edali
-sbash
-blog
-edali
-sbash
-draftblog 
-ls
-touch .gitignore
-gvim .gitignore 
-gacp
-git pull
-git push
-ls
-rm blog_drafts.md 
-blog
-account
-cd ~/Documents/work_and_gigs/studio/
-ls
-cd business_documents/
-ls
-git init
-git add .
-git commit
-git add .
-git commit
-git push
-mv ../Invoices/ .
-ls
-sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.atrun.plist 
-sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.atrun.plist 
-at 9:07 am today
-at 9:08 am today
-ls
-clear
-cd
-machine
-gvim index.html 
-ls
-cd ../
-ls
-cd..
-ls
-cd ..
-ls
-cd ..
-ls
-mkdir family_website
-gh repo create
-ls
-cd kilgormanly.github.io/
-ls
-gvim README.md
-ls
-git add .
-git commit
-git push
-git push --set-upstream origin master
-gvim README.md 
-gvim README.md 
-gvim index.html
-gvim kitchen_checklist.html
-kitchen
-cd ~/Documents/
-ls
-cd the_vault/
-ls
-cd daily_checklists/
-ls
-open kitchen_checklist.odt 
-cd ~/Documents/the_vault/kilgormanly.github.io/
-ls
-safari kitchen_checklist.html 
-gvim kitchen_checklist.html
-gvim README.md 
-gvim index.html 
-safari index.html 
-gvim README.md 
-ls
-cd hope_fore_the_dawn/
-ls
-mv **.sib sibelius_files/
-mv **.pdf pdfs
-mv **.MID midi_files/
-ls
-cd sibelius_files/
-ls
-rm Hope\ Fire\ The\ Dawn.sib 
-ls
-cd ..
-ls
-exit
-correspond 
-edali
-hope_fore 
-ra
-gvim README.md 
-gvim .bash_scripts/hope_for_the_dawn.sh 
-gacp
-gacp
-exit
-cd Documents/the_vault/kilgormanly.github.io/
-ls
-gacp
-vim README.md 
-gacp
-exit
-machine
-gvim index.html 
-gacp
-gvim index.html 
-gvim README.md 
-gacp
-cd ../../;l
-ls
-cd ..
-ls
-cd kilgormanly.github.io/
-ls
-gvim README.md 
-gacp
-ra
-gvim .bash_scripts/light_by_seven.sh 
-cd light_by_seven/
-ls
-mv **.pdf pdfs
-mv **.sib sibelius_files/
-mv **.mid midi_files/
-ls
-ls
-cd logic_files/
-ls
-rm -r Project/
-ra
-ls
-gacp
-clear
-exit
-wcjoc
-jake
-grep -V
-tree
-tree | grep the_vault
-tree | grep *.logicx
-tree | grep **.logicx
-tree | grep **.logicx | less
-tree | grep **.logicx | wc -l
-find the_vault
-find -name the_vault
-find /Documents/ -name the_vault
-find /HOME/ -name "Documents" print
-find /HOME/ -name "Documents" -print
-find $HOME -name "Documents" -print
-find $HOME -name "Documents" -print | less
-find $HOME -name "the_vault" -print
-find $HOME -name "ra_lasater"
-find $HOME -name cmu_**
-find $HOME -name r*
-find $HOME -name .**
-/Applications/Wine\ Stable.app/Contents/Resources/wine/bin/wine ; exit;
-brew uninstall wine-stable
-brew uninstall zdoom
-cd 
-ls
-cd Downloads/
-ls
-brew search zoom
-brew install zdoom
-zdoom
-ratd
-ratd
-wine
-wine
-brew upgrade wine
-brew search wine stable
-brew update wine-stable
-brew upgrade wine-stable
-wine
-wich wine
-which wine
-file 'which wine'
-wine -version
-brew install wine64
-brew tap homebrew/cask-versions
-brew install --cask --no-quarantine wine-stable
-brew reinstall --cask wine-stable
-brew install winetricks
-wine
-cd /usr/local/bin/wine
-ls
-cd /usr/local/bin/
-ls
-wine64
-sudo wine64
-cd Downloads/
-ls
-mv Win10_21H2_English_x64.iso ~/Documents/the_vault/Code/disk_images/
-ls
-mv ** ~/Documents/the_vault/Code/disk_images/
-brew search konsole
-brew search macports
-sudo port install konsole
-xcodebuild -license
-sudo xcodebuild -license
-xcode-select --install
-port
-port
-sudo port install konsole
-konsole
-konsole
-cd /Volumes/
-ls
-ls
-cd /Volumes/
-ls
-diskutil list
-cd
-cd Documents/the_vault/Code/disk_images/
-ls
-cd ..
-mv disk_images/ iso_files
-mkdir disk_images
-hdutil convert iso_files/manjaro-kde-21.3.7-220816-linux515.iso -format UDRW -o disk_images/
-hduitl
-brew install hdutil
-diskutil
-hdiutil convert iso_files/manjaro-kde-21.3.7-220816-linux515.iso -format UDRW -o disk_images/
-cd disk_images
-ls
-cd ..
-ls
-hdiutil convert iso_files/manjaro-kde-21.3.7-220816-linux515.iso -format UDRW -o disk_images/manjaro-kde-21.3.7-220816-linux515
-cd /Volumes/
-ls
-cd -
-mv disk_images/manjaro-kde-21.3.7-220816-linux515.dmg /Volumes/NOTREAL/
-brew search rufus
-edali
-cd ~/Documents/the_vault/daily_checklists/
-ls
-cd Documents/the_vault/; ls | less
-cd ..
-ls
-cd guns_and_hunting/
-ls
-edali
-shoot
-sbash
-shootc
-hdiutil convert iso_files/manjaro-kde-21.3.7-220816-linux515.iso -format UDRW -o /Volumes/NOTREAL/manjaro-kde-21.3.7-220816-linux515
-hdiutil convert ~/Documents/the_vault/Code/iso_files/manjaro-kde-21.3.7-220816-linux515.iso -format UDRW -o /Volumes/NOTREAL/manjaro-kde-21.3.7-220816-linux515
-ls
-cd
-ls
 cp ~/Documents/work_and_gigs/ra_lasater/ Google\ Drive
 ls
 cd Google\ Drive
@@ -498,3 +110,391 @@ brew search rename
 brew install rename
 brew upgrade
 exit
+ls
+cd Downloads/
+ls
+rm balenaEtcher-1.7.9.dmg 
+ls
+cd .. 
+ls
+cd Documents/
+ls
+cd Life_Documents/
+ls
+cd ..
+ls
+cd ..
+tree
+ls -d "$PWD"/* 
+find taxes
+find ./taxes
+ls
+ls -lR
+ls -lR | grep tax | less
+ls
+cd .scripts/
+ls
+search
+vim search.sh
+brew search zenity
+brew install zenity
+zenity --calendar
+clear
+search treasure_island
+sbash
+search treasure_island
+cd
+cd Documents/work_and_gigs/district_51/
+ls
+rm **.MOV
+ls
+rm **.MP4
+ls
+opend 636A4DBF-4ACC-4598-8DC3-BE1078DAECFA
+open 636A4DBF-4ACC-4598-8DC3-BE1078DAECFA.mp4 
+rm 63**
+ls
+mv GJHS/ gjhs
+mv West\ Middle\ School/ west_middle_school
+ls
+mkdir district
+mv signed_d51_IT_responsible_use_form.pdf district
+ls
+mv d51_IT_responsible_use_form.pdf district
+ls
+cd gjhs/
+ls
+ls 21-22/
+ls 2021-2022/
+ls
+mv 2021-2022/** 21-22/
+rm -r 2021-2022/
+ls
+cd New\ folder/
+ls
+cd ..
+rm New\ folder/
+rm -r New\ folder/
+ls
+cd 2018-2019/
+ls
+cd ..
+ls
+cd 2020-2021/
+ls
+cd ..
+ls
+mkdir 22-23
+mkdir 22-23/gjhs_choir 22-23/gjhs_drama
+pwd
+mv 22-23/gjhs_choir/ 22-23/choir
+mv 22-23/gjhs_drama/ 22-23/drama
+ls
+cd 22
+cd 22-23/
+ls
+cd drama/
+ls
+mkdir treasure_island
+cd treasure_island/
+gh repo create
+vim README.md
+ls
+git init
+git add .
+l
+git commit
+clear
+gh repo create
+ls
+edali
+sbash
+ls
+treasure
+edali
+sbash
+treasre
+treasure
+ls
+treasuretd 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd studio/
+ls
+mkdir github_for_creatives
+cd github_for_creatives/
+gvim README.md
+cd ..
+mv github_for_creatives/ github_for_composers
+ls
+cd github_for_composers/
+ls
+gvim README.md 
+ls
+cd ..
+ls
+mv github_for_composers github_for_composers.github.io
+ls
+mv miranda_lesson_reflection.txt miranda/
+ls
+cd github_for_composers.github.io/
+git init
+gacp
+gacp
+gh repo create
+ls
+vim index.html
+vim index.html 
+gacp
+ls
+gfc
+edali
+sbash
+gfc
+cd
+gacp
+ls
+gfc
+ls
+treasure
+ls
+treasuretd 
+gacp
+gacp
+ghc
+gfc
+vim README.md 
+gacp
+edali
+gfctd
+sbash
+gfctd
+gacp
+open index.html 
+open -a safari index.html 
+cd
+ls
+cd Downloads/
+ls
+cd ~/Documents/life_documents/; ls
+mkdir healthcare
+rm Larchwood\ background\ check\ stuff.pdf 
+mv MTNA ~/Documents/work_and_gigs/mtna
+cd Kyra/
+ls
+cd ..
+rm -r Kyra/
+open Permissive\ Use\ Letter.docx 
+rm Permissive\ Use\ Letter.docx 
+cd ~
+ls Downloads/
+mv Downloads/Provider\ Network\ Rocky\ Mountain\ Health\ Plans\ Monument\ Health.pdf Documents/life_documents/healthcare/
+mv Downloads/Runyonland.m4a Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/
+gd
+edali
+sbash
+gd
+mkdir pdfs
+mv **.pdf pdfs
+ls
+rm AUDITION_INFORMATION_-_Guys_\&_Dolls_and_Midsummer_NIght\'s_Dream/
+rm -r AUDITION_INFORMATION_-_Guys_\&_Dolls_and_Midsummer_NIght\'s_Dream/
+ls
+mkdir videos daw_projects
+mv **.m4a videos/
+mv the_crapshooters_dance/ daw_projects/
+mv havana_practice_recording/ daw_projects/
+ls
+cd videos/
+ls
+open Runyonland.m4a 
+gd
+cd daw_projects/
+ls
+cd havana_practice_recording/
+ls
+cd second_havana_practice_recording/
+ls
+cd Bounces/
+sl
+ls
+open second_havana_practice_recording.mp3 
+pakc
+gd
+cd videos/
+ls
+cd
+cd -
+ls
+mv ~/Downloads/Havana.m4a .
+ls
+ls ~/Downloads/
+open ~/Downloads/PRIME2021.pdf 
+mv ~/Downloads/PRIME2021.pdf ~/Documents/life_documents/healthcare/
+ls ~/Downloads/
+open Havana.m4a 
+ls
+exit
+exit
+ls
+machine 
+cd ..
+ls
+python torch_test.py 
+rm torch_test.py 
+exit
+load
+load?
+edali
+ls
+sbash
+load?
+touch Downloads/test.txt
+load?
+gvim .scripts/move_downloads.sh
+edali
+load?
+sbash
+load ~/Documents/the_vault/Code/
+ls
+load?
+cd ~/Documents/the_vault/Code
+ls
+ls | less
+mv test.txt ~/Downloads/
+gvim .scripts/move_downloads.sh
+cd 
+gvim .scripts/move_downloads.sh
+load ~/Documents/
+ls
+cd Documents/
+ls
+mv test.txt ~/Downloads/
+cd
+gvim .scripts/move_downloads.sh
+load
+load Documents/
+ls
+clear
+ls
+ls Downloads/
+edali
+load ~/Documents/work_and_gigs/allen_adair/
+allen
+ls
+load .
+ls
+open Document-12.pdf 
+open ALLEN_MAX\ RECITAL\ SETLIST.pdf 
+mkdir setlist
+mv Madamina.pdf setlist/madimina.pdf
+mv setlist/ set
+open Document-12.pdf 
+mv ALLEN_MAX\ RECITAL\ SETLIST.pdf allen_max_recital_setlist.pdf
+ls
+open IMSLP129134-PMLP252236-Vaughan_Williams_-_The_House_Of_Life.pdf 
+mv IMSLP129134-PMLP252236-Vaughan_Williams_-_The_House_Of_Life.pdf the_house_of_life.pdf
+ls
+mv the_house_of_life.pdf set/
+mv Epouse\ quellque.pdf set/epouse_quellque.pdf
+ls
+open Scan\ Oct\ 1\,\ 2019\ at\ 2-29\ PM.pdf 
+ls
+mv Document-12.pdf set/sonntag.pdf
+mv Scan\ Oct\ 1\,\ 2019\ at\ 2-29\ PM.pdf set/stars.pdf
+ls
+load?
+ls set/
+load .
+ls
+rm IMSLP671127-PMLP25878-schubert_erlkonig_very_low_voice_d_minor_peters_9350-2.pdf IMSLP671127-PMLP25878-schubert_erlkonig_very_low_voice_d_minor_peters_9350-3.pdf 
+ls
+mv IMSLP671127-PMLP25878-schubert_erlkonig_very_low_voice_d_minor_peters_9350.pdf set/erlkönig.pdf
+ls
+mv Morning-Rach.pdf set/morning.pdf
+ls
+cd set
+ls
+load .
+ls
+mv Scan\ Aug\ 23\,\ 2019\ at\ 5-24\ PM.pdf poisoning_pidgeons.pdf
+ls
+load .
+ls
+mv ago.\ 17\,\ Doc\ 1.pdf erlkönig_from_allen.pdf
+ls
+open erlkönig_from_allen.pdf erlkönig.pdf 
+rm erlkönig.pdf ; mv erlkönig_from_allen.pdf erlkönig.pdf
+ls
+cd ../..
+ls
+cd ..
+ls
+mkdir cailtin_moore
+mv cailtin_moore/ caitlin_moore
+cd caitlin_moore/
+ls
+load?
+load .
+ls
+mv Class\ Voice\ Improvisations.pdf class_voice_improvisations.pdf
+mv The\ Water\ is\ Wide.pdf the_water_is_wide.pdf
+ls
+cd ..
+cd allen_adair/;ls
+cd nursing_home_gig/
+ls
+open allen_max_recital_setlist.pdf 
+webed
+eb
+web
+edali
+vsali
+web
+vsali
+cd
+cd Documents/the_vault/umesh/
+ls
+cd the_machine_learning_journey/
+ls
+cd the_machine_learning_journey.github.io/
+ls
+cd ..
+rm **.png
+ls
+cd the_machine_learning_journey.github.io/
+ls
+cd ..
+ls
+rm about.txt favicon.ico site.webmanifest 
+ls
+mv the_machine_learning_journey.github.io/ ..
+ls
+cd ..
+rm the_machine_learning_journey
+rm -r the_machine_learning_journey
+ls
+cd the_machine_learning_journey.github.io/
+ls
+cd README.md 
+code README.md 
+cd
+machine 
+vsali
+sbash
+machine 
+gacp
+anaconda
+conda install pytorch torchvision -c pytorch
+ls
+ls
+safari index.html 

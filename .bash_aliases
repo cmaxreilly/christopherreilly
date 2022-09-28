@@ -1,6 +1,7 @@
 
 
-
+alias izzyset="code ~/Documents/work_and_gigs/izzy_burns/setlist.txt"
+alias bells="safari https://gjhs.d51schools.org/calendar/bell_schedule"
 alias scase="rename -f 'y/A-Z/a-z/' * ; rename -f 'y/ /_/' *"
 alias load="bash ~/.scripts/move_downloads.sh"
 alias load?="ls ~/Downloads/"
@@ -18,8 +19,8 @@ alias correspond="open ~/Documents/the_vault/daily_checklists/latex/corresponden
 alias deep="cd ~/Documents/the_vault/DeepBach; ls"
 alias doccopy="bash /Volumes/T7/.scripts/max_copy_script.sh"
 alias draftblog="gvim ~/Documents/the_vault/Code/website/cmaxreilly.github.io/blog_drafts.md"
-alias edali="gvim ~/.bash_aliases"
-alias edbash="gvim ~/.bash_profile"
+alias edali="vim ~/.bash_aliases"
+alias edbash="vim ~/.bash_profile"
 alias edvim="vim ~/.vimrc"
 alias edz="vim ~/.zshrc"
 alias finder="open -a finder ."

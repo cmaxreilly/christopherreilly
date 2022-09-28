@@ -23,3 +23,7 @@ filetype plugin indent on    " required
 syntax on
 
 set number
+
+set t_Co=256
+
+colors zenburn

@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/treasure
+~MSle0~/alias
 
 # Last Substitute Search Pattern:
 ~MSle0&âˆš
@@ -21,21 +21,59 @@ $x
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1664324902,,"wq"
+|2,0,1665379828,,"wq"
+:term
+|2,0,1665378117,,"term"
+:q!
+|2,0,1665358516,,"q!"
 :q
-|2,0,1664201335,,"q"
+|2,0,1665358497,,"q"
+:w
+|2,0,1665111857,,"w"
+:Q
+|2,0,1664493775,,"Q"
+:PluginSearch colorscheme
+|2,0,1664493553,,"PluginSearch colorscheme"
+:PluginInstall
+|2,0,1664493509,,"PluginInstall"
+:py3 import sys; print( sys.version )
+|2,0,1664492318,,"py3 import sys; print( sys.version )"
+:Bundle 'Valloric/YouCompleteMe'
+|2,0,1664491491,,"Bundle 'Valloric/YouCompleteMe'"
+:PluginSearch YouCompleteMe
+|2,0,1664491360,,"PluginSearch YouCompleteMe"
+:Bundle 'Valloric/YouCompleteMe
+|2,0,1664490995,,"Bundle 'Valloric/YouCompleteMe"
+:plugininstall
+|2,0,1664490918,,"plugininstall"
+:e helpers.py
+|2,0,1664432766,,"e helpers.py"
+:e whole_damn_thing.sh
+|2,0,1664429028,,"e whole_damn_thing.sh"
+:e whole_damn_thing.py
+|2,0,1664429000,,"e whole_damn_thing.py"
+:e tone_row_maximalism_20.py
+|2,0,1664428866,,"e tone_row_maximalism_20.py"
+:e tone_row_maximalism_1.0.py
+|2,0,1664428751,,"e tone_row_maximalism_1.0.py"
+:e midi_writer_10.py
+|2,0,1664428681,,"e midi_writer_10.py"
+:e midi_writer_1.0.py
+|2,0,1664428577,,"e midi_writer_1.0.py"
+:e midi_writer.py
+|2,0,1664428338,,"e midi_writer.py"
+:e midi_function_writer.py
+|2,0,1664428037,,"e midi_function_writer.py"
+:e tone_row_utility/midi_function_writer.py
+|2,0,1664425392,,"e tone_row_utility/midi_function_writer.py"
 :colors nord
 |2,0,1664201267,,"colors nord"
 :colors zenburn
 |2,0,1664200732,,"colors zenburn"
 :colors Zenburn
 |2,0,1664200667,,"colors Zenburn"
-:q!
-|2,0,1663688482,,"q!"
 :.,.+1!
 |2,0,1663688481,,".,.+1!"
-:term
-|2,0,1663103395,,"term"
 :r! date
 |2,0,1663102238,,"r! date"
 :!! pwd
@@ -48,8 +86,6 @@ $x
 |2,0,1663092368,,"! cd ~/Documents/work_and_gigs/ra_lasater/; ls"
 :! ra
 |2,0,1663092345,,"! ra"
-:w
-|2,0,1663092285,,"w"
 :q~
 |2,0,1663026389,,"q~"
 :'<,'>sort
@@ -84,44 +120,12 @@ $x
 |2,0,1660861196,,"w ../ra_backup/README_backup.md"
 :! mkdir ../ra_backup
 |2,0,1660861152,,"! mkdir ../ra_backup"
-:mkdir ../ra_backup
-|2,0,1660861142,,"mkdir ../ra_backup"
-:e .gitignore
-|2,0,1660781292,,"e .gitignore"
-:e .bash_scripts/rae_in_e.sh
-|2,0,1660776710,,"e .bash_scripts/rae_in_e.sh"
-:e snow_lace.sh
-|2,0,1660776562,,"e snow_lace.sh"
-:w shopping_list.tex
-|2,0,1660670544,,"w shopping_list.tex"
-:exit
-|2,0,1660670407,,"exit"
-:e dl_dataset_and_models.sh
-|2,0,1660663759,,"e dl_dataset_and_models.sh"
-:terminal
-|2,0,1660663551,,"terminal"
-:e environment.yml
-|2,0,1660663350,,"e environment.yml"
-:spellcheck
-|2,0,1660627300,,"spellcheck"
-:spellchek
-|2,0,1660627297,,"spellchek"
-:%s/_/ /
-|2,0,1660601957,,"%s/_/ /"
-:s/_/ /
-|2,0,1660601937,,"s/_/ /"
-:s/_/ 
-|2,0,1660601880,,"s/_/ "
-:%s/*/- [ ] 
-|2,0,1660600947,,"%s/*/- [ ] "
-:%s/âˆš/- [x] 
-|2,0,1660600924,,"%s/âˆš/- [x] "
-:e todo.txt
-|2,0,1660600069,,"e todo.txt"
-:e ~/.bash_aliases
-|2,0,1660507551,,"e ~/.bash_aliases"
 
 # Search String History (newest to oldest):
+?/alias
+|2,1,1665186895,47,"alias"
+?/tone
+|2,1,1664406903,47,"tone"
 ?/cmu
 |2,1,1663115077,47,"cmu"
 ?/guys_and_dolls
@@ -225,267 +229,677 @@ $x
 
 # Registers:
 "0	LINE	0
-		- [ ] 
-|3,0,0,1,1,0,1663104082,"	- [ ] "
-"1	LINE	0
-	
-|3,0,1,1,1,0,1664201327,""
+	from midiutil import MIDIFile
+|3,0,0,1,1,0,1664432776,"from midiutil import MIDIFile"
+""1	LINE	0
+	;Lwkerjq;lkwejr;:wq
+|3,1,1,1,1,0,1665356312,";Lwkerjq;lkwejr;:wq"
 "2	LINE	0
-	export TERM=xterm-256color
-|3,0,2,1,1,0,1664201325,"export TERM=xterm-256color"
-"3	LINE	0
-		 
-|3,0,3,1,1,0,1663108857,"	 "
-"4	LINE	0
-	Set-ExecutionPolicy RemoteSigned
-|3,0,4,1,1,0,1663017957,"Set-ExecutionPolicy RemoteSigned"
-"5	LINE	0
-	Get-ExecutionPolicy
-|3,0,5,1,1,0,1663017956,"Get-ExecutionPolicy"
-"6	LINE	0
-						
-|3,0,6,1,1,0,1662064485,"					"
-"7	LINE	0
-					<!-- Add a picture and link to this entry -->
-|3,0,7,1,1,0,1662064276,"				<!-- Add a picture and link to this entry -->"
-"8	LINE	0
-					<!-- Add a picture and link to this entry -->
-|3,0,8,1,1,0,1662064264,"				<!-- Add a picture and link to this entry -->"
-"9	LINE	0
 	
-|3,0,9,1,1,0,1662058899,""
+|3,0,2,1,1,0,1665187031,""
+"3	LINE	0
+	alias poopy="echo 'max is poopy'"
+|3,0,3,1,1,0,1665187030,"alias poopy=\"echo 'max is poopy'\""
+"4	LINE	0
+		* Totally controlable
+|3,0,4,1,1,0,1665113946,"	* Totally controlable"
+"5	LINE	0
+	 	* Write invoices for Leah Skelton and the people at the VSA
+|3,0,5,1,1,0,1665113945," 	* Write invoices for Leah Skelton and the people at the VSA"
+"6	LINE	0
+	* Solution
+|3,0,6,1,1,0,1665113939,"* Solution"
+"7	LINE	0
+	* Class (whether or not I have any control of the problem
+|3,0,7,1,1,0,1665113938,"* Class (whether or not I have any control of the problem"
+"8	LINE	0
+	* A description
+|3,0,8,1,1,0,1665113938,"* A description"
+"9	LINE	0
+	* A title
+|3,0,9,1,1,0,1665113937,"* A title"
+"j	CHAR	0
+	j€kb€kb€kb€kb
+|3,0,19,0,1,0,1664491040,"j€kb€kb€kb€kb"
 "w	CHAR	0
 	wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk
 |3,0,32,0,1,0,1659654088,"wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk"
-""-	CHAR	0
-	g
-|3,1,36,0,1,0,1664201367,"g"
+"-	CHAR	0
+	t
+|3,0,36,0,1,0,1665186967,"t"
 
 # File marks:
-'0  3  224  ~/Documents/the_vault/self_authoring/seven_questions.txt
-|4,48,3,224,1664324902,"~/Documents/the_vault/self_authoring/seven_questions.txt"
-'1  1  0  ~/.vimrc
-|4,49,1,0,1664201440,"~/.vimrc"
-'2  23  14  ~/.bash_aliases
-|4,50,23,14,1664201371,"~/.bash_aliases"
-'3  26  0  ~/.vimrc
-|4,51,26,0,1664201329,"~/.vimrc"
-'4  26  0  ~/.vimrc
-|4,52,26,0,1664201329,"~/.vimrc"
-'5  1  0  ~/.vim/colors/.vimrc
-|4,53,1,0,1664201310,"~/.vim/colors/.vimrc"
-'6  1  0  ~/.bash_aliases
-|4,54,1,0,1664201290,"~/.bash_aliases"
-'7  1  0  ~/.bash_aliases
-|4,55,1,0,1664201290,"~/.bash_aliases"
-'8  29  13  ~/.vimrc
-|4,56,29,13,1664200890,"~/.vimrc"
-'9  31  13  ~/.vimrc
-|4,57,31,13,1664200890,"~/.vimrc"
+'0  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,48,1,0,1665379828,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+'1  1  13  ~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG
+|4,49,1,13,1665377768,"~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG"
+'2  1  13  ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
+|4,50,1,13,1665377670,"~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG"
+'3  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,51,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+'4  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,52,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+'5  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,53,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+'6  1  454  ~/Documents/the_vault/personal_prioritization/priority/data.py
+|4,54,1,454,1665356617,"~/Documents/the_vault/personal_prioritization/priority/data.py"
+'7  1  0  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,55,1,0,1665356344,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+'8  1  0  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,56,1,0,1665356344,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+'9  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,57,1,0,1665356322,"~/Documents/the_vault/personal_prioritization/priority/core.py"
 
 # Jumplist (newest first):
--'  3  224  ~/Documents/the_vault/self_authoring/seven_questions.txt
-|4,39,3,224,1664324902,"~/Documents/the_vault/self_authoring/seven_questions.txt"
--'  1  0  ~/Documents/the_vault/self_authoring/seven_questions.txt
-|4,39,1,0,1664233993,"~/Documents/the_vault/self_authoring/seven_questions.txt"
--'  1  0  ~/.vimrc
-|4,39,1,0,1664201440,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1664201440,"~/.vimrc"
--'  23  14  ~/.bash_aliases
-|4,39,23,14,1664201371,"~/.bash_aliases"
--'  23  14  ~/.bash_aliases
-|4,39,23,14,1664201371,"~/.bash_aliases"
--'  23  14  ~/.bash_aliases
-|4,39,23,14,1664201371,"~/.bash_aliases"
--'  23  14  ~/.bash_aliases
-|4,39,23,14,1664201371,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201346,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201346,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201346,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201346,"~/.bash_aliases"
--'  26  0  ~/.vimrc
-|4,39,26,0,1664201329,"~/.vimrc"
--'  26  0  ~/.vimrc
-|4,39,26,0,1664201329,"~/.vimrc"
--'  26  0  ~/.vimrc
-|4,39,26,0,1664201329,"~/.vimrc"
--'  26  0  ~/.vimrc
-|4,39,26,0,1664201329,"~/.vimrc"
--'  26  0  ~/.vimrc
-|4,39,26,0,1664201329,"~/.vimrc"
--'  26  0  ~/.vimrc
-|4,39,26,0,1664201329,"~/.vimrc"
--'  26  0  ~/.vimrc
-|4,39,26,0,1664201329,"~/.vimrc"
--'  26  0  ~/.vimrc
-|4,39,26,0,1664201329,"~/.vimrc"
--'  26  0  ~/.vimrc
-|4,39,26,0,1664201329,"~/.vimrc"
--'  26  0  ~/.vimrc
-|4,39,26,0,1664201329,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1664201318,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1664201318,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1664201318,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1664201318,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1664201318,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1664201318,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1664201318,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1664201318,"~/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.vim/colors/.vimrc
-|4,39,1,0,1664201310,"~/.vim/colors/.vimrc"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1664201290,"~/.bash_aliases"
--'  29  13  ~/.vimrc
-|4,39,29,13,1664200890,"~/.vimrc"
--'  31  13  ~/.vimrc
-|4,39,31,13,1664200890,"~/.vimrc"
--'  29  13  ~/.vimrc
-|4,39,29,13,1664200890,"~/.vimrc"
--'  31  13  ~/.vimrc
-|4,39,31,13,1664200890,"~/.vimrc"
--'  31  13  ~/.vimrc
-|4,39,31,13,1664200890,"~/.vimrc"
--'  31  13  ~/.vimrc
-|4,39,31,13,1664200890,"~/.vimrc"
+-'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+|4,39,1,0,1665379828,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
+-'  1  13  ~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG
+|4,39,1,13,1665377768,"~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG"
+-'  1  13  ~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG
+|4,39,1,13,1665377768,"~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG"
+-'  1  13  ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
+|4,39,1,13,1665377670,"~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG"
+-'  1  13  ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
+|4,39,1,13,1665377670,"~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG"
+-'  1  13  ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
+|4,39,1,13,1665377670,"~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG"
+-'  1  13  ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
+|4,39,1,13,1665377670,"~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG"
+-'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
+|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+	*	1665379825	0
+	"	1	0
+	^	9	61
+	.	9	60
+	+	10	101
+	+	8	92
+	+	11	39
+	+	2	91
+	+	8	121
+	+	12	130
+	+	11	56
+	+	10	127
+	+	7	31
+	+	2	48
+	+	6	65
+	+	9	28
+	+	6	67
+	+	9	78
+	+	5	34
+	+	4	25
+	+	5	36
+	+	9	60
+
+> ~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG
+	*	1665377767	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
+	*	1665377669	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> ~/Documents/the_vault/personal_prioritization/priority/helpers.py
+	*	1665359384	0
+	"	10	60
+	^	10	61
+	.	10	60
+	+	1	0
+	+	10	60
+
+> ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
+	*	1665358515	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/the_vault/personal_prioritization/priority/core.py
+	*	1665358497	0
+	"	4	0
+	^	3	0
+	.	1	0
+	+	2	0
+	+	1	0
+
+> ~/Documents/the_vault/personal_prioritization/priority/data.py
+	*	1665356616	0
+	"	1	454
+	^	1	455
+	.	1	455
+	+	1	455
+
+> ~/.bash_aliases
+	*	1665187032	0
+	"	1	0
+	.	1	0
+	+	1	17
+	+	1	15
+	+	31	13
+	+	33	22
+	+	86	74
+	+	87	67
+	+	33	0
+	+	33	53
+	+	33	44
+	+	33	0
+	+	33	45
+	+	33	79
+	+	48	57
+	+	49	63
+	+	33	0
+	+	1	0
+	+	51	13
+	+	1	2
+	+	43	200
+	+	33	38
+	+	38	49
+	+	33	61
+	+	50	48
+	+	1	0
+	+	33	0
+	+	1	0
+	+	33	0
+	+	52	0
+	+	66	0
+	+	70	0
+	+	73	0
+	+	84	0
+	+	1	0
+	+	84	0
+	+	1	0
+	+	26	44
+	+	1	0
+	+	30	0
+	+	32	0
+	+	33	0
+	+	38	0
+	+	39	0
+	+	42	0
+	+	44	0
+	+	70	0
+	+	85	0
+	+	26	40
+	+	1	0
+	+	59	104
+	+	1	0
+	+	24	41
+	+	49	45
+	+	1	0
+	+	22	0
+	+	26	0
+	+	28	0
+	+	29	0
+	+	38	0
+	+	42	0
+	+	48	0
+	+	58	0
+	+	60	0
+	+	69	0
+	+	22	0
+	+	1	59
+	+	23	42
+	+	1	0
+	+	18	0
+	+	19	0
+	+	18	49
+	+	17	71
+	+	30	13
+	+	31	14
+	+	18	0
+	+	16	82
+	+	15	92
+	+	14	83
+	+	13	37
+	+	14	0
+	+	11	96
+	+	12	102
+	+	13	0
+	+	9	0
+	+	85	0
+	+	11	0
+	+	81	93
+	+	10	82
+	+	7	91
+	+	7	0
+	+	8	76
+	+	7	28
+	+	1	45
+	+	27	13
+	+	28	14
+	+	7	74
+	+	1	111
+	+	4	10
+	+	3	63
+	+	23	0
+	+	1	0
+
+> ~/Documents/the_vault/problems/problems.md
+	*	1665114054	0
+	"	40	0
+	^	13	0
+	.	12	16
+	+	5	6
+	+	4	16
+	+	47	27
+	+	42	83
+	+	47	27
+	+	42	157
+	+	49	17
+	+	55	209
+	+	17	59
+	+	59	87
+	+	3	0
+	+	28	0
+	+	17	9
+	+	20	1
+	+	24	25
+	+	22	33
+	+	27	24
+	+	34	50
+	+	39	7
+	+	38	37
+	+	39	7
+	+	37	33
+	+	33	5
+	+	17	6
+	+	39	43
+	+	35	37
+	+	3	0
+	+	20	0
+	+	18	0
+	+	29	0
+	+	12	5
+	+	29	12
+	+	44	10
+	+	12	16
+
+> ~/Documents/the_vault/problems/problems.txt
+	*	1665111040	0
+	"	2	0
+	.	1	3
+	+	1	3
+
+> ~/.bash_scripts/jake.sh
+	*	1664808974	0
+	"	1	0
+	^	8	28
+	.	8	27
+	+	4	20
+	+	6	55
+	+	8	0
+	+	8	27
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/tone_row_utility.py
+	*	1664494627	0
+	"	10	0
+	^	10	0
+	.	11	0
+	+	3	29
+	+	4	0
+	+	1	0
+	+	2	0
+	+	6	38
+	+	8	26
+	+	3	0
+	+	11	0
+
+> ~/.vimrc
+	*	1664494398	0
+	"	43	0
+	^	43	0
+	.	43	0
+	+	1	0
+	+	23	0
+	+	1	0
+	+	26	10
+	+	30	13
+	+	27	0
+	+	32	26
+	+	33	3
+	+	41	18
+	+	43	0
+	+	17	0
+	+	42	0
+	+	43	0
+
+> ~/[Vundle] Installer
+	*	1664493520	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> /private/var/folders/1v/z0rpld0165bc1t1bchvn8yfc0000gn/T/vbB8OmB/2
+	*	1664491112	0
+	"	1	14
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/helpers.py
+	*	1664486266	0
+	"	306	0
+	^	140	1
+	.	141	0
+	+	1	36
+	+	27	28
+	+	28	0
+	+	29	0
+	+	88	32
+	+	90	0
+	+	287	40
+	+	289	0
+	+	420	0
+	+	419	0
+	+	29	0
+	+	30	0
+	+	90	0
+	+	291	0
+	+	292	0
+	+	4	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	32	0
+	+	69	0
+	+	92	0
+	+	141	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/.git/COMMIT_EDITMSG
+	*	1664433810	0
+	"	1	43
+	^	1	44
+	.	1	43
+	+	1	43
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/README.md
+	*	1664429447	0
+	"	41	52
+	^	41	53
+	.	41	52
+	+	8	0
+	+	10	52
+	+	17	43
+	+	26	38
+	+	28	25
+	+	30	1
+	+	24	0
+	+	21	0
+	+	19	0
+	+	23	50
+	+	38	51
+	+	41	6
+	+	39	4
+	+	40	4
+	+	41	52
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/whole_damn_thing.sh
+	*	1664429086	0
+	"	1	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/whole_damn_thing.py
+	*	1664429021	0
+	"	1	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/tone_row_maximalism_20.py
+	*	1664428994	0
+	"	1	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/tone_row_maximalism_1.0.py
+	*	1664428858	0
+	"	9	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/midi_writer_10.py
+	*	1664428694	0
+	"	108	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/midi_writer_1.0.py
+	*	1664428658	0
+	"	1	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/midi_writer.py
+	*	1664428562	0
+	"	5	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/midi_function_writer.py
+	*	1664428323	0
+	"	1	0
+	^	3	45
+	.	3	45
+	+	3	45
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/.gitignore
+	*	1664427003	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/midi_writer_1.0.py
+	*	1664411386	0
+	"	185	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/midi_writer.py
+	*	1664411283	0
+	"	18	0
+	^	41	4
+	.	41	3
+	+	42	3
+	+	43	3
+	+	44	0
+	+	41	3
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/midi_function_writer.py
+	*	1664411211	0
+	"	1	0
+	.	8	0
+	+	8	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/list_in_a_list
+	*	1664407232	0
+	"	4	0
+
+> ~/Documents/the_vault/code/music/tone_row_maximalism/dicking_the_command_line.py
+	*	1664407028	0
+	"	1	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1664324932	0
+	"	1	8
+	^	1	9
+	.	1	9
+	+	1	0
+	+	1	9
 
 > ~/Documents/the_vault/self_authoring/seven_questions.txt
 	*	1664324902	0
@@ -494,119 +908,6 @@ $x
 	.	3	225
 	+	15	145
 	+	3	225
-
-> ~/.vimrc
-	*	1664201393	0
-	"	1	0
-	^	29	14
-	.	26	0
-	+	1	0
-	+	22	0
-	+	1	0
-	+	25	10
-	+	29	13
-	+	26	0
-
-> ~/.bash_aliases
-	*	1664201367	0
-	"	23	14
-	^	1	46
-	.	23	14
-	+	1	17
-	+	1	15
-	+	26	13
-	+	28	22
-	+	81	74
-	+	82	67
-	+	28	0
-	+	28	53
-	+	28	44
-	+	28	0
-	+	28	45
-	+	28	79
-	+	43	57
-	+	44	63
-	+	28	0
-	+	1	0
-	+	46	13
-	+	1	2
-	+	38	200
-	+	28	38
-	+	33	49
-	+	28	61
-	+	45	48
-	+	1	0
-	+	28	0
-	+	1	0
-	+	28	0
-	+	47	0
-	+	61	0
-	+	65	0
-	+	68	0
-	+	79	0
-	+	1	0
-	+	79	0
-	+	1	0
-	+	21	44
-	+	1	0
-	+	25	0
-	+	27	0
-	+	28	0
-	+	33	0
-	+	34	0
-	+	37	0
-	+	39	0
-	+	65	0
-	+	80	0
-	+	21	40
-	+	1	0
-	+	54	104
-	+	1	0
-	+	19	41
-	+	44	45
-	+	1	0
-	+	17	0
-	+	21	0
-	+	23	0
-	+	24	0
-	+	33	0
-	+	37	0
-	+	43	0
-	+	53	0
-	+	55	0
-	+	64	0
-	+	17	0
-	+	1	59
-	+	18	42
-	+	1	0
-	+	13	0
-	+	14	0
-	+	13	49
-	+	12	71
-	+	25	13
-	+	26	14
-	+	13	0
-	+	11	82
-	+	10	92
-	+	9	83
-	+	8	37
-	+	9	0
-	+	6	96
-	+	7	102
-	+	8	0
-	+	4	0
-	+	80	0
-	+	6	0
-	+	76	93
-	+	5	82
-	+	2	91
-	+	2	0
-	+	3	76
-	+	2	28
-	+	1	45
-	+	22	13
-	+	23	14
-	i	1	0
 
 > ~/.vim/colors/.vimrc
 	*	1664201309	0
@@ -757,16 +1058,6 @@ $x
 	+	7	34
 	+	5	12
 
-> ~/.bash_scripts/jake.sh
-	*	1663599639	0
-	"	1	0
-	^	8	28
-	.	8	27
-	+	4	20
-	+	6	55
-	+	8	0
-	+	8	27
-
 > ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
 	*	1663366828	0
 	"	22	0
@@ -866,14 +1157,6 @@ $x
 	^	1	30
 	.	1	29
 	+	1	29
-
-> ~/.git/COMMIT_EDITMSG
-	*	1662496516	0
-	"	1	16
-	^	1	17
-	.	1	16
-	+	1	0
-	+	1	16
 
 > ~/Documents/readings/Infinite Proofs  The Effects of Mathematics on David Foster Wallace - Los Angeles Review of Books.html
 	*	1662495482	0
@@ -1319,30 +1602,6 @@ $x
 	.	1	34
 	+	1	34
 
-> ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
-	*	1661352568	0
-	"	7	0
-	^	9	61
-	.	9	60
-	+	10	101
-	+	8	92
-	+	11	39
-	+	2	91
-	+	8	121
-	+	12	130
-	+	11	56
-	+	10	127
-	+	7	31
-	+	2	48
-	+	6	65
-	+	9	28
-	+	6	67
-	+	9	78
-	+	5	34
-	+	4	25
-	+	5	36
-	+	9	60
-
 > ~/Documents/the_vault/Code/website/cmaxreilly.github.io/.git/COMMIT_EDITMSG
 	*	1661320031	0
 	"	1	0
@@ -1692,364 +1951,3 @@ $x
 	+	43	0
 	+	43	92
 	+	10	61
-
-> ~/.scripts/account.sh
-	*	1660507691	0
-	"	5	12
-	^	5	13
-	.	5	12
-	+	2	0
-	+	3	0
-	+	3	186
-	+	3	0
-	+	4	0
-	+	5	12
-
-> ~/.scripts/accounting_formulas.py
-	*	1660506269	0
-	"	4	29
-	^	4	23
-	.	4	22
-	+	6	25
-	+	7	0
-	+	4	22
-
-> ~/Documents/the_vault/Church_Music/compositions/.git/COMMIT_EDITMSG
-	*	1660431630	0
-	"	1	13
-	^	1	14
-	.	1	14
-	+	1	14
-
-> ~/.scripts/composition.sh
-	*	1660346478	0
-	"	3	68
-	^	3	68
-	.	3	67
-	+	3	67
-
-> ~/Documents/the_vault/daily_checklists/latex/correspondence_checklist.tex
-	*	1660345753	0
-	"	1	0
-	.	3	0
-	+	3	0
-
-> ~/Documents/the_vault/daily_checklists/correspondence_checklist.tex
-	*	1660345575	0
-	"	18	12
-	^	18	13
-	.	18	0
-	+	6	23
-	+	11	104
-	+	15	39
-	+	8	47
-	+	10	1
-	+	19	4
-	+	19	0
-	+	10	25
-	+	11	121
-	+	18	0
-
-> ~/.scripts/colorblind.sh
-	*	1660342248	0
-	"	7	0
-
-> ~/Documents/the_vault/daily_checklists/latex_todo_template.tex
-	*	1660341281	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/butterflies.sh
-	*	1660326546	0
-	"	3	0
-	^	4	0
-	.	3	0
-	+	5	71
-	+	7	0
-	+	2	0
-	+	7	69
-	+	3	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/procession.sh
-	*	1660325242	0
-	"	10	78
-	^	10	79
-	.	10	78
-	+	3	69
-	+	5	15
-	+	5	0
-	+	3	0
-	+	5	15
-	+	1	1
-	+	3	86
-	+	1	1
-	+	12	67
-	+	8	0
-	+	11	0
-	+	7	0
-	+	9	0
-	+	10	78
-
-> ~/Documents/work_and_gigs/district_51/colorado_west_2022/essay.tex
-	*	1660318840	0
-	"	1	0
-	^	27	38
-	.	27	37
-	+	8	0
-	+	5	0
-	+	8	0
-	+	6	16
-	+	9	14
-	+	11	0
-	+	43	13
-	+	1	14
-	+	2	11
-	+	1	0
-	+	12	1
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	1
-	+	21	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	28	336
-	+	27	37
-
-> ~/Documents/work_and_gigs/district_51/colorado_west_2022/essay_outline.txt
-	*	1660317186	0
-	"	1	0
-	^	30	816
-	.	30	816
-	+	13	22
-	+	11	57
-	+	15	0
-	+	17	64
-	+	18	1
-	+	18	0
-	+	27	2
-	+	26	0
-	+	27	437
-	+	30	0
-	+	30	816
-
-> ~/Documents/the_vault/latex/first_latex.tex
-	*	1660316686	0
-	"	14	13
-	^	14	15
-	.	14	0
-	+	17	14
-	+	16	54
-	+	1	43
-	+	7	0
-	+	12	10
-	+	15	1
-	+	14	0
-
-> ~/.bashrc
-	*	1660246500	0
-	"	1	22
-	^	1	23
-	.	1	22
-	+	1	22
-
-> ~/.scripts/feyn.py
-	*	1660244630	0
-	"	25	3
-	^	27	24
-	.	28	27
-	+	1	0
-	+	9	8
-	+	13	0
-	+	18	0
-	+	15	17
-	+	17	5
-	+	39	0
-	+	23	17
-	+	22	20
-	+	30	13
-	+	33	28
-	+	36	31
-	+	27	22
-	+	28	22
-	+	23	22
-	+	23	28
-	+	17	1
-	+	36	0
-	+	37	1
-	+	36	36
-	+	23	0
-	+	24	18
-	+	23	24
-	+	36	37
-	+	27	22
-	+	28	22
-	+	27	27
-	+	28	28
-	+	27	23
-	+	28	27
-
-> ~/.scripts/feyn.sh
-	*	1660236904	0
-	"	1	0
-
-> ~/.vmail/default/current_message.txt
-	*	1660235562	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/.vmail/default/vmailbuffer
-	*	1660234054	0
-	"	12	22
-	.	12	0
-	+	249	0
-	+	195	0
-	+	196	0
-	+	197	0
-	+	198	0
-	+	199	0
-	+	195	0
-	+	102	0
-	+	12	0
-
-> ~/.gitignore
-	*	1660176402	0
-	"	2	0
-	^	6	0
-	.	5	9
-	+	3	3
-	+	5	9
-
-> ~/.vmail/default/compose_message.txt
-	*	1660170910	0
-	"	12	2
-	^	12	3
-	.	12	3
-	+	42	0
-	+	42	1
-	+	42	0
-	+	1	0
-	+	10	44
-	+	13	0
-	+	12	3
-
-> ~/.vmailrc
-	*	1660169944	0
-	"	2	26
-	^	2	27
-	.	2	26
-	+	1	36
-	+	3	20
-	+	2	26
-
-> ~/.zshrc
-	*	1660078910	0
-	"	3	0
-
-> ~/.bash_profile
-	*	1660078500	0
-	"	4	0
-	^	15	0
-	.	15	0
-	+	8	30
-	+	13	0
-	+	14	8
-	+	15	0
-
-> /private/etc/shells
-	*	1660076801	0
-	"	12	18
-	^	12	19
-	.	12	18
-	+	12	18
-
-> ~/.bash_scripts/feyn.sh
-	*	1660075749	0
-	"	17	0
-	^	17	0
-	.	16	0
-	+	31	80
-	+	5	117
-	+	6	0
-	+	31	0
-	+	6	118
-	+	7	72
-	+	23	38
-	+	11	49
-	+	23	63
-	+	26	189
-	+	30	92
-	+	12	0
-	+	19	0
-	+	12	0
-	+	13	78
-	+	15	12
-	+	16	0
-
-> ~/Documents/Life_Documents/camping_checklist.txt
-	*	1659743334	0
-	"	7	6
-	^	7	7
-	.	7	7
-	+	7	7
-
-> ~/.bash_scripts/colorblind.sh
-	*	1659736703	0
-	"	5	68
-	^	5	69
-	.	5	68
-	+	7	63
-	+	3	61
-	+	5	68
-
-> ~/.bash_scripts/miranda.sh
-	*	1659735145	0
-	"	16	0
-	^	11	0
-	.	12	13
-	+	4	0
-	+	3	74
-	+	6	0
-	+	3	74
-	+	10	0
-	+	10	74
-	+	10	0
-	+	26	0
-	+	12	0
-	+	19	0
-	+	12	0
-	+	19	75
-	+	3	69
-	+	19	5
-	+	6	53
-	+	10	0
-	+	12	0
-	+	6	83
-	+	10	0
-	+	12	0
-	+	10	0
-	+	12	0
-	+	6	43
-	+	10	0
-	+	12	0
-	+	9	0
-	+	12	0
-	+	9	0
-	+	12	0
-	+	10	12
-	+	5	15
-	+	9	0
-	+	6	1
-	+	7	0
-	+	7	82
-	+	8	4
-	+	12	0
-	+	10	87
-	+	12	13

@@ -1,5 +1,10 @@
 
 
+alias thea="cd ~/Documents/work_and_gigs/cmu_music_theater/; ls"
+alias prob="vim ~/Documents/the_vault/problems/problems.md"
+alias tonutil="python3 ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/tone_row_utility.py"
+alias tontd="vim ~/Documents/the_vault/code/music/tone_row_maximalism/README.md"
+alias tonmax="cd ~/Documents/the_vault/code/music/tone_row_maximalism/; ls"
 alias izzyset="code ~/Documents/work_and_gigs/izzy_burns/setlist.txt"
 alias bells="safari https://gjhs.d51schools.org/calendar/bell_schedule"
 alias scase="rename -f 'y/A-Z/a-z/' * ; rename -f 'y/ /_/' *"

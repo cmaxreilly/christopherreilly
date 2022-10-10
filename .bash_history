@@ -1,500 +1,500 @@
-machine 
-code index.html 
-gem install jekyll
-sudo gem install jekyll
-ls
 cd
+ls
+gacp
+ls
+git clone https://github.com/nathanbuchar/atom-one-dark-terminal.git
+ls
+mv atom-one-dark-terminal/ Documents/the_vault/code
 cd Documents/the_vault/code
 ls
-mkdir websites
+mkdir terminal_themes
+mv atom-one-dark-terminal/ terminal_themes/
+l
 ls
-cd websites
-jekyll
-jekyll new-theme
-load?
 cd
-cd Downloads/
 ls
-cd centrarium-master/
-ls
-cd ..
-ls
-cd ..
-cd Documents/the_vault/code
-cd websites/
-ls
-mkdir jekyll_templates
-cd jekyll_templates/
-load .
-ls
-cd centrarium-master/
-ls
-cd ..
-ls
-cd ..
-machine
-cd ..
-ls
-cd the_machine_learning_journey.github.io/
-ls
-mkdir old_site
-mv ** old_site/
-ls
-cd ..
 cd -
-cp ~/Documents/the_vault/code/websites/jekyll_templates/centrarium-master/** .
 ls
-cp -r ~/Documents/the_vault/code/websites/jekyll_templates/centrarium-master/** .
+cd terminal_themes/
+finder
 ls
-code index.html 
-gem install bundler
-sudo gem install bundler
-bundle install
-code index.html 
 ls
-code posts.md 
-cd _posts/
-ls
-cd 2015-04-18-dummy.md 
-code 2015-04-18-dummy.md 
-cd ..
-ls
-cd _includes/
-ls
-code footer.html 
-ls
-cd ..
-ls
-vim _config.yml 
-git checkout .
-ls
-git reset --hard HEAD
-ls
-git clean
-git clean -f
-ls
-git clean -fd
-ls
-cd ../../
-ls
-cd code/websites/
-ls
-mkdir jekyll_test
-mv jekyll_templates/centrarium-master/** jekyll_test/
-ls
-cd jekyll_test/
-ls
-code index.html 
-cd ..
-ls
-jekyll new jekyll_test
-rm -r jekyll_test/**
-ls
-jekyll new jekyll_test
-ls
-cd jekyll_te
-cd jekyll_test/
-ls
-jekyll serve
-ls
-cd ..
-ls
-cd jekyll_te
-cd jekyll_templates/
-ls
-cd centrarium-master/
-ls
-load
-load .
-ls
-pwd
-mv centrarium-master/** .
-ls
-rm -r centrarium-master/
-ls
-cd ..
-ls
-cd ..
-ls
-cd jekyll_test/
-ls
-cp -r ../jekyll_templates/** .
-ls
-rm -r centrarium-master/
-cp -r ../jekyll_templates/centrarium-master/** .
-ls
-jekyll serve
-bundle exec jekyll serve
-ls
-code _config.yml 
-ls
-bundle exec jekyll serve
-clear
-ls
-cd
-izzytd
-izzy
-ls
-code cold_call_speech.txt 
-vsali
-wcjoc
-cd
-ls
-cd Documents/the_vault/
-ls
-ls | less
-cd deepbach/
-ls
-cd ..
-ls
-search ai
-ls
-ls | less
-/usr/local/microsoft/powershell/7/pwsh ; exit;
-jake
-vsali
-brew install powershell
-pwsh
-ls
-pwsh
-sudo pwsh
-ls
-sbash
-bell
-bells
-ls
-ra
-ratd
-ratd
-cd enter_as_one/
-ls
-scase
-ls
-mv enter_as_one.sib sibelius_files/
-ls
-mv enter_as_one_-_orig.mid midi_files/
-ls
-cd midi_files/
-ls
-cd ../..
-ls
-gacp
-cd enter_as_one/
-ls
-cd midi_files/
-ls
-open enter_as_one_-_orig.mid 
-ra; cd ..
-ls
-rm -r ra_backup/
-ls
-ra
-gacp
-cd enter_as_one/
-cd logic_files/
-ls
-cd enter_as_one/
-open enter_as_one.logicx/
-gacp
-git add .
-git commit
-cd enter_as_one.logicx/
-ra
-gacp
-clear
-izzy
-code todo.txt 
-ls
-cd ~/.scripts/ ;ls
-izzy
-edali
-izzy
-code todo.txt 
-ls
-gacp
-ls
-ra
-cd blossom/
-ls
-cd logic_files/
-ls
-cd ../midi_files/
-ls
-open blossom.mid 
-ls
-clear
-exit
-ls
-ra
-cd enchanting_rae/
-ls
-scase
-ls
-mv enchanting_rae.mid midi_files
-mv **.pdf pdfs/
-ls
-cd logic_files/
-cd ../midi_files/
-ls
-open enchanting_rae.mid 
-ra
-gacp
-ls
-exit
-ls
-cd enchanting_rae/logic_files/enchanting_rae/
-ls
-open enchanting_rae.logicx/
-ls
-cd ../..
-ls
-cd ..
 ls
 ls
 exit
-ls
-cd prodigal_return/
-ls
-scase
-ls
-mv **.mid midi_files/
-mv **.sib sibelius_files/
-ls
-mv **.pdf pdfs
-ls
-cd midi_files/
-ls
-open prodigal_return.mid 
+exit
 exit
 ls
+vim midi_function_writer.py 
+vim midi_writer.py 
+vim midi_writer_1.0.py 
+ls
+vim README.md 
+vim README.md 
 exit
 ls
-cd ../../
+ls
+touch .gitignore
+mkdir tone_row_utility
+touch LICENSE
+touch requirements.txt
+touch setup.py
+touch tests.py
+ls
+touch tone_row_utility/__init__.py tone_row_utility/helpers.py tone_row_utility/tone_row_utility.py
+ls
+mv midi_files/ tone_row_utility/
+mv midi** tone_row_utility/
+ls
+mv tone_row_maximalism_1.0\ Project/ ..
+ls
+mv whole_damn_thing.py tone_row_utility/
+mv whole_damn_thing.sh tone_row_utility/
+ls
+mv monstrosity_1.0/ ..
+ls
+mv tone_row_repository.txt tone_row_utility/
+mv tone_row_maximalism_** tone_row_utility/
 ls
 cd ..
-cd enter_as_one/logic_files/enter_as_one/
 ls
-open enter_as_one.logicx/
-ra
-open blossom/logic_files/blossom/blossom.logicx/
+mkdir logic_projects
+mv tone_row_maximalism_1.0\ Project/ logic_projects/
 ls
-cd lotus_rising/
+mv monstrosity_1.0/ logic_projects/
 ls
-open lotus_rising.sib 
-ratd
-ra
-gacp
-git rm --cached .DS_Store 
-code .gitignore
-cat ls
+cd tone_row_maximalism/
+ls
+cd tone_row_utility/
+ls
+exit
+ls
+cd tone_row_utility/
+ls
+exit
 ls
 ls -a
-cat .gitignore
-gacp
-edali
-gd
+ls
+clear
+ls
+clear
+vim
+cd
+ls
+cd Documents/the_vault/code/
+ls
+cd python/
 ls
 cd ..
-ls
-mv Scanned\ Document.pdf guys_and_dolls/cuts.pdf
-rm -r RE__AUDITION_INFORMATION_-_Guys_\&_Dolls_and_Midsummer_NIght\'s_Dream/
-ls
-cd guys_and_dolls/
-ls
-open cuts
-open cuts.pdf 
-ratd
-ra
-ratd
-ls
-gacp
-ls
-ratd
-izzy
-gacp
-ra
-ratd
-ls
-gacp
-cd prodigal_return/
-ls
-cd logic_files/
-cd prodigal_return/
-open prodigal_return.logicx/
-ratd
-cd ~/Documents/work_and_gigs/;ls
-cd isa_sanchez/
-ls
-scase
-ls
-ls
-cd Documents/the_vault/
-ls
-cd ..
-ls
-cd work_and_gigs/
-ls
-cd ../the_vault/code/
 ls
 cd music/
 ls
-cd tone_row
 cd tone_row_maximalism/
+ls
+edali
+sbash
+tonmax
+vim dicking_the_command_line.py 
+python dicking_the_command_line.py 
+clear
+python dicking_the_command_line.py 
+ls
+mv dicking_the_command_line.py ../../python/
+ls
+rm major-scale.mid 
+ls
+mkdir midi_files
+ls
+mv **.mid midi_files
+ls
+mkdir obsolete_files
+ls
+cd list_in_a_list 
+vim list_in_a_list 
+mv list_in_a_list obsolete_files/
+mv obsolete_files/ .obsolete_files
+ls
+vim midi_function_writer.py 
+vim midi_writer.py 
+gacp
+git push --set-upstream origin main
+git status
+ls
+vim README.md
+ls
+open proofs_of_concept.odt 
+rm proofs_of_concept.odt 
 ls
 cd monstrosity_1.0/
 ls
 cd Project/
 ls
-open Project.logicx/
-ra
-cd binary_star/
+cd ../..
 ls
-cd logic_files/
+vim midi_writer.py 
+vim README.md 
+gacp
+gh repo create
+gh repo create
+git push
+git push --set-upstream origin main
+git history
+git --help
+git log
+clear
+ls -a
+rm .git
+rm -r .git
+sudo rm -r .git
 ls
+ls -a
+rm .gitignore 
 ls
+git init
+git add .
+git commit
+gh repo create
+gh repo create
+ls
+vim .gitignore
+ls
+rm midi_function_writer.py 
+ls
+rm midi_files/
+rm -r midi_files/
+ls
+rm midi_writer_10.py 
+mv midi_writer_example.py ../..
+ls
+rm midi_writer.py 
+rm midi_writer_1.0.py 
+exit
+ls
+rm tone_row_repository.txt 
+rm whole_damn_thing.**
+ls
+rm tone_row_maximalism_1.0.py tone_row_maximalism_20.py 
+ls
+exit
+ls
+python tone_row_utility.py 
+python tone_row_utility.py 
+python tone_row_utility.py 
+python tone_row_utility.py 
+python tone_row_utility.py 
+exit
+ls
+tonmax
+cd tone_row_utility/
+ls
+python tone_row_utility.py 
+python tone_row_utility.py 
+ls
+cat testy_texty.txt 
+exit
+ls
+tonmax
+edali
+tonutil
+sbash
+tonutil
+rm testy_texty.txt 
+ls
+edali
+sbash
+tonutil
+exit
+tonutil
+tonmax
+cd tone_row_utility/
+ls
+vim tone_row_utility.py 
+tonmax
+cd tone_row_utility/
+ls
+vim helpers.py 
+tonmax
+gacp
+clear
+edali
+sbash
+tontd
+ls
+cd tone_row_utility/
+ls
+vim tone_row_utility.py 
+gacp
 cd ..
 ls
-cd ..
+gacp
 ls
-cd butterflies/
+cd tone_row_utility/
 ls
-cd logic_projects/
+vim helpers.py 
+jup
+code
+code helpers.py 
 ls
-open take_1.logicx/
-miranda 
-cd Documents/work_and_gigs/studio/miranda/
+cd
 ls
-open colorblind.logicx/
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ls
+ls -a
+edvim 
+vim
+Bundle 'Valloric/YouCompleteMe'
+edvim
+ls
+ls -a
+ls -a | less
+rm .vimrc.swp 
+edvim
+vim
+vim
+edvim
+vim
+vim
+tonmax
+cd tone_row_utility/
+ls
+vim tone_row_utility.py 
+vim tone_row_utility.py 
+brew install cmake python go nodejs
+brew install java
+sudo ln -sfn $(brew --prefix java)/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+cd
+cd ~/.vim/bundle/YouCompleteMe/
+python3 install.py --all
+git submodule update --init --recursive
+python3 install.py --all
+edvim
+tonmax
+cd tone_row_utility/
+ls
+vim tone_row_utility.py 
+vim tone_row_utility.py 
 load?
-cd Downloads/
+cd Documents/work_and_gigs/district_51/west_middle_school/
 ls
-mv **.jpg ~/Documents/work_and_gigs/independence_academy/
+cd 2022/
 ls
-rm What\ Remains.pdf 
-cd ~/Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/
+cd fall_semester/
+ls
 load .
 ls
 scase
-open -a Logic Runyonland.m4a
-apps
 ls
-gd
-jake
+cd Documents/work_and_gigs/
 ls
-cd Contents/
+ls | less
+cd district_51/
 ls
 cd ..
 ls
-cd ..
+ls | less
+cd independence_academy/
 ls
-load?
-cd Documents/work_and_gigs/; ls | less
-cd rachel
-cd rachel_foote/
-ls
-comp
-cd ~/Documents/the_vault/church_music/compositions/
-ls
-cd ~/Documents/the_vault/code
-ls
-mkdir linux
-ls
-cd linux/
-ls
-mkdir linux_dot_files
-ls
-cp ~/.bash_aliases linux_dot_files/
-ls
-cd linux_dot_files/
-ls
-ls -a
-cd .bash_aliases 
-ls
-cd .bash_aliases 
-vim .bash_aliases 
-cp ~/.scripts/ .
-cp -r ~/.scripts/ .
-ls
-mv ** .scripts
-mkdir .scripts
-ls
-mv ** .scripts/
-ls
-ls -a
-cd scr
-cd .scripts/
-ls
-vim account.sh 
-vim accounting_formulas.py ls
 ls
 cd ..
 ls
-ratd
-clear
-ls
-cd Google\ Drive
-ls
-cd My\ Drive/
-ls
-cd ra_lasater\ \(1\)/
-ls
-cd light_by_seven/
-ls
-cd logic_files/
-ls
-cd ../..
-ls
-cd the_scent_of_light/
-ls
-cd logic_files/
-ls
-open scent_of_light_ed.logicx/
 finder
-open scent_of_light_ed.logicx
-open scent_of_light_ed.logicx/
-ra
-cd the_s
-cd the_scent_of_light/
+cd independence_academy/
 ls
-cd logic_files/
+finder
 ls
+rm **.jpg
 ls
-ra
-cd binary_star/
+open 0.pdf 
+mv 0.pdf catch_a_falling_star.pdf
+open IMG-3722.pdf 
 ls
-cd logic_files/
+rm **.pdf
 ls
-cd ..
-ls
-cd midi_files/
-ls
-open binary_stars.mid 
-ra
-cd lotus_rising/
-ls
-mv **.mid midi_files/
-ls
-mv **.pdf pdfs/
-ls
-mv **.sib sibelius_files/
-ls
-cd midi_files/
-ls
-open Lotus\ Rising.mid 
-ratd
-ls
-ra
-gacp
-cd Documents/work_and_gigs/isa_sanchez/; ls
-open what_remains.pdf 
-open guess_i\'ll_hang_my_tears_out_to_dry.pdf 
+pdfunite
+brew install pdfunite
+brew install pdftk
+brew install pdftk-java
+pdftk
+pdftk -h
+pdftk -h | less
 load?
+cd ~/Downloads/
+ls
+rm IMG-3726.jpg 
+cd -
+load .
+ls
+cd resongstoberecorded/
+ls
+open IMG-3729.jpg 
+brew install imagemagik
+brew install imagemagick
+ls
+convert **.jpg shenandoah_pg.pdf
+ls
+cd shenandoah_pg.pdf 
+open shenandoah_pg.pdf 
+mv shenandoah_pg.pdf ../shenandoah.pdf
 ls
 cd ..
 ls
-mkdir marge_brophy
-cd marge_brophy/
+mv resongstoberecorded/ shenandoah_jpgs
+ls
+load?
+load .
+mv resongstoberecorded/ skipping_stones_jpgs
+cd skipping_stones_jpgs/
+ls
+convert **.jpg skipping_stones.pdf
+ls
+mv skipping_stones.pdf ../
+ls
+cd ..
+ls
+mkdir jpegs
+mkdir pdfs
+ls
+mv **.jpgs jpegs/
+ls
+rm jpegs/
+rm -r jpegs/
+rm -r pdfs/
+ls
+cd Documents/work_and_gigs/independence_academy/
+ls
+finder
+jake
+cd Documents/work_and_gigs/taniall/
+ls
+cd recital/
+ls
+cd arrangements/
+ls
+cd ~/Documents/the_vault/
+ls
+ls | ls
+ls | less
+cd sun_going_in/
+ls
+open sun_going_in.logicx/
+open sun_going_in.logicx/
+load?
+cd Downloads/
+ls
+rm Arrangements/
+ls
+rm -r Arrangements/
+ls
+cd ..
+ls
+cd Documents/work_and_gigs/cmu_music_theater/repertoire_classes/
+load .
+ls
+mv MTT_Sheet_Music/catie_spann
+mv MTT_Sheet_Music/ catie_spann
+ls
+load .
+ls
+mv MTT_Music/ emily_skinner
+load .
+ls
+mkdir mina_langness
+mv KIC\ Document\ 0001.pdf mina_langness/
+ls
+finder
+ls
+cd Documents/work_and_gigs/cmu_music_theater/repertoire_classes/
+ls
+mkdir kira_valimaki
+cd kira_valimaki/
 load .
 ls
 finder
+load?
+cd ../../; ls
+cd ..
+ls
+cd junction-voice\ class/
+ls
+cd ..
+ls
+scase
+ls
+mv junction-voice_class/ junction_voice_class
+ls
+cd junction_voice_class/
+ls
+scase
+ls
+cd sam\ gudat/
+ls
+cd ..
+ls
+rm -r sam\ gudat/
+ls
+mv grace_lynn_stone/ gracelynn_stone
+ls
+open scanned_document.pdf 
+mkdir rylee_flanigan
+load?
+cd rylee_flanigan/
+ls
+load?
+load .
+ls
+open Adobe\ Scan\ Oct\ 04\,\ 2022.pdf 
+open Adobe\ Scan\ Oct\ 04\,\ 2022.pdf 
+safari Adobe\ Scan\ Oct\ 04\,\ 2022.pdf 
+mv Adobe\ Scan\ Oct\ 04\,\ 2022.pdf cherry_valley.pdf
+cd ..
+ls
+clear
+ls
+safari scanned_document.pdf 
+rm scanned_document.pdf 
+ls
+cd alivia/ ;ls
+cd ../faith_hayes_/; ls
+cd ../gracelynn_stone/
+ls
+mv Gracelynn\ Stone-\ The\ Awakening.pdf the_awakening.pdf
+ls
+cd ../hope/;l
+ls
+scase
+ls
+cd ..
+ls
+mv faith_hayes_/ faith_hayes
+ls
+mv jackie_weiss_/ jackie_weiss
+ls
+cd hope
+ls
+cd ../jackie_weiss/;ls
+mv Jackie\ Weiss\ The\ Lotus\ Flower.pdf the_lotus_flower.pdf
+cd ../mikayla/
+ls
+scase
+cd ../rylee_flanigan/
+;ls
+ls
+cd ../sam_gudat/
+ls
+safari sebben_crudele.pdf 
+safari Scanned\ Document.pdf 
+rm Scanned\ Document.pdf 
+ls
+ls
+cd
+ls
+cd Documents/the_vault/
+mkdir problems
+cd problems/
+ls
+vim problems.txt
+python core.py 
+python core.py 
+exit
+cd ~/.scripts/; python3
+exit

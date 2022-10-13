@@ -1,142 +1,3 @@
-cd
-ls
-gacp
-ls
-git clone https://github.com/nathanbuchar/atom-one-dark-terminal.git
-ls
-mv atom-one-dark-terminal/ Documents/the_vault/code
-cd Documents/the_vault/code
-ls
-mkdir terminal_themes
-mv atom-one-dark-terminal/ terminal_themes/
-l
-ls
-cd
-ls
-cd -
-ls
-cd terminal_themes/
-finder
-ls
-ls
-ls
-ls
-exit
-exit
-exit
-ls
-vim midi_function_writer.py 
-vim midi_writer.py 
-vim midi_writer_1.0.py 
-ls
-vim README.md 
-vim README.md 
-exit
-ls
-ls
-touch .gitignore
-mkdir tone_row_utility
-touch LICENSE
-touch requirements.txt
-touch setup.py
-touch tests.py
-ls
-touch tone_row_utility/__init__.py tone_row_utility/helpers.py tone_row_utility/tone_row_utility.py
-ls
-mv midi_files/ tone_row_utility/
-mv midi** tone_row_utility/
-ls
-mv tone_row_maximalism_1.0\ Project/ ..
-ls
-mv whole_damn_thing.py tone_row_utility/
-mv whole_damn_thing.sh tone_row_utility/
-ls
-mv monstrosity_1.0/ ..
-ls
-mv tone_row_repository.txt tone_row_utility/
-mv tone_row_maximalism_** tone_row_utility/
-ls
-cd ..
-ls
-mkdir logic_projects
-mv tone_row_maximalism_1.0\ Project/ logic_projects/
-ls
-mv monstrosity_1.0/ logic_projects/
-ls
-cd tone_row_maximalism/
-ls
-cd tone_row_utility/
-ls
-exit
-ls
-cd tone_row_utility/
-ls
-exit
-ls
-ls -a
-ls
-clear
-ls
-clear
-vim
-cd
-ls
-cd Documents/the_vault/code/
-ls
-cd python/
-ls
-cd ..
-ls
-cd music/
-ls
-cd tone_row_maximalism/
-ls
-edali
-sbash
-tonmax
-vim dicking_the_command_line.py 
-python dicking_the_command_line.py 
-clear
-python dicking_the_command_line.py 
-ls
-mv dicking_the_command_line.py ../../python/
-ls
-rm major-scale.mid 
-ls
-mkdir midi_files
-ls
-mv **.mid midi_files
-ls
-mkdir obsolete_files
-ls
-cd list_in_a_list 
-vim list_in_a_list 
-mv list_in_a_list obsolete_files/
-mv obsolete_files/ .obsolete_files
-ls
-vim midi_function_writer.py 
-vim midi_writer.py 
-gacp
-git push --set-upstream origin main
-git status
-ls
-vim README.md
-ls
-open proofs_of_concept.odt 
-rm proofs_of_concept.odt 
-ls
-cd monstrosity_1.0/
-ls
-cd Project/
-ls
-cd ../..
-ls
-vim midi_writer.py 
-vim README.md 
-gacp
-gh repo create
-gh repo create
-git push
 git push --set-upstream origin main
 git history
 git --help
@@ -497,4 +358,143 @@ python core.py
 python core.py 
 exit
 cd ~/.scripts/; python3
+exit
+ls
+cd Documents/the_vault/personal_prioritization/
+ls
+ls -a
+cd priority/
+ls -a
+vim core.py 
+vim .core.py.swp
+rm **.swp
+rm .**.swp
+ls
+ls -a
+vim helpers.py
+git init
+git add .
+git commit
+gh repo create
+ls
+cd ..
+cd priority/
+ls
+ls -a
+sudo rm -r .git
+cd ..
+ls
+git init
+git add .
+ls
+git commit
+gh repo create
+gh auth login
+gh repo create
+ls
+account
+gacp
+cd
+gacp
+exit
+brew search sc
+cd ~/.scripts; python3
+exit
+account
+clear
+exit
+ra
+ls
+gacp
+ls
+ls
+ls -a
+pwd
+ls
+pwd
+cd ls
+ls
+cd the_scent_of_light/
+ls
+open The\ Scent\ of\ Light.sib 
+exit
+echo "STarting script"
+exit
+cd ~/Documents/
+cd -
+exit
+cd .scripts/
+ls
+vim update_ra_gdrive.sh
+exit
+finder
+ls
+cd ..
+ls
+cd Google\ Drive
+ls
+cd ..
+ls
+mv Google\ Drive google_drive
+ls
+cd google_drive
+ls
+mv My\ Drive/ my_drive
+ls
+cd ..
+ls
+cd google_drive
+ls
+ls
+cd My\ Drive/
+ls
+cd ~
+ls
+cd google_drive/My\ Drive/ra_lasater
+exit
+how_many
+exit
+ls
+exit
+sudo /usr/sbin/installer -allowUntrusted -verboseR -pkg '/Library/Caches/Avid/AvidLink/Downloads/Avid_Link_22.9.0_Mac.pkg' -target /
+ls
+binary_star
+ls
+cd binary_star/
+ls
+cd sibelius_files/
+ls
+open binary_stars.sib 
+cd ..
+ls
+cd logic_files/
+ls
+cd binary_star/
+ls
+open binary_star.logicx/
+ls
+ra
+cd blossom/logic_files/blossom/
+ls
+open blossom.logicx/
+ra
+cd butterflies/logic_projects/
+ls
+open take_3.logicx/
+ra
+open enchanting_rae/logic_files/enchanting_rae/enchanting_rae.logicx/
+open hope_fore_the_dawn/logic_files/hope_fore_the_dawn/hope_fore_the_dawn.logicx/
+open light_by_seven/logic_files/light_by_seven/light_by_seven.logicx/
+open lotus_rising/logic_files/lotus_rising_max_recording/lotus_rising_max_recording.logicx/
+cd procession/logic_files/
+ls
+exit
+shc -h
+shc man
+shc -f update_ra_gdrive.sh 
+ls
+ls
+bash install_ra-update.sh 
+ls
+ra-update 
 exit

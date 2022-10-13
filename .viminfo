@@ -11,25 +11,35 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/alias
+~MSle0/load
 
 # Last Substitute Search Pattern:
-~MSle0&âˆš
+~MSle0~&x
 
 # Last Substitute String:
-$x
+$ 
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1665379828,,"wq"
+|2,0,1665682974,,"wq"
 :term
-|2,0,1665378117,,"term"
-:q!
-|2,0,1665358516,,"q!"
-:q
-|2,0,1665358497,,"q"
+|2,0,1665682797,,"term"
+:%s/x/ /gc
+|2,0,1665682204,,"%s/x/ /gc"
+:'<,'>sort
+|2,0,1665682089,,"'<,'>sort"
+:e
+|2,0,1665681536,,"e"
 :w
-|2,0,1665111857,,"w"
+|2,0,1665681313,,"w"
+:q
+|2,0,1665681282,,"q"
+:e ~/.scripts/academic_aliases.txt
+|2,0,1665681159,,"e ~/.scripts/academic_aliases.txt"
+:s
+|2,0,1665679584,,"s"
+:q!
+|2,0,1665675789,,"q!"
 :Q
 |2,0,1664493775,,"Q"
 :PluginSearch colorscheme
@@ -88,8 +98,6 @@ $x
 |2,0,1663092345,,"! ra"
 :q~
 |2,0,1663026389,,"q~"
-:'<,'>sort
-|2,0,1662066454,,"'<,'>sort"
 :%s/Documents/docs/g
 |2,0,1661979621,,"%s/Documents/docs/g"
 :e .bash_scripts/snow_lace.sh
@@ -100,8 +108,6 @@ $x
 |2,0,1661404697,,"e .bash_scripts/six,_nine_and_3.sh"
 :!ls
 |2,0,1661404675,,"!ls"
-:s
-|2,0,1661319543,,"s"
 :set spell
 |2,0,1661295590,,"set spell"
 :spell
@@ -114,14 +120,12 @@ $x
 |2,0,1661009151,,"syntax off"
 :w! ../ra_lasater/README.md
 |2,0,1660931431,,"w! ../ra_lasater/README.md"
-:w ../ra_lasater/README.md
-|2,0,1660931406,,"w ../ra_lasater/README.md"
-:w ../ra_backup/README_backup.md
-|2,0,1660861196,,"w ../ra_backup/README_backup.md"
-:! mkdir ../ra_backup
-|2,0,1660861152,,"! mkdir ../ra_backup"
 
 # Search String History (newest to oldest):
+? x
+|2,1,1665682204,,"x"
+?/load
+|2,1,1665679581,47,"load"
 ?/alias
 |2,1,1665186895,47,"alias"
 ?/tone
@@ -218,8 +222,6 @@ $x
 |2,1,1658115747,,"thee"
 ??errroor
 |2,1,1658115534,63,"errroor"
-?/errroor
-|2,1,1658115487,47,"errroor"
 
 # Expression History (newest to oldest):
 
@@ -228,36 +230,61 @@ $x
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	from midiutil import MIDIFile
-|3,0,0,1,1,0,1664432776,"from midiutil import MIDIFile"
-""1	LINE	0
-	;Lwkerjq;lkwejr;:wq
-|3,1,1,1,1,0,1665356312,";Lwkerjq;lkwejr;:wq"
-"2	LINE	0
+"0	CHAR	0
+	- [x] blossom
+		- [x] enchanting rae
+		- [x] hope for the dawn
+		- [x] light by seven
+		- [x] lotus Rising
+		- [x] procession
+		- [x] prodigal Return
+		- [x] rae in E
+		- [x] six, Nine and 3
+		- [x] snow Lace
+		- [x] the Scent of Light
+		- [x] binary star
+		- [x] butterflies
 	
-|3,0,2,1,1,0,1665187031,""
-"3	LINE	0
-	alias poopy="echo 'max is poopy'"
-|3,0,3,1,1,0,1665187030,"alias poopy=\"echo 'max is poopy'\""
+	
+|3,0,0,0,15,0,1665682075,"- [x] blossom","	- [x] enchanting rae","	- [x] hope for the dawn","	- [x] light by seven","	- [x] lotus Rising","	- [x] procession","	- [x] prodigal Return","	- [x] rae in E","	- [x] six, Nine and 3","	- [x] snow Lace","	- [x] the Scent of Light","	- [x] binary star","	- [x] butterflies","",""
+""1	LINE	0
+		 ]
+|3,1,1,1,1,0,1665682221,"	 ]"
+"2	LINE	0
+	alias sz="source ~/.zshrc"
+	alias thea="cd ~/Documents/work_and_gigs/cmu_music_theater/; ls"
+|3,0,2,1,2,0,1665681181,"alias sz=\"source ~/.zshrc\"","alias thea=\"cd ~/Documents/work_and_gigs/cmu_music_theater/; ls\""
+"3	CHAR	0
+	alias tcrcite="open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/citations.odt"
+	alias tcre2="cd ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/; pwd"
+	alias tcressay="open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2.odt"
+	alias tcrout="open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_outline.odt"
+	alias tcrrn="echo''; echo''; date >> ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/research_notebook.txt; nano ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/research_notebook.txt"
+	alias tcrru="open -a libreoffice ~/Documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2_prompt.odt" 
+	alias tcrtd="open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2_checklist.odt"
+	alias tcrwc="open ~/documents/academic_documents/CMU/taos_cultural_revolution/midterm/midterm_works_cited.odt"
+	
+|3,0,3,0,9,0,1665681178,"alias tcrcite=\"open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/citations.odt\"","alias tcre2=\"cd ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/; pwd\"","alias tcressay=\"open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2.odt\"","alias tcrout=\"open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_outline.odt\"",>233
+|<"alias tcrrn=\"echo''; echo''; date >> ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/research_notebook.txt; nano ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/research_notebook.txt\"","alias tcrru=\"open -a libreoffice ~/Documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2_prompt.odt\" ","alias tcrtd=\"open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2_checklist.odt\"",>114
+|<"alias tcrwc=\"open ~/documents/academic_documents/CMU/taos_cultural_revolution/midterm/midterm_works_cited.odt\"",""
 "4	LINE	0
-		* Totally controlable
-|3,0,4,1,1,0,1665113946,"	* Totally controlable"
+	alias spacerace="bash ~/documents/the_vault/code.scripts/spacerace.sh"
+|3,0,4,1,1,0,1665681035,"alias spacerace=\"bash ~/documents/the_vault/code.scripts/spacerace.sh\""
 "5	LINE	0
-	 	* Write invoices for Leah Skelton and the people at the VSA
-|3,0,5,1,1,0,1665113945," 	* Write invoices for Leah Skelton and the people at the VSA"
+	alias owlmla="open -a safari https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html"
+|3,0,5,1,1,0,1665680951,"alias owlmla=\"open -a safari https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html\""
 "6	LINE	0
-	* Solution
-|3,0,6,1,1,0,1665113939,"* Solution"
+	alias lib="open -a safari https://cmu.marmot.org"
+|3,0,6,1,1,0,1665680916,"alias lib=\"open -a safari https://cmu.marmot.org\""
 "7	LINE	0
-	* Class (whether or not I have any control of the problem
-|3,0,7,1,1,0,1665113938,"* Class (whether or not I have any control of the problem"
+	alias how_many="python3 ~/documents/the_vault/code/days_till_graduation.py"
+|3,0,7,1,1,0,1665680907,"alias how_many=\"python3 ~/documents/the_vault/code/days_till_graduation.py\""
 "8	LINE	0
-	* A description
-|3,0,8,1,1,0,1665113938,"* A description"
+	alias gfctd="gvim ~/Documents/work_and_gigs/studio/github_for_composers.github.io/README.md"
+|3,0,8,1,1,0,1665680883,"alias gfctd=\"gvim ~/Documents/work_and_gigs/studio/github_for_composers.github.io/README.md\""
 "9	LINE	0
-	* A title
-|3,0,9,1,1,0,1665113937,"* A title"
+	alias draftblog="gvim ~/Documents/the_vault/Code/website/cmaxreilly.github.io/blog_drafts.md"
+|3,0,9,1,1,0,1665680849,"alias draftblog=\"gvim ~/Documents/the_vault/Code/website/cmaxreilly.github.io/blog_drafts.md\""
 "j	CHAR	0
 	j€kb€kb€kb€kb
 |3,0,19,0,1,0,1664491040,"j€kb€kb€kb€kb"
@@ -265,238 +292,560 @@ $x
 	wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk
 |3,0,32,0,1,0,1659654088,"wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk"
 "-	CHAR	0
-	t
-|3,0,36,0,1,0,1665186967,"t"
+	]
+|3,0,36,0,1,0,1665682066,"]"
 
 # File marks:
-'0  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
-|4,48,1,0,1665379828,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
-'1  1  13  ~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG
-|4,49,1,13,1665377768,"~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG"
-'2  1  13  ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
-|4,50,1,13,1665377670,"~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG"
-'3  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,51,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
-'4  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,52,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
-'5  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,53,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
-'6  1  454  ~/Documents/the_vault/personal_prioritization/priority/data.py
-|4,54,1,454,1665356617,"~/Documents/the_vault/personal_prioritization/priority/data.py"
-'7  1  0  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,55,1,0,1665356344,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
-'8  1  0  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,56,1,0,1665356344,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
-'9  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,57,1,0,1665356322,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+'0  1  40  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,48,1,40,1665682681,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+'1  135  1  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,49,135,1,1665682661,"~/Documents/work_and_gigs/ra_lasater/README.md"
+'2  143  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,50,143,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
+'3  126  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,51,126,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
+'4  1  0  ~/.bash_aliases
+|4,52,1,0,1665681230,"~/.bash_aliases"
+'5  1  0  ~/.scripts/hgit.sh
+|4,53,1,0,1665679795,"~/.scripts/hgit.sh"
+'6  7  0  ~/.bash_aliases
+|4,54,7,0,1665679595,"~/.bash_aliases"
+'7  11  0  ~/.bash_aliases
+|4,55,11,0,1665679595,"~/.bash_aliases"
+'8  15  0  /private/etc/sudoers.tmp
+|4,56,15,0,1665679516,"/private/etc/sudoers.tmp"
+'9  624  0  ~/.scripts/move_downloads.sh.x.c
+|4,57,624,0,1665679203,"~/.scripts/move_downloads.sh.x.c"
 
 # Jumplist (newest first):
--'  1  0  ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
-|4,39,1,0,1665379828,"~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt"
--'  1  13  ~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG
-|4,39,1,13,1665377768,"~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG
-|4,39,1,13,1665377768,"~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
-|4,39,1,13,1665377670,"~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
-|4,39,1,13,1665377670,"~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
-|4,39,1,13,1665377670,"~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG"
--'  1  13  ~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG
-|4,39,1,13,1665377670,"~/Documents/the_vault/personal_prioritization/priority/.git/COMMIT_EDITMSG"
--'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  10  60  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,10,60,1665359385,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  1  128  ~/Documents/the_vault/personal_prioritization/priority/helpers.py
-|4,39,1,128,1665359335,"~/Documents/the_vault/personal_prioritization/priority/helpers.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/.core.py.swp
-|4,39,1,0,1665358516,"~/Documents/the_vault/personal_prioritization/priority/.core.py.swp"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  4  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,4,0,1665358497,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
--'  1  0  ~/Documents/the_vault/personal_prioritization/priority/core.py
-|4,39,1,0,1665358481,"~/Documents/the_vault/personal_prioritization/priority/core.py"
+-'  3  24  ~/.scripts/ra-update/install_ra-update.sh
+|4,39,3,24,1665682797,"~/.scripts/ra-update/install_ra-update.sh"
+-'  1  0  ~/.scripts/ra-update/install_ra-update.sh
+|4,39,1,0,1665682760,"~/.scripts/ra-update/install_ra-update.sh"
+-'  1  40  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,40,1665682681,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  1  40  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+|4,39,1,40,1665682681,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
+-'  135  1  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,135,1,1665682661,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  135  1  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,135,1,1665682661,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  135  1  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,135,1,1665682661,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  135  1  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,135,1,1665682661,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  139  32  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,139,32,1665681536,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  139  32  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,139,32,1665681536,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  139  32  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,139,32,1665681536,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  139  32  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,139,32,1665681536,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,1,0,1665681298,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,1,0,1665681298,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,1,0,1665681298,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,1,0,1665681298,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  143  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,143,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  126  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,126,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  143  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,143,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  126  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,126,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  143  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,143,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  126  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,126,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  143  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,143,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  126  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,126,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,1,0,1665681279,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,1,0,1665681279,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,1,0,1665681279,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
+|4,39,1,0,1665681279,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1665681230,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  62  0  ~/.bash_aliases
+|4,39,62,0,1665681185,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  24  0  ~/.bash_aliases
+|4,39,24,0,1665680897,"~/.bash_aliases"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+-'  1  0  ~/.scripts/hgit.sh
+|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
 
 # History of marks within files (newest to oldest):
 
-> ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
-	*	1665379825	0
+> ~/.scripts/ra-update/install_ra-update.sh
+	*	1665682973	0
+	"	8	0
+	^	8	0
+	.	7	26
+	+	3	25
+	+	10	0
+	+	3	28
+	+	7	26
+
+> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
+	*	1665682680	0
+	"	1	40
+	^	1	41
+	.	1	40
+	+	1	28
+	+	1	0
+	+	9	0
+	+	1	34
+	+	1	0
+	+	7	22
+	+	1	72
+	+	7	0
+	+	1	24
+	+	6	0
+	+	1	23
+	+	5	0
+	+	1	15
+	+	3	0
+	+	1	40
+	+	3	0
+	+	1	21
+	+	3	0
+	+	1	15
+	+	2	0
+	+	1	40
+
+> ~/Documents/work_and_gigs/ra_lasater/README.md
+	*	1665682659	0
+	"	135	1
+	^	8	1
+	.	15	4
+	+	3	0
+	+	111	0
+	+	104	4
+	+	105	4
+	+	106	4
+	+	115	58
+	+	76	7
+	+	74	12
+	+	75	467
+	+	81	35
+	+	79	16
+	+	82	0
+	+	90	32
+	+	80	4
+	+	82	5
+	+	84	4
+	+	85	4
+	+	86	4
+	+	87	4
+	+	114	4
+	+	112	4
+	+	111	4
+	+	119	19
+	+	117	35
+	+	118	39
+	+	119	37
+	+	120	0
+	+	116	20
+	+	3	0
+	+	4	0
+	+	118	4
+	+	121	37
+	+	117	4
+	+	118	4
+	+	124	6
+	+	123	32
+	+	128	25
+	+	120	22
+	+	121	4
+	+	122	4
+	+	123	4
+	+	124	4
+	+	127	22
+	+	128	4
+	+	125	52
+	+	126	4
+	+	4	0
+	+	127	4
+	+	131	54
+	+	132	0
+	+	132	26
+	+	139	0
+	+	135	47
+	+	133	4
+	+	131	148
+	+	132	26
+	+	133	78
+	+	132	4
+	+	139	1
+	+	138	66
+	+	140	7
+	+	139	10
+	+	140	40
+	+	142	28
+	+	143	12
+	+	139	32
+	+	89	0
+	+	23	7
+	+	24	7
+	+	25	18
+	+	26	20
+	+	27	7
+	+	28	7
+	+	29	7
+	+	30	7
+	+	31	7
+	+	32	7
+	+	33	7
+	+	34	7
+	+	35	7
+	+	23	2
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	23	0
+	+	10	4
+	+	11	4
+	+	12	4
+	+	15	4
+
+> ~/.bash_aliases
+	*	1665681230	0
 	"	1	0
+	.	60	0
+	+	38	57
+	+	39	63
+	+	25	0
+	+	1	0
+	+	41	13
+	+	1	2
+	+	34	200
+	+	25	38
+	+	30	49
+	+	25	61
+	+	40	48
+	+	1	0
+	+	25	0
+	+	1	0
+	+	25	0
+	+	42	0
+	+	56	0
+	+	59	0
+	+	62	0
+	+	65	0
+	+	1	0
+	+	65	0
+	+	1	0
+	+	20	44
+	+	1	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	30	0
+	+	33	0
+	+	35	0
+	+	59	0
+	+	66	0
+	+	20	40
+	+	1	0
+	+	49	104
+	+	1	0
+	+	18	41
+	+	39	45
+	+	1	0
+	+	16	0
+	+	20	0
+	+	22	0
+	+	30	0
+	+	33	0
+	+	38	0
+	+	48	0
+	+	50	0
+	+	59	0
+	+	16	0
+	+	1	59
+	+	17	42
+	+	1	0
+	+	12	0
+	+	13	0
+	+	12	49
+	+	12	71
+	+	23	13
+	+	24	14
+	+	12	0
+	+	11	82
+	+	10	92
+	+	9	83
+	+	8	37
+	+	9	0
+	+	7	96
+	+	7	102
+	+	8	0
+	+	5	0
+	+	66	0
+	+	7	0
+	+	62	93
+	+	6	82
+	+	5	91
+	+	5	0
+	+	5	76
+	+	5	28
+	+	1	45
+	+	21	13
+	+	22	14
+	+	5	74
+	+	1	111
+	+	4	10
+	+	3	63
+	+	17	0
+	+	1	0
+	+	7	0
+	+	1	0
+	+	4	0
+	+	5	0
+	+	12	0
+	+	22	0
+	+	24	0
+	+	30	0
+	+	37	0
+	+	59	0
+	+	62	0
+	+	60	0
+
+> ~/.scripts/academic_aliases.txt
+	*	1665681164	0
+	"	2	0
+	.	1	0
+	+	1	0
+
+> ~/.scripts/hgit.sh
+	*	1665679794	0
+	"	1	0
+
+> /private/etc/sudoers.tmp
+	*	1665679513	0
+	"	15	0
+
+> ~/.scripts/move_downloads.sh.x.c
+	*	1665679201	0
+	"	624	0
+
+> ~/.scripts/move_downloads.sh
+	*	1665679118	0
+	"	1	0
+	^	5	6
+	.	5	5
+	+	5	4
+	+	3	20
+	+	5	5
+
+> ~/.scripts/update_ra_gdrive.sh
+	*	1665678860	0
+	"	4	0
+	^	7	7
+	.	32	0
+	+	3	29
+	+	5	51
+	+	25	7
+	+	4	34
+	+	8	33
+	+	13	23
+	+	19	0
+	+	24	0
+	+	30	5
+	+	33	22
+	+	5	38
+	+	8	39
+	+	13	28
+	+	9	6
+	+	14	6
+	+	19	0
+	+	23	0
+	+	24	0
+	+	29	0
+	+	24	0
+	+	19	0
+	+	7	6
+	+	12	0
+	+	17	0
+	+	22	0
+	+	27	0
+	+	32	0
+
+> ~/Library/CloudStorage/GoogleDrive-c.maxwell.reilly@gmail.com/My Drive/ra_lasater/.git/COMMIT_EDITMSG
+	*	1665676744	0
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
+
+> ~/Library/CloudStorage/GoogleDrive-c.maxwell.reilly@gmail.com/My Drive/ra_lasater/README.md
+	*	1665613896	0
+	"	122	49
+	^	122	50
+	.	122	49
+	+	1	0
+	+	117	4
+	+	115	0
+	+	114	0
+	+	122	49
+
+> ~/Documents/work_and_gigs/studio/business_documents/money_deposit_checklist.txt
+	*	1665517077	0
+	"	12	0
 	^	9	61
 	.	9	60
 	+	10	101
@@ -517,6 +866,15 @@ $x
 	+	4	25
 	+	5	36
 	+	9	60
+
+> ~/.git/COMMIT_EDITMSG
+	*	1665379854	0
+	"	1	26
+	^	1	27
+	.	2	0
+	+	1	0
+	+	1	27
+	+	2	0
 
 > ~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG
 	*	1665377767	0
@@ -561,111 +919,6 @@ $x
 	^	1	455
 	.	1	455
 	+	1	455
-
-> ~/.bash_aliases
-	*	1665187032	0
-	"	1	0
-	.	1	0
-	+	1	17
-	+	1	15
-	+	31	13
-	+	33	22
-	+	86	74
-	+	87	67
-	+	33	0
-	+	33	53
-	+	33	44
-	+	33	0
-	+	33	45
-	+	33	79
-	+	48	57
-	+	49	63
-	+	33	0
-	+	1	0
-	+	51	13
-	+	1	2
-	+	43	200
-	+	33	38
-	+	38	49
-	+	33	61
-	+	50	48
-	+	1	0
-	+	33	0
-	+	1	0
-	+	33	0
-	+	52	0
-	+	66	0
-	+	70	0
-	+	73	0
-	+	84	0
-	+	1	0
-	+	84	0
-	+	1	0
-	+	26	44
-	+	1	0
-	+	30	0
-	+	32	0
-	+	33	0
-	+	38	0
-	+	39	0
-	+	42	0
-	+	44	0
-	+	70	0
-	+	85	0
-	+	26	40
-	+	1	0
-	+	59	104
-	+	1	0
-	+	24	41
-	+	49	45
-	+	1	0
-	+	22	0
-	+	26	0
-	+	28	0
-	+	29	0
-	+	38	0
-	+	42	0
-	+	48	0
-	+	58	0
-	+	60	0
-	+	69	0
-	+	22	0
-	+	1	59
-	+	23	42
-	+	1	0
-	+	18	0
-	+	19	0
-	+	18	49
-	+	17	71
-	+	30	13
-	+	31	14
-	+	18	0
-	+	16	82
-	+	15	92
-	+	14	83
-	+	13	37
-	+	14	0
-	+	11	96
-	+	12	102
-	+	13	0
-	+	9	0
-	+	85	0
-	+	11	0
-	+	81	93
-	+	10	82
-	+	7	91
-	+	7	0
-	+	8	76
-	+	7	28
-	+	1	45
-	+	27	13
-	+	28	14
-	+	7	74
-	+	1	111
-	+	4	10
-	+	3	63
-	+	23	0
-	+	1	0
 
 > ~/Documents/the_vault/problems/problems.md
 	*	1665114054	0
@@ -893,14 +1146,6 @@ $x
 	*	1664407028	0
 	"	1	0
 
-> ~/.git/COMMIT_EDITMSG
-	*	1664324932	0
-	"	1	8
-	^	1	9
-	.	1	9
-	+	1	0
-	+	1	9
-
 > ~/Documents/the_vault/self_authoring/seven_questions.txt
 	*	1664324902	0
 	"	3	224
@@ -912,128 +1157,6 @@ $x
 > ~/.vim/colors/.vimrc
 	*	1664201309	0
 	"	1	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-	*	1663710559	0
-	"	1	50
-	^	1	51
-	.	1	50
-	+	1	28
-	+	1	0
-	+	9	0
-	+	1	34
-	+	1	0
-	+	7	22
-	+	1	72
-	+	7	0
-	+	1	24
-	+	6	0
-	+	1	23
-	+	5	0
-	+	1	15
-	+	3	0
-	+	1	40
-	+	3	0
-	+	1	21
-	+	3	0
-	+	1	15
-	+	2	0
-	+	1	50
-
-> ~/Documents/work_and_gigs/ra_lasater/README.md
-	*	1663710535	0
-	"	126	0
-	^	126	0
-	.	125	28
-	+	1	0
-	+	3	2
-	+	1	36
-	+	3	2
-	+	8	0
-	+	24	3
-	+	56	4
-	+	76	3
-	+	77	4
-	+	93	27
-	+	97	18
-	+	8	2
-	+	24	3
-	+	41	3
-	+	76	3
-	+	86	3
-	+	93	3
-	+	4	0
-	+	3	14
-	+	3	12
-	+	3	83
-	+	3	84
-	+	10	0
-	+	11	0
-	+	3	85
-	+	3	0
-	+	94	0
-	+	87	4
-	+	88	4
-	+	89	4
-	+	98	58
-	+	61	7
-	+	59	12
-	+	60	467
-	+	66	35
-	+	64	16
-	+	67	0
-	+	73	32
-	+	65	4
-	+	67	5
-	+	69	4
-	+	70	4
-	+	71	4
-	+	72	4
-	+	97	4
-	+	95	4
-	+	94	4
-	+	102	19
-	+	100	35
-	+	101	39
-	+	102	37
-	+	103	0
-	+	99	20
-	+	3	0
-	+	4	0
-	+	101	4
-	+	104	37
-	+	100	4
-	+	101	4
-	+	107	6
-	+	106	32
-	+	111	25
-	+	103	22
-	+	104	4
-	+	105	4
-	+	106	4
-	+	107	4
-	+	110	22
-	+	111	4
-	+	108	52
-	+	109	4
-	+	4	0
-	+	110	4
-	+	114	54
-	+	115	0
-	+	115	26
-	+	122	0
-	+	118	47
-	+	116	4
-	+	114	148
-	+	115	26
-	+	116	78
-	+	115	4
-	+	122	1
-	+	121	66
-	+	123	7
-	+	122	10
-	+	123	40
-	+	125	28
 
 > ~/Documents/the_vault/code/linux/linux_dot_files/.scripts/accounting_formulas.py
 	*	1663688481	0
@@ -1165,15 +1288,6 @@ $x
 > ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
 	*	1662478154	0
 	"	1	0
-
-> ~/.scripts/move_downloads.sh
-	*	1662164260	0
-	"	5	5
-	^	5	6
-	.	5	5
-	+	5	4
-	+	3	20
-	+	5	5
 
 > ~/Documents/the_vault/Code/.scripts/move_downloads.sh
 	*	1662164105	0
@@ -1776,178 +1890,3 @@ $x
 > ~/Documents/the_vault/DeepBach/predict.py
 	*	1660663153	0
 	"	1	0
-
-> ~/Documents/the_vault/DeepBach/models/models/VoiceModel(ChoraleDataset([0, 1, 2, 3],bach_chorales,['fermata', 'tick', 'key'],8,4),
-	*	1660662738	0
-	"	1	0
-
-> ~/Documents/the_vault/DeepBach/models/VoiceModel(ChoraleDataset([0, 1, 2, 3],bach_chorales,['fermata', 'tick', 'key'],8,4),
-	*	1660662718	0
-	"	1	0
-
-> ~/Documents/the_vault/DeepBach/.git/COMMIT_EDITMSG
-	*	1660630033	0
-	"	1	21
-	^	1	22
-	.	1	22
-	+	6	1
-	+	1	62
-	+	2	0
-	+	1	22
-
-> ~/Documents/the_vault/DeepBach/deepBach.py
-	*	1660626676	0
-	"	1	2
-
-> ~/Documents/the_vault/Code/tone_row_maximalism/.git/COMMIT_EDITMSG
-	*	1660626348	0
-	"	1	30
-	^	1	31
-	.	1	30
-	+	2	0
-	+	30	0
-	+	1	30
-
-> ~/Documents/work_and_gigs/ra_lasater/.git/MERGE_MSG
-	*	1660601523	0
-	"	1	0
-
-> ~/Documents/work_and_gigs/ra_lasater/todo.txt
-	*	1660601308	0
-	"	2	0
-	^	70	36
-	.	70	36
-	+	20	9
-	+	56	0
-	+	4	16
-	+	5	0
-	+	35	0
-	+	65	0
-	+	35	57
-	+	64	20
-	+	36	0
-	+	34	41
-	+	5	1
-	+	6	4
-	+	7	1
-	+	8	1
-	+	9	1
-	+	10	1
-	+	11	1
-	+	12	1
-	+	13	1
-	+	14	1
-	+	15	1
-	+	16	1
-	+	17	1
-	+	4	0
-	+	5	4
-	+	6	4
-	+	7	4
-	+	8	4
-	+	9	4
-	+	10	4
-	+	11	4
-	+	12	4
-	+	13	4
-	+	14	4
-	+	15	4
-	+	16	4
-	+	17	4
-	+	34	1
-	+	35	1
-	+	33	1
-	+	20	0
-	+	37	0
-	+	54	0
-	+	32	1
-	+	21	1
-	+	22	1
-	+	23	1
-	+	24	1
-	+	25	1
-	+	26	1
-	+	27	1
-	+	28	1
-	+	29	1
-	+	30	1
-	+	31	1
-	+	3	0
-	+	38	1
-	+	39	1
-	+	40	1
-	+	42	0
-	+	41	1
-	+	37	17
-	+	53	36
-	+	51	1
-	+	61	18
-	+	42	1
-	+	43	1
-	+	44	1
-	+	45	1
-	+	47	1
-	+	48	1
-	+	46	1
-	+	48	1
-	+	49	1
-	+	37	0
-	+	52	39
-	+	70	36
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/.project_aliases
-	*	1660601302	0
-	"	14	0
-	^	10	62
-	.	10	61
-	+	1	93
-	+	18	0
-	+	3	68
-	+	8	86
-	+	8	87
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	29	0
-	+	31	0
-	+	33	0
-	+	10	0
-	+	6	60
-	+	14	0
-	+	24	0
-	+	13	0
-	+	16	0
-	+	13	0
-	+	23	0
-	+	25	0
-	+	23	0
-	+	25	0
-	+	23	0
-	+	23	88
-	+	21	0
-	+	22	0
-	+	20	0
-	+	19	0
-	+	19	89
-	+	21	0
-	+	21	80
-	+	25	0
-	+	29	0
-	+	29	87
-	+	31	0
-	+	31	83
-	+	33	0
-	+	33	86
-	+	35	0
-	+	35	87
-	+	36	0
-	+	37	0
-	+	37	80
-	+	39	0
-	+	39	86
-	+	41	0
-	+	41	82
-	+	43	0
-	+	43	92
-	+	10	61

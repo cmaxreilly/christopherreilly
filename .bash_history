@@ -1,500 +1,500 @@
-git push --set-upstream origin main
-git history
-git --help
-git log
-clear
-ls -a
-rm .git
-rm -r .git
-sudo rm -r .git
+mv jim* jims_theme/
 ls
-ls -a
-rm .gitignore 
+cd jims_theme/
 ls
-git init
-git add .
-git commit
-gh repo create
-gh repo create
+cd ..
 ls
-vim .gitignore
+mv skye_boat_song_duet.mscz jims_theme/
 ls
-rm midi_function_writer.py 
+mkdir act_1
 ls
-rm midi_files/
-rm -r midi_files/
-ls
-rm midi_writer_10.py 
-mv midi_writer_example.py ../..
-ls
-rm midi_writer.py 
-rm midi_writer_1.0.py 
-exit
-ls
-rm tone_row_repository.txt 
-rm whole_damn_thing.**
-ls
-rm tone_row_maximalism_1.0.py tone_row_maximalism_20.py 
-ls
-exit
-ls
-python tone_row_utility.py 
-python tone_row_utility.py 
-python tone_row_utility.py 
-python tone_row_utility.py 
-python tone_row_utility.py 
-exit
-ls
-tonmax
-cd tone_row_utility/
-ls
-python tone_row_utility.py 
-python tone_row_utility.py 
-ls
-cat testy_texty.txt 
-exit
-ls
-tonmax
-edali
-tonutil
-sbash
-tonutil
-rm testy_texty.txt 
-ls
-edali
-sbash
-tonutil
-exit
-tonutil
-tonmax
-cd tone_row_utility/
-ls
-vim tone_row_utility.py 
-tonmax
-cd tone_row_utility/
-ls
-vim helpers.py 
-tonmax
 gacp
 clear
-edali
-sbash
-tontd
-ls
-cd tone_row_utility/
-ls
-vim tone_row_utility.py 
-gacp
-cd ..
-ls
-gacp
-ls
-cd tone_row_utility/
-ls
-vim helpers.py 
-jup
-code
-code helpers.py 
-ls
-cd
-ls
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-ls
-ls -a
-edvim 
-vim
-Bundle 'Valloric/YouCompleteMe'
-edvim
-ls
-ls -a
-ls -a | less
-rm .vimrc.swp 
-edvim
-vim
-vim
-edvim
-vim
-vim
-tonmax
-cd tone_row_utility/
-ls
-vim tone_row_utility.py 
-vim tone_row_utility.py 
-brew install cmake python go nodejs
-brew install java
-sudo ln -sfn $(brew --prefix java)/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-cd
-cd ~/.vim/bundle/YouCompleteMe/
-python3 install.py --all
-git submodule update --init --recursive
-python3 install.py --all
-edvim
-tonmax
-cd tone_row_utility/
-ls
-vim tone_row_utility.py 
-vim tone_row_utility.py 
-load?
-cd Documents/work_and_gigs/district_51/west_middle_school/
-ls
-cd 2022/
-ls
-cd fall_semester/
-ls
-load .
-ls
-scase
-ls
-cd Documents/work_and_gigs/
-ls
-ls | less
-cd district_51/
-ls
-cd ..
-ls
-ls | less
-cd independence_academy/
-ls
-ls
-cd ..
-ls
-finder
-cd independence_academy/
-ls
-finder
-ls
-rm **.jpg
-ls
-open 0.pdf 
-mv 0.pdf catch_a_falling_star.pdf
-open IMG-3722.pdf 
-ls
-rm **.pdf
-ls
-pdfunite
-brew install pdfunite
-brew install pdftk
-brew install pdftk-java
-pdftk
-pdftk -h
-pdftk -h | less
-load?
-cd ~/Downloads/
-ls
-rm IMG-3726.jpg 
-cd -
-load .
-ls
-cd resongstoberecorded/
-ls
-open IMG-3729.jpg 
-brew install imagemagik
-brew install imagemagick
-ls
-convert **.jpg shenandoah_pg.pdf
-ls
-cd shenandoah_pg.pdf 
-open shenandoah_pg.pdf 
-mv shenandoah_pg.pdf ../shenandoah.pdf
-ls
-cd ..
-ls
-mv resongstoberecorded/ shenandoah_jpgs
-ls
-load?
-load .
-mv resongstoberecorded/ skipping_stones_jpgs
-cd skipping_stones_jpgs/
-ls
-convert **.jpg skipping_stones.pdf
-ls
-mv skipping_stones.pdf ../
-ls
-cd ..
-ls
-mkdir jpegs
-mkdir pdfs
-ls
-mv **.jpgs jpegs/
-ls
-rm jpegs/
-rm -r jpegs/
-rm -r pdfs/
-ls
-cd Documents/work_and_gigs/independence_academy/
-ls
-finder
-jake
-cd Documents/work_and_gigs/taniall/
-ls
-cd recital/
-ls
-cd arrangements/
-ls
-cd ~/Documents/the_vault/
-ls
-ls | ls
-ls | less
-cd sun_going_in/
-ls
-open sun_going_in.logicx/
-open sun_going_in.logicx/
-load?
-cd Downloads/
-ls
-rm Arrangements/
-ls
-rm -r Arrangements/
-ls
-cd ..
-ls
-cd Documents/work_and_gigs/cmu_music_theater/repertoire_classes/
-load .
-ls
-mv MTT_Sheet_Music/catie_spann
-mv MTT_Sheet_Music/ catie_spann
-ls
-load .
-ls
-mv MTT_Music/ emily_skinner
-load .
-ls
-mkdir mina_langness
-mv KIC\ Document\ 0001.pdf mina_langness/
-ls
-finder
-ls
-cd Documents/work_and_gigs/cmu_music_theater/repertoire_classes/
-ls
-mkdir kira_valimaki
-cd kira_valimaki/
-load .
-ls
-finder
-load?
-cd ../../; ls
-cd ..
-ls
-cd junction-voice\ class/
-ls
-cd ..
-ls
-scase
-ls
-mv junction-voice_class/ junction_voice_class
-ls
-cd junction_voice_class/
-ls
-scase
-ls
-cd sam\ gudat/
-ls
-cd ..
-ls
-rm -r sam\ gudat/
-ls
-mv grace_lynn_stone/ gracelynn_stone
-ls
-open scanned_document.pdf 
-mkdir rylee_flanigan
-load?
-cd rylee_flanigan/
-ls
-load?
-load .
-ls
-open Adobe\ Scan\ Oct\ 04\,\ 2022.pdf 
-open Adobe\ Scan\ Oct\ 04\,\ 2022.pdf 
-safari Adobe\ Scan\ Oct\ 04\,\ 2022.pdf 
-mv Adobe\ Scan\ Oct\ 04\,\ 2022.pdf cherry_valley.pdf
-cd ..
-ls
-clear
-ls
-safari scanned_document.pdf 
-rm scanned_document.pdf 
-ls
-cd alivia/ ;ls
-cd ../faith_hayes_/; ls
-cd ../gracelynn_stone/
-ls
-mv Gracelynn\ Stone-\ The\ Awakening.pdf the_awakening.pdf
-ls
-cd ../hope/;l
-ls
-scase
-ls
-cd ..
-ls
-mv faith_hayes_/ faith_hayes
-ls
-mv jackie_weiss_/ jackie_weiss
-ls
-cd hope
-ls
-cd ../jackie_weiss/;ls
-mv Jackie\ Weiss\ The\ Lotus\ Flower.pdf the_lotus_flower.pdf
-cd ../mikayla/
-ls
-scase
-cd ../rylee_flanigan/
-;ls
-ls
-cd ../sam_gudat/
-ls
-safari sebben_crudele.pdf 
-safari Scanned\ Document.pdf 
-rm Scanned\ Document.pdf 
-ls
-ls
-cd
-ls
-cd Documents/the_vault/
-mkdir problems
-cd problems/
-ls
-vim problems.txt
-python core.py 
-python core.py 
-exit
-cd ~/.scripts/; python3
-exit
-ls
-cd Documents/the_vault/personal_prioritization/
-ls
-ls -a
-cd priority/
-ls -a
-vim core.py 
-vim .core.py.swp
-rm **.swp
-rm .**.swp
-ls
-ls -a
-vim helpers.py
-git init
-git add .
-git commit
-gh repo create
-ls
-cd ..
-cd priority/
-ls
-ls -a
-sudo rm -r .git
-cd ..
-ls
-git init
-git add .
-ls
-git commit
-gh repo create
-gh auth login
-gh repo create
-ls
-account
-gacp
-cd
-gacp
-exit
-brew search sc
-cd ~/.scripts; python3
-exit
-account
-clear
-exit
 ra
-ls
+ratd
+ra
 gacp
-ls
-ls
-ls -a
-pwd
-ls
-pwd
-cd ls
+ragit 
 ls
 cd the_scent_of_light/
 ls
-open The\ Scent\ of\ Light.sib 
-exit
-echo "STarting script"
-exit
-cd ~/Documents/
-cd -
-exit
-cd .scripts/
+cd logic_files/
 ls
-vim update_ra_gdrive.sh
+open scent_of_light_ed.logicx/
+cd ../..
+ls
+cd binary_star/logic_files/
+ls
+open binary_star_new_recording.logicx/
+cd Google\ Drive/My\ Drive/Infinite\ Divine\ -\ Light\ By\ Seven
+ls
+cd 5.\ The\ Scent\ of\ Light/
+ls
+open The\ Scent\ of\ Light.sib
+thea
+cd repertoire_classes/
+ls
+cd hannah_smith/
+ls
+load?
+load .
+scase
+ls
+finder
+cd ../kira_valimaki/
+ls
+load?
+load .
+scase
+finder
+sudo /usr/sbin/installer -allowUntrusted -verboseR -pkg '/Library/Caches/Avid/AvidLink/Downloads/Avid_Link_22.11.1_Mac.pkg' -target /
+ls
+cp batman_begins_exercises_notes.txt data.py
+ls
+python batman.py 
 exit
+ls
+python3
+ls
+python batman.py 
+ls
+ls
+ls -a
+exit
+exit
+edali
+sbash
+batman
+code .
+ls
+gacp
+ls -C
+ls -c
+ls
+cd priority/
+ls
+python core.py 
+python core.py -d
+cat data.py 
+python core.py -d
+python core.py -d
+python core.py -d
+python core.py -d
+python core.py -d
+python core.py
+python core.py
+python core.py
+sbash
+worry
+python core.py
+python core.py
+worry
+python core.py
+python core.py
+python core.py
+worry
+python core.py
+worry
+python core.py
+pwd
+exit
+ls
+python core.py 
+python core.py -p
+python core.py -p
+python core.py -p
+python helpers.py 
+python helpers.py 
+python core.py -p
+python core.py -p
+worry
+exit
+cd Documents/the_vault/code/
+ls
+cd python/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd Documents/
+ls
+cd life
+cd life_documents/
+ls
+cd ..
+ls
+cd the_vault/
+ls
+cd ..
+ls
+cd ..
+ls
+cd Documents/the_vault/code/
+ls
+git clone https://github.com/cmaxreilly/personal_prioritization.git
+ls 
+cd personal_prioritization/
+ls
+code .
+edali
+sbash
+worry
+ls
+gacp
+ls
+cd priority/
+ls
+cat data.py 
+cd ..
+ls
+cat data.py 
+rm data.py 
+ls
+cd priority/
+ls
+code .
+ls
+thea
+edali
+vault
+sbash
+vault
+wgigs
+work
+edali
+sbash
+work
+cd isa_sanchez/
+s
+ls
+load?
+load .
+scase
+ls
+work
+cd marge_brophy/
+ls
+load?
+load .
+ls
+mv Sheet_Music/* .
+ls
+rm -r Sheet_Music/
+ls
+scase
+ls
+thea
+cd repertoire_classes/
+ls
+cd mina_langness/
+ls
+load .
+ls
+open CamScanner\ 11-06-2022\ 19.39.pdf 
+mv CamScanner\ 11-06-2022\ 19.39.pdf alyssa_greene.pdf
+open KIC\ Document\ 0001.pdf 
+mv KIC\ Document\ 0001.pdf hello_young_lovers.pdf
+ls
+ls
+fincer
+find
+finder
+cd ../donovan_kriskowski/
+ls
+load .
+ls
+scase
+finder
+work
+cd cate_castelli/
+ls
+load .
+ls
+mv More_music\!/* .; rm -r More_music\!/
+ls
+scase
 finder
 ls
-cd ..
+load?
+work
+cd snoopy_the_musical/
 ls
-cd Google\ Drive
+load .
 ls
-cd ..
+scase
+open sponsors_incentive_letter.docx 
 ls
-mv Google\ Drive google_drive
+open musicians_contract.pdf 
+open musicians_contract.pdf 
 ls
-cd google_drive
-ls
-mv My\ Drive/ my_drive
-ls
-cd ..
-ls
-cd google_drive
-ls
-ls
-cd My\ Drive/
-ls
-cd ~
-ls
-cd google_drive/My\ Drive/ra_lasater
+python priority/core.py 
+python priority/core.py -p
+python priority/core.py -p
+python priority/core.py -p
+python priority/data.py 
+python priority/data.py 
+python priority/core.py -p
+python priority/core.py -p
+python priority/core.py -p
+python priority/core.py -r
+python priority/core.py -p
 exit
-how_many
-exit
 ls
-exit
-sudo /usr/sbin/installer -allowUntrusted -verboseR -pkg '/Library/Caches/Avid/AvidLink/Downloads/Avid_Link_22.9.0_Mac.pkg' -target /
-ls
-binary_star
-ls
-cd binary_star/
-ls
-cd sibelius_files/
-ls
-open binary_stars.sib 
+python priority/core.py -r
+python priority/core.py -p
+python priority/core.py -r
+python priority/core.py -p
 cd ..
+ls
+cd personal_prioritization/
+ls
+cat data.py 
+rm data.py 
+ls
+cd dat
+cd priority/
+ls
+python core.py -r
+python core.py -p
+edali
+sbash
+worry
+worry -d
+worry -p
+cd
+ls
+worry
+worry -d
+worry -p
+ls
+rm data.py 
+ls
+edali
+exit
+ls
+vault
+cd late_nite_5/
+load .
+ls
+load .
+ls
+mv cm-chat-media-video-1\:1abfae45-e1fd-59b1-8477-31a4187d78f9\:68\:0\:0.MOV atticus.mov
+ls
+finder
+load .
+coddir
+codir
+edali
+cd codedir
+codedir
+ls
+cd personal_prioritization/
+ls
+cd priority/
+code .
+ra
+cd ..
+ls
+mkdir house_of_the_eternal
+cp ra_lasater/* house_of_the_eternal/
+cp -r ra_lasater/* house_of_the_eternal/
+cd house_of_the_eternal/
+ls
+ls -a
+git init
+git add .
+git commit
+gh repo create
+work
+thea
+cd repertoire_classes/
+ls
+cd hao_tran/
+load?
+load .
+finder
+ra
+cd lotus_rising/
 ls
 cd logic_files/
 ls
-cd binary_star/
+cd lotus_rising_max_recording/
 ls
-open binary_star.logicx/
+open lotus_rising_max_recording.logicx/
+cd ../../midi_files/
+ls
+cd ..
 ls
 ra
-cd blossom/logic_files/blossom/
+gacp
+ragit
+cd ~/Google\ Drive/My\ Drive/ra_lasater
 ls
-open blossom.logicx/
+cd prodigal_return/
+ls
+ls
+work
+clear
+work
 ra
-cd butterflies/logic_projects/
+edali
+brew install neovim
+neovim
+nvim
 ls
-open take_3.logicx/
+code
+ls
+worry
+sbash
+worry
+ls
+nvim core.py 
+git clone https://github.com/knight-byte/Vim-Configuration.git
+ls
+mv Vim-Configuration/ ~/
+ls
+cd
+ls
+ls
+cd .config/
+ls
+mkdir nvim
+cd nvim/
+ls
+cp ~/Vim-Configuration/init.vim .
+ls
+pip install neovim
+pip install pynvim
+nvim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+nvim
+nvim
+cd ..
+ls
+cd nvim/
+ls
+rm init.vim 
+ls
+nvim
+nvim init.vim
+nvim
+worry
+nvim core.py 
+work
+cd caitlin_moore/
+ls
+load?
+cd student_rep/
+load .
+ls
+finder
+work
+ls | less
+cd house_of_the_eternal/
+ls
+git reset -hard
+git reset --hard
+ls
+push
+git push
+cd ..
+ls
 ra
-open enchanting_rae/logic_files/enchanting_rae/enchanting_rae.logicx/
-open hope_fore_the_dawn/logic_files/hope_fore_the_dawn/hope_fore_the_dawn.logicx/
-open light_by_seven/logic_files/light_by_seven/light_by_seven.logicx/
-open lotus_rising/logic_files/lotus_rising_max_recording/lotus_rising_max_recording.logicx/
-cd procession/logic_files/
 ls
-exit
-shc -h
-shc man
-shc -f update_ra_gdrive.sh 
+ls -a
+vim .gitattributes 
+cd -
+cd house_of_the_eternal/
 ls
+git lfs track "*.caf"
+gacp
+git push --set-upstream origin master
+echo 'git lfs track "*.caf"' >> ~/.scripts/github_lfs_production.txt
 ls
-bash install_ra-update.sh 
+ls -a
+rm -r .git*
+sudo rm -r .git*
 ls
-ra-update 
+ls -a
+git init
+git lfs track "*.caf"
+git lfs -h
+git lfs track
+pwd
+git add .
+git push
+git commit
+gh repo create
+brew upgrade gh
+brew upgrade
+ls
+codedir
+ls
+cd python/
+ls
+mkdir towers_of_hanoi
+cd towers_of_hanoi/
+ls
+vim script.py
+vim stack.py
+vim node.py
+python script.py 
+rm node.py 
+vim node.py
+ls
+python script.py 
+python script.py 
+ls
+cd 
+vault
+cd ..
+ls
+cd academic_documents/
+ls
+cd cmu/senior_recital/;ls
+cd recordings/
+ls
+finder
+ls
+work
+thea
+cd guys_and_dolls/
+ls
+cd daw_projects/
+ls
+open guys_and_dolls.logicx/
+ls
+open guys_and_dolls_performance_track.mp3 
+work 
+cd studio/business_documents/
+ls
+cd inv
+cd invoices/
+ls
+edali
+sbash
+ls
+invoice
+python
+sudo /usr/sbin/installer -allowUntrusted -verboseR -pkg '/Library/Caches/Avid/AvidLink/Downloads/Avid_Link_22.11.2_Mac.pkg' -target /
+work
+cd studio/
+s
+ls
+cd business_documents/
+ls
+git init
+gh repo create
+ls
+ls -a
+gacp
+ra
+cd ..
+ls
+ls -a
 exit

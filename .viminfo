@@ -11,117 +11,183 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/load
+~MSle0~/;
 
 # Last Substitute Search Pattern:
-~MSle0~&x
+~MSle0&date
 
 # Last Substitute String:
-$ 
+$dayweek
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1665682974,,"wq"
+|2,0,1669403588,,"wq"
 :term
-|2,0,1665682797,,"term"
+|2,0,1669403547,,"term"
+:'<,'>sort
+|2,0,1669403472,,"'<,'>sort"
+:w
+|2,0,1668016473,,"w"
+:q
+|2,0,1667506278,,"q"
+:w ~/Documents/work_and_gigs/independence_academy/winter_2022/pdf_modifying_script.py
+|2,0,1667502215,,"w ~/Documents/work_and_gigs/independence_academy/winter_2022/pdf_modifying_script.py"
+:%s/date/dayweek/gc
+|2,0,1667397050,,"%s/date/dayweek/gc"
+:%s/ "Monday"/("Monday")/g
+|2,0,1667396839,,"%s/ \"Monday\"/(\"Monday\")/g"
+:%s/Monday/"Monday"/g
+|2,0,1667396803,,"%s/Monday/\"Monday\"/g"
+:e ../code/
+|2,0,1667395641,,"e ../code/"
+:'<,'>wq
+|2,0,1667365218,,"'<,'>wq"
+:e ..
+|2,0,1667343743,,"e .."
+:cd ..
+|2,0,1667255520,,"cd .."
+:YcmRestartServer
+|2,0,1667227777,,"YcmRestartServer"
+:e fc_simple.c
+|2,0,1666547018,,"e fc_simple.c"
+:e test.txt
+|2,0,1666546979,,"e test.txt"
+:e ../file_copying/fc_simple.c
+|2,0,1666546577,,"e ../file_copying/fc_simple.c"
+:s/fahr/celc/g
+|2,0,1666478639,,"s/fahr/celc/g"
+:e args_fahr_to_celc.py
+|2,0,1666466811,,"e args_fahr_to_celc.py"
+:e command_fahr_to_celc.c
+|2,0,1666449511,,"e command_fahr_to_celc.c"
+:e fahr_to_celc_float.c
+|2,0,1666448953,,"e fahr_to_celc_float.c"
+:%s/interval/step/g
+|2,0,1666402884,,"%s/interval/step/g"
+:s/interval/step/G
+|2,0,1666402840,,"s/interval/step/G"
+:s/bottom/lower/g
+|2,0,1666402578,,"s/bottom/lower/g"
+:terminal
+|2,0,1666380233,,"terminal"
+:15
+|2,0,1666225306,,"15"
+:30
+|2,0,1666225303,,"30"
+:100
+|2,0,1666225300,,"100"
+:50
+|2,0,1666225298,,"50"
+:40
+|2,0,1666225295,,"40"
+:e flip.py
+|2,0,1666155790,,"e flip.py"
+:e leapyear.py
+|2,0,1666151635,,"e leapyear.py"
+:e quadratic.py
+|2,0,1666151237,,"e quadratic.py"
+:e floatops.py
+|2,0,1666150951,,"e floatops.py"
+:e ../c_playground/string_concantation.c
+|2,0,1666143431,,"e ../c_playground/string_concantation.c"
+:s/1/3/g
+|2,0,1666142664,,"s/1/3/g"
+:s/2/4/g
+|2,0,1666142640,,"s/2/4/g"
+:s/1/2/g
+|2,0,1666142623,,"s/1/2/g"
+:s/2/3/g
+|2,0,1666142615,,"s/2/3/g"
+:q!
+|2,0,1666144004,,"q!"
+:e useargument.py
+|2,0,1666018988,,"e useargument.py"
+:ter
+|2,0,1666018179,,"ter"
+:e ../arguments/arguments.c
+|2,0,1665879746,,"e ../arguments/arguments.c"
+:s
+|2,0,1665879237,,"s"
 :%s/x/ /gc
 |2,0,1665682204,,"%s/x/ /gc"
-:'<,'>sort
-|2,0,1665682089,,"'<,'>sort"
 :e
 |2,0,1665681536,,"e"
-:w
-|2,0,1665681313,,"w"
-:q
-|2,0,1665681282,,"q"
 :e ~/.scripts/academic_aliases.txt
 |2,0,1665681159,,"e ~/.scripts/academic_aliases.txt"
-:s
-|2,0,1665679584,,"s"
-:q!
-|2,0,1665675789,,"q!"
 :Q
 |2,0,1664493775,,"Q"
 :PluginSearch colorscheme
 |2,0,1664493553,,"PluginSearch colorscheme"
 :PluginInstall
 |2,0,1664493509,,"PluginInstall"
-:py3 import sys; print( sys.version )
-|2,0,1664492318,,"py3 import sys; print( sys.version )"
-:Bundle 'Valloric/YouCompleteMe'
-|2,0,1664491491,,"Bundle 'Valloric/YouCompleteMe'"
-:PluginSearch YouCompleteMe
-|2,0,1664491360,,"PluginSearch YouCompleteMe"
-:Bundle 'Valloric/YouCompleteMe
-|2,0,1664490995,,"Bundle 'Valloric/YouCompleteMe"
-:plugininstall
-|2,0,1664490918,,"plugininstall"
-:e helpers.py
-|2,0,1664432766,,"e helpers.py"
-:e whole_damn_thing.sh
-|2,0,1664429028,,"e whole_damn_thing.sh"
-:e whole_damn_thing.py
-|2,0,1664429000,,"e whole_damn_thing.py"
-:e tone_row_maximalism_20.py
-|2,0,1664428866,,"e tone_row_maximalism_20.py"
-:e tone_row_maximalism_1.0.py
-|2,0,1664428751,,"e tone_row_maximalism_1.0.py"
-:e midi_writer_10.py
-|2,0,1664428681,,"e midi_writer_10.py"
-:e midi_writer_1.0.py
-|2,0,1664428577,,"e midi_writer_1.0.py"
-:e midi_writer.py
-|2,0,1664428338,,"e midi_writer.py"
-:e midi_function_writer.py
-|2,0,1664428037,,"e midi_function_writer.py"
-:e tone_row_utility/midi_function_writer.py
-|2,0,1664425392,,"e tone_row_utility/midi_function_writer.py"
-:colors nord
-|2,0,1664201267,,"colors nord"
-:colors zenburn
-|2,0,1664200732,,"colors zenburn"
-:colors Zenburn
-|2,0,1664200667,,"colors Zenburn"
-:.,.+1!
-|2,0,1663688481,,".,.+1!"
-:r! date
-|2,0,1663102238,,"r! date"
-:!! pwd
-|2,0,1663102209,,"!! pwd"
-:!!
-|2,0,1663102201,,"!!"
-:! pwd
-|2,0,1663092379,,"! pwd"
-:! cd ~/Documents/work_and_gigs/ra_lasater/; ls
-|2,0,1663092368,,"! cd ~/Documents/work_and_gigs/ra_lasater/; ls"
-:! ra
-|2,0,1663092345,,"! ra"
-:q~
-|2,0,1663026389,,"q~"
-:%s/Documents/docs/g
-|2,0,1661979621,,"%s/Documents/docs/g"
-:e .bash_scripts/snow_lace.sh
-|2,0,1661466292,,"e .bash_scripts/snow_lace.sh"
-:%s/âˆš/x/g
-|2,0,1661406245,,"%s/âˆš/x/g"
-:e .bash_scripts/six,_nine_and_3.sh
-|2,0,1661404697,,"e .bash_scripts/six,_nine_and_3.sh"
-:!ls
-|2,0,1661404675,,"!ls"
-:set spell
-|2,0,1661295590,,"set spell"
-:spell
-|2,0,1661288163,,"spell"
-:redo
-|2,0,1661280409,,"redo"
-:syntax on
-|2,0,1661009154,,"syntax on"
-:syntax off
-|2,0,1661009151,,"syntax off"
-:w! ../ra_lasater/README.md
-|2,0,1660931431,,"w! ../ra_lasater/README.md"
 
 # Search String History (newest to oldest):
+?/;
+|2,1,1669403536,47,";"
+?/code
+|2,1,1668004032,47,"code"
+?/work
+|2,1,1667945939,47,"work"
+? date
+|2,1,1667397050,,"date"
+?  "Monday"
+|2,1,1667396839,," \"Monday\""
+? Monday
+|2,1,1667396803,,"Monday"
+? @$
+|2,1,1667395887,,"@$"
+?/exer
+|2,1,1667343797,47,"exer"
+?/exer	
+|2,1,1667343794,47,"exer	"
+??\a
+|2,1,1667343780,63,"\\a"
+?/./
+|2,1,1667228083,47,"./"
+?/c_
+|2,1,1667228062,47,"c_"
+?/c
+|2,1,1667228058,47,"c"
+?/Ycm
+|2,1,1667224347,47,"Ycm"
+?/2
+|2,1,1666536041,47,"2"
+?/f
+|2,1,1666535899,47,"f"
+?/5
+|2,1,1666535862,47,"5"
+? fahr
+|2,1,1666478639,,"fahr"
+?/d
+|2,1,1666449017,47,"d"
+? interval
+|2,1,1666402884,,"interval"
+? bottom
+|2,1,1666402578,,"bottom"
+?/0
+|2,1,1666402405,47,"0"
+?/,
+|2,1,1666402284,47,","
+?/45
+|2,1,1666234773,47,"45"
+?/n
+|2,1,1666233948,47,"n"
+?/1
+|2,1,1666142815,47,"1"
+? 1
+|2,1,1666142664,,"1"
+? 2
+|2,1,1666142640,,"2"
+?/ragit
+|2,1,1666126907,47,"ragit"
+?/ra
+|2,1,1666126080,47,"ra"
+?/correspond
+|2,1,1666050480,47,"correspond"
+?/r
+|2,1,1665879243,47,"r"
+?/50
+|2,1,1665876890,47,"50"
 ? x
 |2,1,1665682204,,"x"
 ?/load
@@ -142,8 +208,6 @@ $
 |2,1,1661617842,47,"shooting"
 ? âˆš
 |2,1,1661406245,,"âˆš"
-?/correspond
-|2,1,1661399036,47,"correspond"
 ?/webed
 |2,1,1661319289,47,"webed"
 ?/web
@@ -154,386 +218,457 @@ $
 |2,1,1661294400,47,"3"
 ? \<I\>
 |2,1,1661096763,,"\\<I\\>"
-?/code
-|2,1,1661009312,47,"code"
 ?/edali
 |2,1,1661009224,47,"edali"
-? @$
-|2,1,1660626626,,"@$"
 ? _
 |2,1,1660601957,,"_"
-? \<x\>
-|2,1,1660601344,,"\\<x\\>"
-? *
-|2,1,1660600947,,"*"
-?/correspondence
-|2,1,1660514129,47,"correspondence"
-?/color
-|2,1,1660342257,47,"color"
-?/color	
-|2,1,1660342254,47,"color	"
-?/miranda
-|2,1,1660342160,47,"miranda"
-?/mira	
-|2,1,1660342156,47,"mira	"
-?/check
-|2,1,1660340759,47,"check"
-?/Marth
-|2,1,1660234054,47,"Marth"
-?/git
-|2,1,1660176226,47,"git"
-?/ragit
-|2,1,1660176131,47,"ragit"
-? .bash_scripts
-|2,1,1660081553,,".bash_scripts"
-?/account
-|2,1,1660078430,47,"account"
-?/pack
-|2,1,1659743361,47,"pack"
-?/reflect
-|2,1,1659732403,47,"reflect"
-?/ramv
-|2,1,1659719628,47,"ramv"
-?/gmail
-|2,1,1659709445,47,"gmail"
-?/reflection
-|2,1,1659422027,47,"reflection"
-? hope_fore
-|2,1,1658542453,,"hope_fore"
-? hope_for_the_dawn.sh
-|2,1,1658542006,,"hope_for_the_dawn.sh"
-? Aliases
-|2,1,1658541617,,"Aliases"
-? less
-|2,1,1658435807,,"less"
-? cat
-|2,1,1658435628,,"cat"
-?/music
-|2,1,1658291268,47,"music"
-?/MUSIC
-|2,1,1658291259,47,"MUSIC"
-?/ignore\c
-|2,1,1658152111,47,"ignore\\c"
-?/ignore
-|2,1,1658151994,47,"ignore"
-? 00
-|2,1,1658116299,,"00"
-? thee
-|2,1,1658115747,,"thee"
-??errroor
-|2,1,1658115534,63,"errroor"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@system_args.py
+|2,3,1667395902,,"system_args.py"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	- [x] blossom
-		- [x] enchanting rae
-		- [x] hope for the dawn
-		- [x] light by seven
-		- [x] lotus Rising
-		- [x] procession
-		- [x] prodigal Return
-		- [x] rae in E
-		- [x] six, Nine and 3
-		- [x] snow Lace
-		- [x] the Scent of Light
-		- [x] binary star
-		- [x] butterflies
-	
-	
-|3,0,0,0,15,0,1665682075,"- [x] blossom","	- [x] enchanting rae","	- [x] hope for the dawn","	- [x] light by seven","	- [x] lotus Rising","	- [x] procession","	- [x] prodigal Return","	- [x] rae in E","	- [x] six, Nine and 3","	- [x] snow Lace","	- [x] the Scent of Light","	- [x] binary star","	- [x] butterflies","",""
-""1	LINE	0
-		 ]
-|3,1,1,1,1,0,1665682221,"	 ]"
+"0	LINE	0
+	    if date == 0:
+	        print Monday
+|3,0,0,1,2,0,1667396660,"    if date == 0:","        print Monday"
+"1	LINE	0
+	alias gfc="cd ~/Documents/work_and_gigs/studio/github_for_composers.github.io/; ls"
+|3,0,1,1,1,0,1669403515,"alias gfc=\"cd ~/Documents/work_and_gigs/studio/github_for_composers.github.io/; ls\""
 "2	LINE	0
-	alias sz="source ~/.zshrc"
-	alias thea="cd ~/Documents/work_and_gigs/cmu_music_theater/; ls"
-|3,0,2,1,2,0,1665681181,"alias sz=\"source ~/.zshrc\"","alias thea=\"cd ~/Documents/work_and_gigs/cmu_music_theater/; ls\""
-"3	CHAR	0
-	alias tcrcite="open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/citations.odt"
-	alias tcre2="cd ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/; pwd"
-	alias tcressay="open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2.odt"
-	alias tcrout="open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_outline.odt"
-	alias tcrrn="echo''; echo''; date >> ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/research_notebook.txt; nano ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/research_notebook.txt"
-	alias tcrru="open -a libreoffice ~/Documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2_prompt.odt" 
-	alias tcrtd="open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2_checklist.odt"
-	alias tcrwc="open ~/documents/academic_documents/CMU/taos_cultural_revolution/midterm/midterm_works_cited.odt"
-	
-|3,0,3,0,9,0,1665681178,"alias tcrcite=\"open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/citations.odt\"","alias tcre2=\"cd ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/; pwd\"","alias tcressay=\"open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2.odt\"","alias tcrout=\"open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_outline.odt\"",>233
-|<"alias tcrrn=\"echo''; echo''; date >> ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/research_notebook.txt; nano ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/research_notebook.txt\"","alias tcrru=\"open -a libreoffice ~/Documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2_prompt.odt\" ","alias tcrtd=\"open ~/documents/academic_documents/CMU/taos_cultural_revolution/essay_no.2/essay_no.2_checklist.odt\"",>114
-|<"alias tcrwc=\"open ~/documents/academic_documents/CMU/taos_cultural_revolution/midterm/midterm_works_cited.odt\"",""
+	alias gd="cd ~/Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/; ls"
+|3,0,2,1,1,0,1669403510,"alias gd=\"cd ~/Documents/work_and_gigs/cmu_music_theater/guys_and_dolls/; ls\""
+"3	LINE	0
+	alias cblind='bash ~/.scripts/colorblind.sh'
+|3,0,3,1,1,0,1669403482,"alias cblind='bash ~/.scripts/colorblind.sh'"
 "4	LINE	0
-	alias spacerace="bash ~/documents/the_vault/code.scripts/spacerace.sh"
-|3,0,4,1,1,0,1665681035,"alias spacerace=\"bash ~/documents/the_vault/code.scripts/spacerace.sh\""
+	    print("poopy")
+|3,0,4,1,1,0,1667396437,"    print(\"poopy\")"
 "5	LINE	0
-	alias owlmla="open -a safari https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html"
-|3,0,5,1,1,0,1665680951,"alias owlmla=\"open -a safari https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html\""
+	# Pseudo code
+|3,0,5,1,1,0,1667395547,"# Pseudo code"
 "6	LINE	0
-	alias lib="open -a safari https://cmu.marmot.org"
-|3,0,6,1,1,0,1665680916,"alias lib=\"open -a safari https://cmu.marmot.org\""
+	# intakes arguments, and shuffles to 
+|3,0,6,1,1,0,1667344537,"# intakes arguments, and shuffles to "
 "7	LINE	0
-	alias how_many="python3 ~/documents/the_vault/code/days_till_graduation.py"
-|3,0,7,1,1,0,1665680907,"alias how_many=\"python3 ~/documents/the_vault/code/days_till_graduation.py\""
+	Push Day
+|3,0,7,1,1,0,1667337291,"Push Day"
 "8	LINE	0
-	alias gfctd="gvim ~/Documents/work_and_gigs/studio/github_for_composers.github.io/README.md"
-|3,0,8,1,1,0,1665680883,"alias gfctd=\"gvim ~/Documents/work_and_gigs/studio/github_for_composers.github.io/README.md\""
-"9	LINE	0
-	alias draftblog="gvim ~/Documents/the_vault/Code/website/cmaxreilly.github.io/blog_drafts.md"
-|3,0,9,1,1,0,1665680849,"alias draftblog=\"gvim ~/Documents/the_vault/Code/website/cmaxreilly.github.io/blog_drafts.md\""
+	Push Day
+|3,0,8,1,1,0,1667337277,"Push Day"
+"9	CHAR	0
+	Warm Up
+	
+	2 x 10 Light Military Press
+	
+	2 x 10 Light Bench Press
+	
+	2 x 1 Minute Crow Pose/RTO Support Hold
+	
+	3 x 20 Push Ups
+	
+	3 x 15 Tricep Push Down
+	
+	3 x 15 Dumbbell Press
+	
+	10 Minutes Heavy Bag/Battle Ropes (with breaks)
+	
+	
+|3,0,9,0,17,0,1667337206,"Warm Up","","2 x 10 Light Military Press","","2 x 10 Light Bench Press","","2 x 1 Minute Crow Pose/RTO Support Hold","","3 x 20 Push Ups","","3 x 15 Tricep Push Down","","3 x 15 Dumbbell Press","","10 Minutes Heavy Bag/Battle Ropes (with breaks)","",""
 "j	CHAR	0
-	j€kb€kb€kb€kb
-|3,0,19,0,1,0,1664491040,"j€kb€kb€kb€kb"
+	jkk
+|3,0,19,0,1,0,1667395831,"jkk"
+"q	CHAR	0
+	wwwwwbbbbbbwwbbbbwwwwwwwwwwwbbbbbbbbbbbbbbbbbbbbbbbbwwwwwwwwwwwwwwwwwwwwwwwbbbbbbwbbbb
+|3,0,26,0,1,0,1667579575,"wwwwwbbbbbbwwbbbbwwwwwwwwwwwbbbbbbbbbbbbbbbbbbbbbbbbwwwwwwwwwwwwwwwwwwwwwwwbbbbbbwbbbb"
 "w	CHAR	0
 	wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk
 |3,0,32,0,1,0,1659654088,"wwaww€kb€kblllllllllllllllllllllllllllllllllllllllllllllllhhhhhhlllllllli arranged for voice, piano, and guitarlllllllljjjjjjjj:wq€kbjk"
-"-	CHAR	0
-	]
-|3,0,36,0,1,0,1665682066,"]"
+""-	CHAR	0
+	a
+|3,1,36,0,1,0,1669403516,"a"
 
 # File marks:
-'0  1  40  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,48,1,40,1665682681,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
-'1  135  1  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,49,135,1,1665682661,"~/Documents/work_and_gigs/ra_lasater/README.md"
-'2  143  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,50,143,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
-'3  126  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,51,126,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
-'4  1  0  ~/.bash_aliases
-|4,52,1,0,1665681230,"~/.bash_aliases"
-'5  1  0  ~/.scripts/hgit.sh
-|4,53,1,0,1665679795,"~/.scripts/hgit.sh"
-'6  7  0  ~/.bash_aliases
-|4,54,7,0,1665679595,"~/.bash_aliases"
-'7  11  0  ~/.bash_aliases
-|4,55,11,0,1665679595,"~/.bash_aliases"
-'8  15  0  /private/etc/sudoers.tmp
-|4,56,15,0,1665679516,"/private/etc/sudoers.tmp"
-'9  624  0  ~/.scripts/move_downloads.sh.x.c
-|4,57,624,0,1665679203,"~/.scripts/move_downloads.sh.x.c"
+'0  46  64  ~/.bash_aliases
+|4,48,46,64,1669403588,"~/.bash_aliases"
+'1  1  18  ~/Documents/work_and_gigs/studio/business_documents/.git/COMMIT_EDITMSG
+|4,49,1,18,1668801570,"~/Documents/work_and_gigs/studio/business_documents/.git/COMMIT_EDITMSG"
+'2  3  88  ~/.bash_aliases
+|4,50,3,88,1668552036,"~/.bash_aliases"
+'3  3  88  ~/.bash_aliases
+|4,51,3,88,1668552036,"~/.bash_aliases"
+'4  13  29  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,52,13,29,1668291297,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+'5  13  20  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,53,13,20,1668291217,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+'6  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,54,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+'7  27  0  ~/Documents/the_vault/code/python/towers_of_hanoi/script.py
+|4,55,27,0,1668291113,"~/Documents/the_vault/code/python/towers_of_hanoi/script.py"
+'8  1  13  ~/Documents/work_and_gigs/house_of_the_eternal/.git/COMMIT_EDITMSG
+|4,56,1,13,1668208459,"~/Documents/work_and_gigs/house_of_the_eternal/.git/COMMIT_EDITMSG"
+'9  1  13  ~/Documents/work_and_gigs/house_of_the_eternal/.git/COMMIT_EDITMSG
+|4,57,1,13,1668208065,"~/Documents/work_and_gigs/house_of_the_eternal/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
--'  3  24  ~/.scripts/ra-update/install_ra-update.sh
-|4,39,3,24,1665682797,"~/.scripts/ra-update/install_ra-update.sh"
--'  1  0  ~/.scripts/ra-update/install_ra-update.sh
-|4,39,1,0,1665682760,"~/.scripts/ra-update/install_ra-update.sh"
--'  1  40  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,39,1,40,1665682681,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
--'  1  40  ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-|4,39,1,40,1665682681,"~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG"
--'  135  1  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,135,1,1665682661,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  135  1  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,135,1,1665682661,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  135  1  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,135,1,1665682661,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  135  1  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,135,1,1665682661,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  139  32  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,139,32,1665681536,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  139  32  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,139,32,1665681536,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  139  32  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,139,32,1665681536,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  139  32  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,139,32,1665681536,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,1,0,1665681298,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,1,0,1665681298,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,1,0,1665681298,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,1,0,1665681298,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  143  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,143,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  126  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,126,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  143  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,143,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  126  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,126,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  143  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,143,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  126  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,126,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  143  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,143,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  126  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,126,0,1665681282,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,1,0,1665681279,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,1,0,1665681279,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,1,0,1665681279,"~/Documents/work_and_gigs/ra_lasater/README.md"
--'  1  0  ~/Documents/work_and_gigs/ra_lasater/README.md
-|4,39,1,0,1665681279,"~/Documents/work_and_gigs/ra_lasater/README.md"
+-'  46  64  ~/.bash_aliases
+|4,39,46,64,1669403588,"~/.bash_aliases"
+-'  23  0  ~/.bash_aliases
+|4,39,23,0,1669403521,"~/.bash_aliases"
+-'  7  0  ~/.bash_aliases
+|4,39,7,0,1669403469,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
+|4,39,1,0,1669403459,"~/.bash_aliases"
+-'  1  18  ~/Documents/work_and_gigs/studio/business_documents/.git/COMMIT_EDITMSG
+|4,39,1,18,1668801570,"~/Documents/work_and_gigs/studio/business_documents/.git/COMMIT_EDITMSG"
+-'  1  18  ~/Documents/work_and_gigs/studio/business_documents/.git/COMMIT_EDITMSG
+|4,39,1,18,1668801570,"~/Documents/work_and_gigs/studio/business_documents/.git/COMMIT_EDITMSG"
+-'  3  88  ~/.bash_aliases
+|4,39,3,88,1668552036,"~/.bash_aliases"
+-'  3  88  ~/.bash_aliases
+|4,39,3,88,1668552036,"~/.bash_aliases"
+-'  3  88  ~/.bash_aliases
+|4,39,3,88,1668552036,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
+|4,39,1,0,1668551906,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1665681230,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  62  0  ~/.bash_aliases
-|4,39,62,0,1665681185,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  24  0  ~/.bash_aliases
-|4,39,24,0,1665680897,"~/.bash_aliases"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
--'  1  0  ~/.scripts/hgit.sh
-|4,39,1,0,1665679795,"~/.scripts/hgit.sh"
+|4,39,1,0,1668551906,"~/.bash_aliases"
+-'  13  29  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,29,1668291297,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  29  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,29,1668291297,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  29  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,29,1668291297,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  29  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,29,1668291297,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  29  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,29,1668291297,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  29  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,29,1668291297,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  29  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,29,1668291297,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  29  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,29,1668291297,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291293,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291293,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291293,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291293,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291293,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291293,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291293,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291293,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  20  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,20,1668291217,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  20  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,20,1668291217,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  20  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,20,1668291217,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  20  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,20,1668291217,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  20  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,20,1668291217,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  20  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,20,1668291217,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  20  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,20,1668291217,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  13  20  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,13,20,1668291217,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291209,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291209,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291209,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291209,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291209,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291209,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291209,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+|4,39,1,0,1668291209,"~/Documents/the_vault/code/python/towers_of_hanoi/node.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  51  62  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,51,62,1668291138,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
+-'  1  0  ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+|4,39,1,0,1668291134,"~/Documents/the_vault/code/python/towers_of_hanoi/stack.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/.scripts/ra-update/install_ra-update.sh
-	*	1665682973	0
-	"	8	0
-	^	8	0
-	.	7	26
-	+	3	25
-	+	10	0
-	+	3	28
-	+	7	26
+> ~/.bash_aliases
+	*	1669403575	0
+	"	46	64
+	^	46	65
+	.	46	64
+	+	1	0
+	+	75	0
+	+	1	0
+	+	31	44
+	+	1	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	41	0
+	+	44	0
+	+	46	0
+	+	69	0
+	+	76	0
+	+	31	40
+	+	1	0
+	+	59	104
+	+	1	0
+	+	29	41
+	+	50	45
+	+	1	0
+	+	27	0
+	+	31	0
+	+	33	0
+	+	41	0
+	+	44	0
+	+	49	0
+	+	58	0
+	+	60	0
+	+	69	0
+	+	27	0
+	+	1	59
+	+	28	42
+	+	1	0
+	+	23	0
+	+	24	0
+	+	23	49
+	+	23	71
+	+	34	13
+	+	35	14
+	+	23	0
+	+	23	82
+	+	23	92
+	+	23	83
+	+	21	37
+	+	23	0
+	+	20	96
+	+	20	102
+	+	21	0
+	+	18	0
+	+	76	0
+	+	20	0
+	+	72	93
+	+	19	82
+	+	18	91
+	+	18	0
+	+	18	76
+	+	18	28
+	+	1	45
+	+	32	13
+	+	33	14
+	+	18	74
+	+	1	111
+	+	17	10
+	+	16	63
+	+	28	0
+	+	1	0
+	+	20	0
+	+	1	0
+	+	17	0
+	+	18	0
+	+	23	0
+	+	33	0
+	+	35	0
+	+	41	0
+	+	48	0
+	+	69	0
+	+	72	0
+	+	70	0
+	+	15	61
+	+	1	0
+	+	13	76
+	+	20	1
+	+	22	0
+	+	12	5
+	+	55	0
+	+	12	58
+	+	1	0
+	+	10	12
+	+	1	0
+	+	9	93
+	+	1	91
+	+	6	42
+	+	5	45
+	+	7	76
+	+	4	0
+	+	3	88
+	+	3	0
+	+	8	0
+	+	23	0
+	+	46	64
+
+> ~/Documents/work_and_gigs/studio/business_documents/.git/COMMIT_EDITMSG
+	*	1668801570	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/Documents/the_vault/code/python/towers_of_hanoi/node.py
+	*	1668291296	0
+	"	13	29
+	^	13	30
+	.	13	29
+	+	13	20
+	+	13	29
+
+> ~/Documents/the_vault/code/python/towers_of_hanoi/stack.py
+	*	1668291138	0
+	"	51	62
+	^	51	63
+	.	51	62
+	+	51	62
+
+> ~/Documents/the_vault/code/python/towers_of_hanoi/script.py
+	*	1668291112	0
+	"	27	0
+	^	70	0
+	.	69	123
+	+	69	123
+
+> ~/Documents/work_and_gigs/house_of_the_eternal/.git/COMMIT_EDITMSG
+	*	1668208459	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> ~/Documents/work_and_gigs/ra_lasater/.gitattributes
+	*	1668207988	0
+	"	1	0
 
 > ~/Documents/work_and_gigs/ra_lasater/.git/COMMIT_EDITMSG
-	*	1665682680	0
-	"	1	40
-	^	1	41
-	.	1	40
+	*	1668040368	0
+	"	1	26
+	^	1	27
+	.	1	26
 	+	1	28
 	+	1	0
 	+	9	0
@@ -554,84 +689,83 @@ $
 	+	3	0
 	+	1	15
 	+	2	0
-	+	1	40
+	+	1	26
+
+> ~/Documents/the_vault/code/personal_prioritization/.git/COMMIT_EDITMSG
+	*	1667929197	0
+	"	2	23
+	^	2	24
+	.	2	23
+	+	2	23
+
+> ~/Documents/the_vault/exercise/.git/COMMIT_EDITMSG
+	*	1667919036	0
+	"	1	27
+	^	1	28
+	.	1	27
+	+	1	27
 
 > ~/Documents/work_and_gigs/ra_lasater/README.md
-	*	1665682659	0
-	"	135	1
-	^	8	1
-	.	15	4
-	+	3	0
-	+	111	0
-	+	104	4
-	+	105	4
-	+	106	4
-	+	115	58
-	+	76	7
-	+	74	12
-	+	75	467
-	+	81	35
-	+	79	16
-	+	82	0
-	+	90	32
-	+	80	4
-	+	82	5
+	*	1667585292	0
+	"	146	4
+	.	145	4
+	+	83	4
 	+	84	4
 	+	85	4
-	+	86	4
-	+	87	4
-	+	114	4
 	+	112	4
-	+	111	4
-	+	119	19
-	+	117	35
-	+	118	39
-	+	119	37
-	+	120	0
-	+	116	20
+	+	110	4
+	+	109	4
+	+	117	19
+	+	115	35
+	+	116	39
+	+	117	37
+	+	118	0
+	+	114	20
 	+	3	0
 	+	4	0
-	+	118	4
-	+	121	37
-	+	117	4
-	+	118	4
-	+	124	6
-	+	123	32
-	+	128	25
-	+	120	22
+	+	116	4
+	+	119	37
+	+	115	4
+	+	116	4
+	+	122	6
+	+	121	32
+	+	126	25
+	+	118	22
+	+	119	4
+	+	120	4
 	+	121	4
 	+	122	4
-	+	123	4
-	+	124	4
-	+	127	22
-	+	128	4
-	+	125	52
+	+	125	22
 	+	126	4
+	+	123	52
+	+	124	4
 	+	4	0
-	+	127	4
-	+	131	54
-	+	132	0
-	+	132	26
-	+	139	0
-	+	135	47
-	+	133	4
-	+	131	148
-	+	132	26
-	+	133	78
-	+	132	4
-	+	139	1
-	+	138	66
-	+	140	7
-	+	139	10
-	+	140	40
-	+	142	28
-	+	143	12
-	+	139	32
-	+	89	0
-	+	23	7
-	+	24	7
-	+	25	18
-	+	26	20
+	+	125	4
+	+	129	54
+	+	130	0
+	+	130	26
+	+	137	0
+	+	133	47
+	+	131	4
+	+	129	148
+	+	130	26
+	+	131	78
+	+	130	4
+	+	137	1
+	+	136	66
+	+	138	7
+	+	137	10
+	+	138	40
+	+	140	28
+	+	141	12
+	+	137	32
+	+	87	0
+	+	21	7
+	+	22	7
+	+	23	18
+	+	24	20
+	+	25	7
+	+	26	7
 	+	27	7
 	+	28	7
 	+	29	7
@@ -639,9 +773,7 @@ $
 	+	31	7
 	+	32	7
 	+	33	7
-	+	34	7
-	+	35	7
-	+	23	2
+	+	21	2
 	+	8	0
 	+	9	0
 	+	10	0
@@ -654,116 +786,825 @@ $
 	+	17	0
 	+	18	0
 	+	19	0
-	+	20	0
 	+	21	0
-	+	23	0
 	+	10	4
 	+	11	4
-	+	12	4
-	+	15	4
+	+	14	4
+	+	11	0
+	+	14	0
+	+	133	4
+	+	138	39
+	+	135	4
+	+	136	4
+	+	10	4
+	+	137	4
+	+	140	22
+	+	143	39
+	+	142	0
+	+	144	0
+	+	145	54
+	+	146	60
+	+	147	7
+	+	146	7
+	+	148	0
+	+	147	4
+	+	145	4
 
-> ~/.bash_aliases
-	*	1665681230	0
+> ~/Documents/work_and_gigs/district_51/gjhs/22-23/drama/treasure_island/.git/COMMIT_EDITMSG
+	*	1667578591	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	1	15
+
+> ~/Documents/work_and_gigs/snoopy_the_musical/python_test/pdf_modifying_script.py
+	*	1667502221	0
 	"	1	0
-	.	60	0
-	+	38	57
-	+	39	63
-	+	25	0
-	+	1	0
-	+	41	13
-	+	1	2
-	+	34	200
-	+	25	38
-	+	30	49
-	+	25	61
-	+	40	48
-	+	1	0
-	+	25	0
-	+	1	0
-	+	25	0
-	+	42	0
-	+	56	0
-	+	59	0
-	+	62	0
-	+	65	0
-	+	1	0
-	+	65	0
-	+	1	0
-	+	20	44
-	+	1	0
-	+	23	0
-	+	24	0
-	+	25	0
+	^	1	2
+	.	1	0
+	+	23	23
+	+	21	14
+	+	25	23
+	+	29	23
 	+	30	0
-	+	33	0
-	+	35	0
-	+	59	0
-	+	66	0
-	+	20	40
-	+	1	0
-	+	49	104
-	+	1	0
-	+	18	41
-	+	39	45
-	+	1	0
-	+	16	0
-	+	20	0
-	+	22	0
-	+	30	0
-	+	33	0
-	+	38	0
-	+	48	0
-	+	50	0
-	+	59	0
-	+	16	0
-	+	1	59
-	+	17	42
-	+	1	0
-	+	12	0
-	+	13	0
-	+	12	49
-	+	12	71
-	+	23	13
-	+	24	14
-	+	12	0
-	+	11	82
-	+	10	92
-	+	9	83
-	+	8	37
-	+	9	0
-	+	7	96
-	+	7	102
-	+	8	0
-	+	5	0
-	+	66	0
-	+	7	0
-	+	62	93
-	+	6	82
-	+	5	91
-	+	5	0
-	+	5	76
-	+	5	28
-	+	1	45
-	+	21	13
-	+	22	14
-	+	5	74
-	+	1	111
-	+	4	10
-	+	3	63
-	+	17	0
-	+	1	0
-	+	7	0
+	+	29	30
+	+	21	0
+	+	23	1
+	+	25	0
+	+	27	0
+	+	29	0
+	+	1	46
+	+	41	31
+	+	36	13
+	+	40	31
+	+	43	73
+	+	44	32
+	+	37	31
+	+	40	30
+	+	9	484
 	+	1	0
 	+	4	0
-	+	5	0
+	+	3	0
+	+	11	67
+	+	1	0
+
+> ~/Documents/the_vault/exercise/batman.py
+	*	1667397661	0
+	"	10	5
+	^	18	10
+	.	40	0
+	+	10	0
+	+	9	0
+	+	7	12
+	+	13	37
+	+	13	12
+	+	13	0
 	+	12	0
-	+	22	0
+	+	23	26
+	+	22	16
+	+	38	25
+	+	16	20
+	+	44	31
+	+	43	29
+	+	38	27
+	+	33	29
+	+	28	30
+	+	23	28
+	+	10	29
+	+	11	14
+	+	13	0
+	+	8	9
+	+	10	34
+	+	16	15
+	+	15	17
+	+	16	24
+	+	18	6
+	+	21	19
 	+	24	0
-	+	30	0
+	+	25	0
+	+	28	31
+	+	29	0
+	+	34	1
+	+	35	0
+	+	38	28
+	+	40	0
+	+	20	3
+	+	24	3
+	+	29	3
+	+	35	3
+	+	40	3
+	+	19	0
+	+	23	8
+	+	18	21
+	+	10	29
+	+	17	21
+	+	18	9
+	+	20	0
+	+	24	0
+	+	29	0
+	+	35	0
+	+	40	0
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/useargument.py
+	*	1667396113	0
+	"	1	0
+	^	8	31
+	.	8	30
+	+	8	30
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/system_args.py
+	*	1667396012	0
+	"	4	0
+	^	4	0
+	.	3	19
+	+	3	19
+
+> /usr/local/Cellar/vim/9.0.0800/share/vim/vim90/doc/pi_netrw.txt
+	*	1667395884	0
+	"	1	0
+
+> ~/Documents/the_vault/code/c_playground/.git/COMMIT_EDITMSG
+	*	1667365201	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	2	0
+	+	1	15
+
+> ~/Documents/the_vault/code/c_playground/character_count/character_count.c
+	*	1667365174	0
+	"	12	0
+	^	12	1
+	.	12	0
+	+	10	25
+	+	13	0
+	+	5	3
+	+	12	0
+
+> ~/Documents/the_vault/exercise/batman_begins_exercises_notes.txt
+	*	1667343990	0
+	"	66	0
+	^	106	0
+	.	105	0
+	+	14	81
+	+	64	56
+	+	42	0
+	+	40	0
 	+	37	0
-	+	59	0
-	+	62	0
+	+	38	6
+	+	87	0
+	+	105	0
+	+	108	0
+	+	109	0
+	+	130	34
+	+	132	0
+	+	151	9
+	+	107	0
+	+	105	0
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/.git/COMMIT_EDITMSG
+	*	1667315690	0
+	"	2	0
+	^	2	0
+	.	1	19
+	+	1	19
+
+> ~/Documents/the_vault/code/python/list_search_template.py
+	*	1667228013	0
+	"	4	0
+
+> ~/Documents/the_vault/code/python/hello_world.py
+	*	1667227777	0
+	"	1	0
+
+> ~/.vim/bundle/YouCompleteMe/install.py
+	*	1667224734	0
+	"	1	21
+
+> ~/.vim/bundle/YouCompleteMe/install.
+	*	1667224631	0
+	"	1	0
+
+> ~/.vimrc
+	*	1667224528	0
+	"	8	0
+	^	43	0
+	.	43	0
+	+	1	0
+	+	23	0
+	+	1	0
+	+	26	10
+	+	30	13
+	+	27	0
+	+	32	26
+	+	33	3
+	+	41	18
+	+	43	0
+	+	17	0
+	+	42	0
+	+	43	0
+
+> ~/Documents/the_vault/code/python/count_to_a_billion.py
+	*	1667224314	0
+	"	1	0
+
+> ~/Documents/the_vault/code/c_playground/file_copying/fc_simpler.c
+	*	1666547353	0
+	"	12	0
+	^	12	0
+	.	11	1
+	+	11	1
+
+> /private/var/folders/1v/z0rpld0165bc1t1bchvn8yfc0000gn/T/bash-fc.xG6qNr
+	*	1666547321	0
+	"	1	0
+
+> ~/Documents/the_vault/code/c_playground/file_copying/test.txt
+	*	1666547169	0
+	"	1	27
+	^	1	28
+	.	1	27
+	+	1	27
+
+> ~/Documents/the_vault/code/c_playground/temp_conversion/fc_simple.c
+	*	1666547018	0
+	"	1	0
+
+> ~/Documents/the_vault/code/c_playground/temp_conversion/test.txt
+	*	1666547012	0
+	"	1	26
+	^	1	28
+	.	1	28
+	+	1	28
+
+> ~/Documents/the_vault/code/c_playground/file_copying/fc_simple.c
+	*	1666546972	0
+	"	5	5
+	^	5	6
+	.	5	5
+	+	17	2
+	+	10	16
+	+	16	3
+	+	12	13
+	+	13	15
+	+	15	0
+	+	13	1
+	+	11	0
+	+	14	0
+	+	10	10
+	+	5	5
+
+> /private/var/folders/1v/z0rpld0165bc1t1bchvn8yfc0000gn/T/bash-fc.3EI4Tt
+	*	1666546930	0
+	"	1	0
+
+> /private/var/folders/1v/z0rpld0165bc1t1bchvn8yfc0000gn/T/bash-fc.op4qwS
+	*	1666546913	0
+	"	1	0
+
+> ~/Documents/the_vault/code/c_playground/temp_conversion/celc_to_fahr_symbolic_const.c
+	*	1666546551	0
+	"	17	20
+	^	17	21
+	.	17	20
+	+	4	12
+	+	3	12
+	+	4	18
+	+	3	18
+	+	5	17
+	+	12	0
+	+	3	53
+	+	4	20
+	+	3	56
+	+	4	57
+	+	5	53
+	+	6	0
+	+	8	29
+	+	9	0
+	+	13	35
+	+	19	0
+	+	13	33
+	+	14	34
+	+	17	19
+	+	16	14
+	+	16	23
+	+	17	0
+	+	15	9
+	+	16	46
+	+	17	49
+	+	18	0
+	+	17	12
+	+	16	48
+	+	5	13
+	+	4	14
+	+	3	14
+	+	13	36
+	+	16	54
+	+	17	20
+
+> ~/Documents/the_vault/code/c_playground/temp_conversion/celc_to_fahr_header.c
+	*	1666479232	0
+	"	11	12
+	^	13	32
+	.	13	31
+	+	14	14
+	+	15	5
+	+	12	0
+	+	15	25
+	+	16	35
+	+	17	5
+	+	15	17
+	+	16	0
+	+	15	25
+	+	13	31
+
+> ~/Documents/the_vault/code/c_playground/temp_conversion/celc
+	*	1666478573	0
+	"	1	0
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/fahr_to_celc/args_fahr_to_celc.py
+	*	1666466996	0
+	"	7	10
+	^	10	24
+	.	10	22
+	+	2	0
+	+	1	9
+	+	10	17
+	+	14	0
+	+	13	0
+	+	12	0
+	+	14	0
+	+	12	0
+	+	13	0
+	+	10	22
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/fahr_to_celc/fahr_to_celc.py
+	*	1666466805	0
+	"	1	0
+	.	1	0
+	+	10	20
+	+	13	15
+	+	12	55
+	+	2	61
+	+	6	8
+	+	1	0
+
+> ~/Documents/the_vault/code/c_playground/fahr_to_celc/command_fahr_to_celc.c
+	*	1666449690	0
+	"	2	0
+
+> ~/Documents/the_vault/code/c_playground/fahr_to_celc/fahr_to_celc_float.c
+	*	1666449503	0
+	"	14	19
+	^	14	22
+	.	15	19
+	+	6	5
+	+	14	35
+	+	15	19
+	+	14	33
+	+	15	19
+
+> ~/Documents/the_vault/code/c_playground/fahr_to_celc/fahr_to_celc_rj.c
+	*	1666448944	0
+	"	15	15
+	^	15	16
+	.	15	15
+	+	15	15
+
+> ~/Documents/the_vault/code/c_playground/fahr_to_celc/fahr_to_celc.c
+	*	1666448577	0
+	"	1	0
+	^	12	14
+	.	14	19
+	+	3	100
+	+	4	0
+	+	5	0
+	+	10	14
+	+	5	9
+	+	5	12
+	+	5	13
+	+	20	0
+	+	19	1
+	+	13	18
+	+	15	21
+	+	5	3
+	+	16	25
+	+	18	0
+	+	1	16
+	+	5	0
+	+	13	0
+	+	6	0
+	+	5	0
+	+	10	0
+	+	5	0
+	+	11	0
+	+	5	6
+	+	10	0
+	+	13	0
+	+	12	1
+	+	9	0
+	+	7	23
+	+	8	0
+	+	11	5
+	+	13	19
+	+	15	24
+	+	13	22
+	+	17	0
+	+	14	2
+	+	16	1
+	+	9	0
+	+	15	25
+	+	5	0
+	+	12	13
+	+	14	19
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/sieve_of_eratosthenes.py
+	*	1666235754	0
+	"	46	25
+	^	46	26
+	.	46	25
+	+	8	31
+	+	7	36
+	+	20	8
+	+	9	22
+	+	10	34
+	+	12	14
+	+	10	12
+	+	17	25
+	+	19	32
+	+	12	23
+	+	9	25
+	+	15	44
+	+	1	45
+	+	6	48
+	+	7	0
+	+	8	0
+	+	9	1
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	1
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	19	0
+	+	50	0
+	+	49	27
+	+	22	21
+	+	23	10
+	+	28	8
+	+	4	0
+	+	1	9
+	+	46	25
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/flip.py
+	*	1666155930	0
+	"	9	25
+	^	9	26
+	.	9	26
+	+	9	26
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/leapyear.py
+	*	1666155785	0
+	"	10	8
+	^	10	9
+	.	10	8
+	+	5	63
+	+	4	58
+	+	13	25
+	+	10	8
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/quadratic.py
+	*	1666151626	0
+	"	4	0
+	^	16	22
+	.	16	27
+	+	16	27
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/floatops.py
+	*	1666151226	0
+	"	18	21
+	^	13	0
+	.	5	21
+	+	9	6
+	+	8	5
+	+	9	13
+	+	12	0
+	+	14	0
+	+	19	0
+	+	17	25
+	+	5	21
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/intops.py
+	*	1666150936	0
+	"	19	0
+	^	14	6
+	.	14	5
+	+	19	58
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	20	25
+	+	21	25
+	+	22	26
+	+	23	25
+	+	24	26
+	+	20	55
+	+	21	55
+	+	22	56
+	+	23	54
+	+	24	55
+	+	14	5
+
+> ~/Documents/the_vault/code/c_playground/string_concantation.c
+	*	1666144007	0
+	"	9	40
+	^	9	41
+	.	9	40
+	+	11	0
+	+	9	40
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/ruler.c
+	*	1666143406	0
+	"	5	38
+	^	6	39
+	.	6	38
+	+	7	0
+	+	5	0
+	+	6	0
+	+	5	0
+	+	6	0
+	+	9	24
+	+	10	0
+	+	11	0
+	+	12	0
+	+	10	20
+	+	11	20
+	+	12	24
+	+	14	0
+	+	13	11
+	+	3	18
+	+	4	38
+	+	5	38
+	+	6	38
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/ruler.py
+	*	1666142348	0
+	"	12	19
+	.	12	19
+	+	9	21
+	+	10	0
+	+	11	0
+	+	12	0
+	+	10	19
+	+	11	19
+	+	12	19
+
+> ~/Documents/the_vault/code/c_playground/arguments/arguments.c
+	*	1666109782	0
+	"	1	0
+	^	27	1
+	.	27	0
+	+	2	19
+	+	26	9
+	+	15	4
+	+	27	0
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/helloworld.py
+	*	1666018981	0
+	"	10	93
+	^	10	94
+	.	10	93
+	+	6	29
+	+	1	0
+	+	6	0
+	+	3	99
+	+	6	0
+	+	4	0
+	+	6	11
+	+	4	0
+	+	6	29
+	+	12	100
+	+	4	0
+	+	6	0
+	+	12	0
+	+	11	0
+	+	10	93
+
+> ~/Documents/the_vault/code/intro_to_programing_in_python/README.md
+	*	1666017351	0
+	"	3	185
+	^	3	186
+	.	3	185
+	+	3	185
+
+> ~/Documents/the_vault/code/c_playground/makefile/fputswrite.c
+	*	1665956086	0
+	"	10	11
+	^	10	11
+	.	10	10
+	+	4	9
+	+	10	0
+	+	6	48
+	+	9	0
+	+	10	0
+	+	9	11
+	+	10	10
+
+> ~/Documents/the_vault/code/c_playground/makefile/writefile.c
+	*	1665955779	0
+	"	14	9
+	^	14	10
+	.	14	9
+	+	4	6
+	+	5	12
+	+	7	27
+	+	8	38
+	+	12	0
+	+	8	67
+	+	10	43
+	+	14	9
+
+> ~/Documents/the_vault/code/c_playground/makefile/makefile.c
+	*	1665955365	0
+	"	4	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/Documents/the_vault/code/c_playground/.gitignore
+	*	1665886108	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> ~/Documents/the_vault/code/musescore_dicking/MuseScore/build_overrides.cmake
+	*	1665884836	0
+	"	2	0
+	^	2	0
+	.	1	2
+	+	1	2
+
+> ~/Documents/the_vault/code/musescore_dicking/MuseScore/CONTRIBUTING.md
+	*	1665884440	0
+	"	1	0
+
+> ~/Documents/the_vault/code/c_playground/tone_row/tone_row.c
+	*	1665882546	0
+	"	85	11
+	^	75	19
+	.	75	18
+	+	5	17
+	+	6	0
+	+	2	0
+	+	1	36
+	+	40	25
+	+	42	1
+	+	45	42
+	+	46	0
+	+	91	0
+	+	73	16
+	+	6	19
+	+	1	52
+	+	47	30
+	+	62	41
+	+	62	31
+	+	72	0
+	+	63	2
+	+	62	62
+	+	67	46
+	+	63	0
+	+	62	10
+	+	50	15
+	+	54	55
+	+	55	0
+	+	52	0
+	+	50	37
+	+	52	3
+	+	51	2
+	+	52	36
+	+	54	0
+	+	53	28
+	+	54	3
+	+	50	5
+	+	54	55
+	+	62	17
+	+	67	48
+	+	68	19
+	+	62	18
+	+	50	5
+	+	69	2
+	+	69	0
+	+	73	0
+	+	49	15
+	+	56	1
+	+	57	0
+	+	56	76
+	+	49	17
+	+	73	0
+	+	58	1
+	+	58	37
 	+	60	0
+	+	74	0
+	+	73	47
+	+	74	1
+	+	75	20
+	+	90	47
+	+	73	28
+	+	90	0
+	+	68	20
+	+	67	41
+	+	73	43
+	+	90	0
+	+	81	20
+	+	89	0
+	+	6	19
+	+	87	0
+	+	90	0
+	+	84	7
+	+	88	0
+	+	81	2
+	+	83	0
+	+	81	7
+	+	84	0
+	+	82	0
+	+	60	59
+	+	65	48
+	+	71	0
+	+	85	1
+	+	71	44
+	+	78	69
+	+	85	20
+	+	86	21
+	+	74	19
+	+	75	18
+
+> /usr/local/Cellar/macvim/9.0.472_1/MacVim.app/Contents/Resources/vim/runtime/doc/help.txt
+	*	1665880707	0
+	"	2	0
+
+> ~/Documents/the_vault/code/c_playground/while_loop/while_loop.c
+	*	1665821033	0
+	"	3	9
+	^	2	19
+	.	2	18
+	+	14	0
+	+	8	13
+	+	13	0
+	+	12	0
+	+	2	18
+
+> ~/Documents/the_vault/code/c_playground/loops/number_loop.c
+	*	1665760271	0
+	"	11	21
+	^	11	22
+	.	11	21
+	+	14	0
+	+	11	21
+
+> ~/Documents/the_vault/code/c_playground/number_input/number_input.c
+	*	1665723796	0
+	"	9	26
+	^	9	27
+	.	9	26
+	+	12	0
+	+	9	26
+
+> ~/.scripts/helloc/hello.c
+	*	1665701002	0
+	"	4	24
+	^	4	25
+	.	4	24
+	+	7	0
+	+	4	24
+
+> ~/.gitignore
+	*	1665683444	0
+	"	6	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1665683323	0
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	0
+	+	1	27
+	+	2	0
+	+	1	22
+
+> ~/.scripts/ra-update/install_ra-update.sh
+	*	1665682973	0
+	"	8	0
+	^	8	0
+	.	7	26
+	+	3	25
+	+	10	0
+	+	3	28
+	+	7	26
 
 > ~/.scripts/academic_aliases.txt
 	*	1665681164	0
@@ -866,15 +1707,6 @@ $
 	+	4	25
 	+	5	36
 	+	9	60
-
-> ~/.git/COMMIT_EDITMSG
-	*	1665379854	0
-	"	1	26
-	^	1	27
-	.	2	0
-	+	1	0
-	+	1	27
-	+	2	0
 
 > ~/Documents/the_vault/personal_prioritization/.git/COMMIT_EDITMSG
 	*	1665377767	0
@@ -990,25 +1822,6 @@ $
 	+	3	0
 	+	11	0
 
-> ~/.vimrc
-	*	1664494398	0
-	"	43	0
-	^	43	0
-	.	43	0
-	+	1	0
-	+	23	0
-	+	1	0
-	+	26	10
-	+	30	13
-	+	27	0
-	+	32	26
-	+	33	3
-	+	41	18
-	+	43	0
-	+	17	0
-	+	42	0
-	+	43	0
-
 > ~/[Vundle] Installer
 	*	1664493520	0
 	"	5	0
@@ -1095,798 +1908,3 @@ $
 > ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/midi_writer_10.py
 	*	1664428694	0
 	"	108	0
-
-> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/midi_writer_1.0.py
-	*	1664428658	0
-	"	1	0
-
-> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/midi_writer.py
-	*	1664428562	0
-	"	5	0
-
-> ~/Documents/the_vault/code/music/tone_row_maximalism/tone_row_utility/midi_function_writer.py
-	*	1664428323	0
-	"	1	0
-	^	3	45
-	.	3	45
-	+	3	45
-
-> ~/Documents/the_vault/code/music/tone_row_maximalism/.gitignore
-	*	1664427003	0
-	"	1	8
-	^	1	9
-	.	1	8
-	+	1	8
-
-> ~/Documents/the_vault/code/music/tone_row_maximalism/midi_writer_1.0.py
-	*	1664411386	0
-	"	185	0
-
-> ~/Documents/the_vault/code/music/tone_row_maximalism/midi_writer.py
-	*	1664411283	0
-	"	18	0
-	^	41	4
-	.	41	3
-	+	42	3
-	+	43	3
-	+	44	0
-	+	41	3
-
-> ~/Documents/the_vault/code/music/tone_row_maximalism/midi_function_writer.py
-	*	1664411211	0
-	"	1	0
-	.	8	0
-	+	8	0
-
-> ~/Documents/the_vault/code/music/tone_row_maximalism/list_in_a_list
-	*	1664407232	0
-	"	4	0
-
-> ~/Documents/the_vault/code/music/tone_row_maximalism/dicking_the_command_line.py
-	*	1664407028	0
-	"	1	0
-
-> ~/Documents/the_vault/self_authoring/seven_questions.txt
-	*	1664324902	0
-	"	3	224
-	^	3	225
-	.	3	225
-	+	15	145
-	+	3	225
-
-> ~/.vim/colors/.vimrc
-	*	1664201309	0
-	"	1	0
-
-> ~/Documents/the_vault/code/linux/linux_dot_files/.scripts/accounting_formulas.py
-	*	1663688481	0
-	"	1	0
-
-> ~/Documents/the_vault/code/linux/linux_dot_files/.scripts/account.sh
-	*	1663688445	0
-	"	4	0
-
-> ~/Documents/the_vault/code/linux/linux_dot_files/.bash_aliases
-	*	1663688336	0
-	"	2	0
-
-> ~/.bash_scripts/composition.sh
-	*	1663625628	0
-	"	1	0
-	^	7	35
-	.	5	12
-	+	3	78
-	+	5	5
-	+	8	0
-	+	7	34
-	+	5	12
-
-> ~/Documents/work_and_gigs/studio/miranda/miranda_lesson_reflection.txt
-	*	1663366828	0
-	"	22	0
-	.	2	0
-	+	1	0
-	+	1	4
-	+	1	0
-	+	2	0
-
-> ~/Documents/work_and_gigs/izzy_burns/.git/COMMIT_EDITMSG
-	*	1663035211	0
-	"	1	13
-	^	1	14
-	.	1	13
-	+	1	13
-
-> ~/.config/powershell/Microsoft.PowerShell_profile.ps1
-	*	1663017957	0
-	"	1	0
-	.	2	0
-	+	2	31
-	+	1	0
-	+	2	0
-
-> ~/Documents/work_and_gigs/izzy_burns/todo.txt
-	*	1662675570	0
-	"	49	13
-	^	49	14
-	.	49	13
-	+	38	18
-	+	43	10
-	+	17	2
-	+	7	0
-	+	8	0
-	+	17	16
-	+	36	22
-	+	10	77
-	+	43	0
-	+	39	52
-	+	41	0
-	+	39	56
-	+	41	29
-	+	43	37
-	+	45	32
-	+	47	39
-	+	50	30
-	+	51	27
-	+	52	46
-	+	65	18
-	+	53	27
-	+	54	0
-	+	53	41
-	+	54	35
-	+	55	28
-	+	56	37
-	+	57	29
-	+	58	28
-	+	59	29
-	+	60	36
-	+	61	31
-	+	62	48
-	+	63	32
-	+	64	38
-	+	65	34
-	+	40	9
-	+	11	37
-	+	37	12
-	+	36	24
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	27
-	+	15	37
-	+	14	23
-	+	39	86
-	+	41	51
-	+	43	39
-	+	45	60
-	+	47	69
-	+	50	74
-	+	51	30
-	+	41	80
-	+	40	25
-	+	42	60
-	+	44	54
-	+	46	42
-	+	48	117
-	+	49	13
-
-> ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/_config.yml
-	*	1662663650	0
-	"	2	6
-
-> ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
-	*	1662565091	0
-	"	1	29
-	^	1	30
-	.	1	29
-	+	1	29
-
-> ~/Documents/readings/Infinite Proofs  The Effects of Mathematics on David Foster Wallace - Los Angeles Review of Books.html
-	*	1662495482	0
-	"	1	0
-
-> ~/Documents/the_vault/umesh/the_machine_learning_journey.github.io/index.html
-	*	1662478154	0
-	"	1	0
-
-> ~/Documents/the_vault/Code/.scripts/move_downloads.sh
-	*	1662164105	0
-	"	1	0
-
-> ~/Documents/work_and_gigs/studio/github_for_composers.github.io/index.html
-	*	1662068289	0
-	"	1	1
-	^	1	2
-	.	1	1
-	+	40	0
-	+	2	0
-	+	4	43
-	+	11	358
-	+	11	632
-	+	11	0
-	+	13	5
-	+	13	540
-	+	16	2
-	+	14	2
-	+	15	702
-	+	33	9
-	+	33	0
-	+	29	4
-	+	30	0
-	+	31	0
-	+	33	54
-	+	32	34
-	+	38	4
-	+	33	55
-	+	34	30
-	+	38	0
-	+	36	62
-	+	37	58
-	+	1	1
-
-> ~/Documents/work_and_gigs/studio/github_for_composers.github.io/.git/COMMIT_EDITMSG
-	*	1662066513	0
-	"	1	24
-	^	1	25
-	.	1	24
-	+	1	24
-
-> ~/Documents/work_and_gigs/studio/github_for_composers.github.io/README.md
-	*	1662066495	0
-	"	6	0
-	^	17	32
-	.	10	3
-	+	13	33
-	+	14	25
-	+	17	31
-	+	8	3
-	+	9	3
-	+	10	3
-
-> ~/Documents/work_and_gigs/district_51/gjhs/22-23/drama/treasure_island/.git/COMMIT_EDITMSG
-	*	1662066096	0
-	"	1	36
-	^	1	37
-	.	1	36
-	+	1	36
-
-> ~/Documents/work_and_gigs/district_51/gjhs/22-23/drama/treasure_island/README.md
-	*	1662066059	0
-	"	21	3
-	^	15	83
-	.	15	3
-	+	3	14
-	+	1	1
-	+	11	6
-	+	12	0
-	+	13	0
-	+	11	29
-	+	8	73
-	+	12	27
-	+	21	24
-	+	10	13
-	+	20	17
-	+	13	49
-	+	18	0
-	+	17	0
-	+	13	49
-	+	14	49
-	+	15	5
-	+	16	0
-	+	21	40
-	+	15	82
-	+	16	0
-	+	11	3
-	+	12	3
-	+	13	3
-	+	15	3
-
-> ~/Documents/work_and_gigs/studio/github_for_composers/README.md
-	*	1662062230	0
-	"	11	5
-	^	11	6
-	.	11	6
-	+	1	21
-	+	3	14
-	+	5	154
-	+	5	9
-	+	5	874
-	+	7	7
-	+	3	3
-	+	1	1
-	+	8	17
-	+	9	0
-	+	9	21
-	+	10	39
-	+	11	6
-
-> ~/Documents/work_and_gigs/studio/github_for_creatives/README.md
-	*	1662057469	0
-	"	1	20
-	^	1	21
-	.	1	20
-	+	1	20
-
-> ~/Documents/Life_Documents/Tax/Tax Notification 2.htm
-	*	1661979195	0
-	"	98	0
-	^	2	0
-	.	2	0
-	+	2	0
-
-> ~/.scripts/search.sh
-	*	1661978546	0
-	"	3	23
-	^	3	24
-	.	3	23
-	+	2	0
-	+	1	2
-	+	2	0
-	+	3	23
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/snow_lace.sh
-	*	1661466614	0
-	"	11	0
-	.	8	0
-	+	7	0
-	+	5	76
-	+	3	56
-	+	9	42
-	+	7	0
-	+	8	0
-	+	7	24
-	+	8	0
-	+	11	0
-	+	8	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/light_by_seven.sh
-	*	1661466610	0
-	"	9	105
-	^	9	107
-	.	9	105
-	+	3	66
-	+	5	0
-	+	3	0
-	+	7	0
-	+	11	69
-	+	9	105
-
-> ~/Documents/the_vault/kilgormanly.github.io/.git/COMMIT_EDITMSG
-	*	1661456592	0
-	"	1	33
-	^	1	34
-	.	1	33
-	+	1	33
-
-> ~/Documents/the_vault/kilgormanly.github.io/README.md
-	*	1661456569	0
-	"	46	7
-	^	46	8
-	.	46	7
-	+	36	23
-	+	1	1
-	+	24	38
-	+	9	22
-	+	7	3
-	+	7	31
-	+	13	20
-	+	10	26
-	+	15	1
-	+	16	1
-	+	17	2
-	+	18	1
-	+	15	18
-	+	19	23
-	+	20	1
-	+	11	34
-	+	7	0
-	+	11	37
-	+	12	45
-	+	37	0
-	+	28	54
-	+	32	19
-	+	29	28
-	+	33	22
-	+	9	3
-	+	12	3
-	+	7	0
-	+	1	0
-	+	46	7
-
-> ~/Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/.git/COMMIT_EDITMSG
-	*	1661454073	0
-	"	1	25
-	^	1	26
-	.	1	25
-	+	1	25
-
-> ~/Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/README.md
-	*	1661454051	0
-	"	14	71
-	^	14	72
-	.	14	72
-	+	3	6
-	+	5	7
-	+	7	86
-	+	8	58
-	+	9	47
-	+	10	51
-	+	11	50
-	+	12	68
-	+	13	50
-	+	14	72
-
-> ~/Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/index.html
-	*	1661453828	0
-	"	17	2
-	.	17	0
-	+	76	7
-	+	4	7
-	+	9	36
-	+	12	7
-	+	13	39
-	+	74	1600
-	+	73	33
-	+	13	39
-	+	32	4
-	+	74	1602
-	+	32	331
-	+	72	6
-	+	72	0
-	+	71	79
-	+	32	433
-	+	33	6
-	+	34	65
-	+	40	51
-	+	39	44
-	+	48	8
-	+	47	48
-	+	55	21
-	+	56	2
-	+	71	0
-	+	60	101
-	+	61	76
-	+	62	17
-	+	63	72
-	+	64	110
-	+	65	96
-	+	58	209
-	+	66	7
-	+	67	0
-	+	72	4
-	+	73	32
-	+	27	4
-	+	31	4
-	+	71	234
-	+	16	351
-	+	16	0
-	+	16	1262
-	+	16	290
-	+	16	617
-	+	16	904
-	+	16	985
-	+	5	2
-	+	27	39
-	+	29	9
-	+	19	6
-	+	18	35
-	+	25	896
-	+	26	389
-	+	17	33
-	+	17	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/six,_nine_and_3.sh
-	*	1661404753	0
-	"	8	0
-	^	4	1
-	.	4	0
-	+	3	74
-	+	4	42
-	+	3	79
-	+	4	0
-	+	3	0
-	+	10	0
-	+	6	0
-	+	11	73
-	+	8	114
-	+	4	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/hope_for_the_dawn.sh
-	*	1661404750	0
-	"	9	117
-	^	9	118
-	.	9	117
-	+	7	0
-	+	5	0
-	+	3	0
-	+	11	76
-	+	8	0
-	+	9	117
-
-> ~/Documents/the_vault/kilgormanly.github.io/index.html
-	*	1661377832	0
-	"	22	6
-	^	22	7
-	.	22	0
-	+	2	6
-	+	29	0
-	+	4	7
-	+	9	8
-	+	11	7
-	+	26	1
-	+	29	0
-	+	28	0
-	+	5	27
-	+	15	139
-	+	19	34
-	+	20	3
-	+	20	34
-	+	21	3
-	+	23	0
-	+	21	0
-	+	23	0
-	+	21	0
-	+	20	22
-	+	21	37
-	+	20	25
-	+	19	16
-	+	21	72
-	+	22	0
-
-> ~/Documents/the_vault/kilgormanly.github.io/kitchen_checklist.html
-	*	1661377192	0
-	"	6	0
-	^	60	43
-	.	60	42
-	+	1	15
-	+	3	6
-	+	69	0
-	+	68	0
-	+	4	7
-	+	6	1
-	+	5	33
-	+	8	7
-	+	9	2
-	+	60	37
-	+	9	31
-	+	10	5
-	+	61	0
-	+	11	35
-	+	12	8
-	+	12	7
-	+	13	16
-	+	14	17
-	+	15	26
-	+	16	7
-	+	17	33
-	+	18	0
-	+	19	34
-	+	20	43
-	+	21	37
-	+	22	0
-	+	23	17
-	+	25	0
-	+	24	6
-	+	25	28
-	+	26	7
-	+	27	32
-	+	28	0
-	+	29	29
-	+	30	8
-	+	31	32
-	+	32	0
-	+	33	27
-	+	34	27
-	+	35	7
-	+	36	44
-	+	37	0
-	+	38	62
-	+	39	22
-	+	40	0
-	+	41	50
-	+	43	35
-	+	44	37
-	+	45	44
-	+	46	44
-	+	47	39
-	+	48	28
-	+	49	0
-	+	50	34
-	+	51	24
-	+	52	17
-	+	53	29
-	+	54	23
-	+	55	47
-	+	57	58
-	+	58	42
-	+	59	0
-	+	60	42
-
-> ~/Documents/the_vault/Code/website/cmaxreilly.github.io/blog.html
-	*	1661375574	0
-	"	25	1
-	^	24	214
-	.	24	214
-	+	24	214
-
-> ~/Documents/work_and_gigs/studio/business_documents/.git/COMMIT_EDITMSG
-	*	1661352706	0
-	"	1	34
-	^	1	35
-	.	1	34
-	+	1	34
-
-> ~/Documents/the_vault/Code/website/cmaxreilly.github.io/.git/COMMIT_EDITMSG
-	*	1661320031	0
-	"	1	0
-
-> ~/Documents/the_vault/Code/website/cmaxreilly.github.io/.gitignore
-	*	1661320023	0
-	"	1	13
-	^	1	14
-	.	1	13
-	+	1	13
-
-> ~/Documents/the_vault/Code/website/cmaxreilly.github.io/blog_drafts.md
-	*	1661319965	0
-	"	3	86
-	^	3	87
-	.	3	86
-	+	1	12
-	+	3	86
-
-> ~/index.html
-	*	1661280799	0
-	"	1	0
-
-> ~/Documents/the_vault/umesh/the_machine_learning_journey/the_machine_learning_journey.github.io/index.htmle
-	*	1661209326	0
-	"	1	0
-
-> ~/Documents/the_vault/umesh/umesh_question.md
-	*	1661101418	0
-	"	1	0
-	^	5	78
-	.	1	1
-	+	18	3
-	+	7	9
-	+	16	0
-	+	20	16
-	+	15	105
-	+	13	0
-	+	9	377
-	+	15	217
-	+	11	142
-	+	11	29
-	+	20	74
-	+	11	36
-	+	22	134
-	+	6	0
-	+	3	14
-	+	4	0
-	+	6	0
-	+	5	76
-	+	1	1
-
-> ~/Documents/work_and_gigs/ra_lasater/gui
-	*	1661008197	0
-	"	1	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.bash_scripts/rae_in_e.sh
-	*	1660937814	0
-	"	1	0
-	^	5	1
-	.	5	1
-	+	3	61
-	+	5	42
-	+	3	0
-	+	4	0
-	+	5	0
-	+	3	0
-	+	4	0
-	+	10	67
-	+	7	0
-	+	8	87
-	+	5	1
-
-> ~/Documents/work_and_gigs/ra_lasater/README_backup.md
-	*	1660933526	0
-	"	68	11
-	.	103	4
-	+	69	4
-	+	70	5
-	+	71	5
-	+	73	4
-	+	74	5
-	+	75	5
-	+	77	4
-	+	78	4
-	+	79	4
-	+	80	4
-	+	105	4
-	+	102	4
-	+	103	4
-
-> ~/Documents/work_and_gigs/ra_backup/README_backup.md
-	*	1660931434	0
-	"	74	5
-	^	72	18
-	.	74	5
-	+	72	5
-	+	76	5
-	+	72	0
-	+	70	5
-	+	71	5
-	+	69	4
-	+	74	5
-
-> /private/var/log/asl/2022.08.11.G80.asl
-	*	1660866213	0
-	"	31	0
-
-> ~/Documents/work_and_gigs/ra_lasater/.gitignore
-	*	1660781297	0
-	"	1	1
-	^	1	2
-	.	1	1
-	+	1	86
-	+	3	0
-	+	1	89
-	+	1	1
-
-> ~/Documents/the_vault/daily_checklists/latex/shopping_list.tex
-	*	1660670614	0
-	"	9	20
-	^	9	21
-	.	9	21
-	+	6	12
-	+	12	0
-	+	10	0
-	+	9	21
-
-> ~/Documents/the_vault/daily_checklists/latex/latex_todo_template.tex
-	*	1660670544	0
-	"	1	0
-
-> ~/Documents/the_vault/DeepBach/README.md
-	*	1660670408	0
-	"	21	0
-	^	39	27
-	.	19	30
-	+	22	0
-	+	23	52
-	+	24	12
-	+	25	60
-	+	26	30
-	+	28	0
-	+	23	51
-	+	22	2
-	+	24	11
-	+	25	59
-	+	26	29
-	+	27	2
-	+	21	29
-	+	23	51
-	+	24	11
-	+	25	59
-	+	26	29
-	+	39	26
-	+	21	0
-	+	22	0
-	+	19	30
-
-> ~/Documents/the_vault/DeepBach/dl_dataset_and_models.sh
-	*	1660663780	0
-	"	1	0
-
-> ~/Documents/the_vault/DeepBach/environment.yml
-	*	1660663446	0
-	"	1	0
-
-> ~/Documents/the_vault/DeepBach/entrypoint.sh
-	*	1660663176	0
-	"	1	0
-
-> ~/Documents/the_vault/DeepBach/predict.py
-	*	1660663153	0
-	"	1	0

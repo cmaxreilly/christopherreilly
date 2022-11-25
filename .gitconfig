@@ -15,3 +15,5 @@
 	defaultBranch = master
 [core]
 	editor = vim
+[credential]
+	helper = store

@@ -1,4 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
-let g:netrw_dirhist_2='/Users/christopherreilly/Documents/the_vault/DeepBach/DeepBach'
-let g:netrw_dirhist_1='/Users/christopherreilly/Documents/work_and_gigs/ra_lasater/.bash_scripts'
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/christopherreilly/Documents/the_vault/code/intro_to_programing_in_python'
+let g:netrw_dirhist_4='/Users/christopherreilly/Documents/the_vault/code'
+let g:netrw_dirhist_3='/Users/christopherreilly/Documents/the_vault/exercise'
+let g:netrw_dirhist_2='/Users/christopherreilly/Documents/the_vault'
+let g:netrw_dirhist_1='/Users/christopherreilly/Documents'
+let g:netrw_dirhist_0='/Users/christopherreilly'
+let g:netrw_dirhist_9='/Users/christopherreilly/Documents'
+let g:netrw_dirhist_8='/Users/christopherreilly/Documents/the_vault'
+let g:netrw_dirhist_7='/Users/christopherreilly/Documents/the_vault/code/c_playground'
+let g:netrw_dirhist_6='/Users/christopherreilly/Documents/the_vault/code'
